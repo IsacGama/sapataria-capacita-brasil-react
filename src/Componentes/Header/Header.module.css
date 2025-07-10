@@ -1,0 +1,10 @@
+.header {
+  background-color: #fff;
+  padding: 20px;
+  color: white;
+  font-family: "Playfair Display", serif;
+  box-shadow: 0 4px 2px -2px gray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
