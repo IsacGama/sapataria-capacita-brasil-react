@@ -1,0 +1,35 @@
+.produto-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 16px;
+  width: 250px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.produto-imagem {
+  width: 20dvw;
+  height: auto;
+  border-radius: 8px;
+}
+
+.produto-informacoes {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.produto-nome {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.produto-preco {
+  font-size: 1.1em;
+  color: #e74c3c;
+  margin-top: 8px;
+}
