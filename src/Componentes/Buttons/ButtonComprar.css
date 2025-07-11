@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+.button-comprar {
+    padding: 10px;
+    background: linear-gradient(145deg, #000000, #1a1a1a);
+    color: #f5f5f5;
+    border: 1px solid #444;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 12px;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: all 0.4s ease;
+    text-transform: uppercase;
+}
+
+.button-comprar:hover {
+    background: linear-gradient(145deg, #222, #000);
+    color: #ffd700;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+    transform: translateY(-2px);
+}
