@@ -2,6 +2,7 @@
   {
     "id": 1,
     "nome": "Sapato Social Penny Loafer Preto",
+    "tipo": "social",
     "preco": {
       "semDesconto": 748.00,
       "aVista": 710.60,
@@ -21,18 +22,19 @@
       ]
     },
     "imagens": [
-      "../assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_1.png",
-      "../assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_2.png",
-      "../assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_3.png",
-      "../assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_4.png",
-      "../assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_5.png",
-      "../assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_6.png"
+      "/assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_1.png",
+      "/assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_2.png",
+      "/assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_3.png",
+      "/assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_4.png",
+      "/assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_5.png",
+      "/assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_6.png"
     ],
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
     "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44]
   },
   {
     "id": 2,
+    "tipo": "social",
     "nome": "Sapato Social Derby Preto",
     "preco": {
       "semDesconto": 748.00,
@@ -53,12 +55,12 @@
       ]
     },
     "imagens": [
-      "../assets/images/SocialPennyLoaferPreto/SocialDerbyPreto_1.png",
-      "../assets/images/SocialPennyLoaferPreto/SocialDerbyPreto_2.png",
-      "../assets/images/SocialPennyLoaferPreto/SocialDerbyPreto_3.png",
-      "../assets/images/SocialPennyLoaferPreto/SocialDerbyPreto_4.png",
-      "../assets/images/SocialPennyLoaferPreto/SocialDerbyPreto_5.png",
-      "../assets/images/SocialPennyLoaferPreto/SocialDerbyPreto_6.png"
+      "/assets/images/SocialDerbyPreto/SocialDerbyPreto_1.png",
+      "/assets/images/SocialDerbyPreto/SocialDerbyPreto_2.png",
+      "/assets/images/SocialDerbyPreto/SocialDerbyPreto_3.png",
+      "/assets/images/SocialDerbyPreto/SocialDerbyPreto_4.png",
+      "/assets/images/SocialDerbyPreto/SocialDerbyPreto_5.png",
+      "/assets/images/SocialDerbyPreto/SocialDerbyPreto_6.png"
     ],
     "descricao": "",
     "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44]

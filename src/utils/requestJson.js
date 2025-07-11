@@ -1,6 +1,6 @@
 export async function getSapatos() {
   try {
-    const response = await fetch(`${process.env.PUBLIC_URL}/data/sapatos.json`);
+    const response = await fetch(`/data/sapatos.json`);
     if (!response.ok) {
       throw new Error('Erro ao carregar o JSON');
     }

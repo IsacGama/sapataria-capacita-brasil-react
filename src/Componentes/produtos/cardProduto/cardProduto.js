@@ -1,17 +1,29 @@
-import './cardProduto.css';
+function ProdutoCard({ produto }) {
+  const imagemPrincipal = produto.imagens[0];
+  const preco = produto.preco;
 
-export default function CardProduto() {
-    return(
-        <div className="cardProduto">
-            <div className="cardProduto-image">
-                <img src="https://via.placeholder.com/150" alt="Produto" />
-            </div>
-            <div className="cardProduto-info">
-                <h3>Nome do Produto</h3>
-                <p>Descrição breve do produto.</p>
-                <span>R$ 99,99</span>
-            </div>
-        </div>
-    )
+  return (
+    <div>
+      <img
+        src={imagemPrincipal}
+        alt={produto.nome}
 
+      />
+      <h3>{produto.nome}</h3>
+      <p>{produto.descricao || 'Sem descrição'}</p>
+      <p>
+        <strong>À vista:</strong> R$ {preco.aVista.toFixed(2)}
+      </p>
+      <p>
+        <strong>Parcelado:</strong>{' '}
+        {preco.parcelado.map((p, i) => (
+          <span key={i}>
+            {p.parcelas}x de R$ {p.valor.toFixed(2)}{' '}
+          </span>
+        ))}
+      </p>
+    </div>
+  );
 }
+
+export default ProdutoCard;

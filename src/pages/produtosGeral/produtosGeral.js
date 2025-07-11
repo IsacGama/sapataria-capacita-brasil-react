@@ -1,15 +1,28 @@
-import CardProduto from '../../Componentes/produtos/cardProduto/cardProduto';
-import './produtosGeral.css';
+import { useEffect, useState } from 'react';
+import { getSapatos } from '../../utils/requestJson';
+import ProdutoCard from '../../Componentes/produtos/cardProduto/cardProduto';
 
-export default function ProdutosGeral() {
+function Produtos() {
+  const [produtos, setProdutos] = useState([]);
+
+  useEffect(() => {
+    async function carregarProdutos() {
+      const data = await getSapatos();
+      setProdutos(data);
+    }
+    carregarProdutos();
+  }, []);
+
   return (
-    <div className="produtosGeral">
-        <div className="produtosGeral-content">
-            <div className="produtosGeral-list">
-              <CardProduto />
-            </div>
-
-        </div>
+    <div>
+      <h1>Todos os Produtos</h1>
+      <div>
+        {produtos.map((produto) => (
+          <ProdutoCard key={produto.id} produto={produto} />
+        ))}
+      </div>
     </div>
   );
 }
+
+export default Produtos;
