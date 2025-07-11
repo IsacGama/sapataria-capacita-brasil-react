@@ -30,5 +30,37 @@
     ],
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
     "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44]
+  },
+  {
+    "id": 2,
+    "nome": "Sapato Social Derby Preto",
+    "preco": {
+      "semDesconto": 748.00,
+      "aVista": 710.60,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 249.33
+        },
+        {
+          "parcelas": 6,
+          "valor": 124.67
+        },
+        {
+          "parcelas": 12,
+          "valor": 62.33
+        }
+      ]
+    },
+    "imagens": [
+      "../assets/images/SocialPennyLoaferPreto/SocialDerbyPreto_1.png",
+      "../assets/images/SocialPennyLoaferPreto/SocialDerbyPreto_2.png",
+      "../assets/images/SocialPennyLoaferPreto/SocialDerbyPreto_3.png",
+      "../assets/images/SocialPennyLoaferPreto/SocialDerbyPreto_4.png",
+      "../assets/images/SocialPennyLoaferPreto/SocialDerbyPreto_5.png",
+      "../assets/images/SocialPennyLoaferPreto/SocialDerbyPreto_6.png"
+    ],
+    "descricao": "",
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44]
   }
 ]
