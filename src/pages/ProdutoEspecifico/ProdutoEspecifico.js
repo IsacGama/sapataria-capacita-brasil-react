@@ -31,14 +31,33 @@ export default function ProdutoEspecifico() {
       .finally(() => setCarregando(false));
   }, []);
 
+  useEffect(() => {
+    document.body.classList.toggle("body-no-scroll", !!lightboxImagem);
+    return () => document.body.classList.remove("body-no-scroll");
+  }, [lightboxImagem]);
+
   const produto = produtos.find((p) => p.id === parseInt(id));
+
+  // Early return para evitar erro de acesso em produto ou imagens
+  if (carregando)
+    return (
+      <div className="ProdutoDetalhe">
+        <p>Carregando produto...</p>
+      </div>
+    );
+
+  if (erro || !produto || !Array.isArray(produto.imagens))
+    return (
+      <div className="ProdutoDetalhe">
+        <p>{erro || "Produto não encontrado ou sem imagens."}</p>
+      </div>
+    );
 
   const handleAddToCart = () => {
     if (!tamanhoSelecionado) {
       alert("Por favor, selecione um tamanho");
       return;
     }
-
     dispatch(
       addItem({
         id: produto.id,
@@ -47,22 +66,21 @@ export default function ProdutoEspecifico() {
         image: produto.imagens[0],
         size: tamanhoSelecionado,
         quantity: quantidade,
-        maxQuantity: produto.quantidadeEstoque || 10, // Defina um valor padrão se não houver estoque
+        maxQuantity: produto.quantidadeEstoque || 10,
       })
     );
-
-    //navigate('/carrinho');
+    navigate("/carrinho");
   };
 
   const irParaProximo = () => {
-    if (!produto) return;
+    if (!produto || !produto.imagens) return;
     const ehUltimaImagem = imagemAtiva === produto.imagens.length - 1;
     const novoIndice = ehUltimaImagem ? 0 : imagemAtiva + 1;
     setImagemAtiva(novoIndice);
   };
 
   const irParaAnterior = () => {
-    if (!produto) return;
+    if (!produto || !produto.imagens) return;
     const ehPrimeiraImagem = imagemAtiva === 0;
     const novoIndice = ehPrimeiraImagem
       ? produto.imagens.length - 1
@@ -73,180 +91,10 @@ export default function ProdutoEspecifico() {
   const abrirLightbox = (src) => setLightboxImagem(src);
   const fecharLightbox = () => setLightboxImagem(null);
 
-  useEffect(() => {
-    document.body.classList.toggle("body-no-scroll", !!lightboxImagem);
-    return () => document.body.classList.remove("body-no-scroll");
-  }, [lightboxImagem]);
-
-  if (carregando)
-    return (
-      <div className="ProdutoDetalhe">
-        <div className="produto-container">
-          <section className="produto-imagens">
-            <div className="carrossel-container">
-              <button
-                onClick={irParaAnterior}
-                className="carrossel-btn btn-anterior"
-                aria-label="Imagem anterior"
-              >
-                ‹
-              </button>
-              <div className="carrossel-viewport">
-                <div
-                  className="carrossel-wrapper"
-                  style={{ transform: `translateX(-${imagemAtiva * 100}%)` }}
-                >
-                  {produto.imagens.map((img, index) => (
-                    <img
-                      key={index}
-                      src={img}
-                      alt={`${produto.nome} - Imagem ${index + 1}`}
-                      className="carrossel-imagem"
-                      onClick={() => abrirLightbox(img)}
-                    />
-                  ))}
-                </div>
-              </div>
-              <button
-                onClick={irParaProximo}
-                className="carrossel-btn btn-proximo"
-                aria-label="Próxima imagem"
-              >
-                ›
-              </button>
-            </div>
-            <div className="imagens-miniaturas">
-              {produto.imagens.map((img, index) => (
-                <img
-                  key={index}
-                  src={img}
-                  alt={`Miniatura ${index + 1}`}
-                  className={`miniaturas${
-                    imagemAtiva === index ? " ativa" : ""
-                  }`}
-                  onClick={() => setImagemAtiva(index)}
-                />
-              ))}
-            </div>
-          </section>
-
-          <section className="produto-info">
-            <h1>{produto.nome}</h1>
-
-            <div className="avaliacoes">
-              <Stars rating={produto.stars || 4.5} />
-              <a href="#avaliar">Avaliar este produto</a>
-              <a href="#avaliacoes">{produto.reviews || 0} avaliações</a>
-            </div>
-
-            <p className="preco-principal">
-              R$ {produto.preco.aVista.toFixed(2).replace(".", ",")}
-            </p>
-
-            <div className="opcoes-pagamento">
-              {parcelaPrincipal && (
-                <p>
-                  em até{" "}
-                  <strong>
-                    {parcelaPrincipal.parcelas}x de R${" "}
-                    {parcelaPrincipal.valor.toFixed(2).replace(".", ",")}
-                  </strong>{" "}
-                  sem juros
-                </p>
-              )}
-              <p>
-                ou <strong>R$ {precoPix.toFixed(2).replace(".", ",")}</strong> à
-                vista com 5% no Pix
-              </p>
-            </div>
-
-            <p className="calçados-tipo">Calçados Adulto</p>
-
-            <SelectSize
-              sizes={produto.tamanhos}
-              onSelect={setTamanhoSelecionado}
-            />
-
-            <div className="descricao-material-container">
-              <p>{produto.descricao}</p>
-            </div>
-
-            <QuantitySelector onChange={setQuantidade} />
-
-            <Button
-              title={"Comprar"}
-              variant="primary"
-              onPress={() => handleAddToCart()}
-            />
-
-            <div className="calculadora-frete">
-              <p>Calcule prazos e preços</p>
-              <div className="input-grupo">
-                <input type="text" placeholder="Digite seu CEP" />
-                <button className="btn-consultar">Consultar</button>
-              </div>
-              <a href="#naoseimeucep" className="link-cep">
-                Não sei meu CEP
-              </a>
-            </div>
-          </section>
-        </div>
-
-        <section className="detalhes-produto-section">
-          <h2 className="detalhes-titulo-principal">Detalhes do Produto</h2>
-
-          {produto.caracteristicas && produto.caracteristicas.length > 0 && (
-            <>
-              <h3 className="detalhes-subtitulo">Características e Detalhes</h3>
-              <ul className="detalhes-lista">
-                {produto.caracteristicas.map((carac, idx) => (
-                  <li key={idx}>{carac}</li>
-                ))}
-              </ul>
-            </>
-          )}
-
-          {produto.detalhesExtra && (
-            <>
-              <h3 className="detalhes-subtitulo">Cometa Clássico</h3>
-              <p className="detalhes-paragrafo">{produto.detalhesExtra}</p>
-            </>
-          )}
-        </section>
-
-        <section className="relacionados-container">
-          <h3>Você também pode gostar</h3>
-          <div className="relacionados-grid">
-            {produtos.slice(1, 4).map((item) => (
-              <ProdutoCard key={item.id} produto={item} />
-            ))}
-          </div>
-        </section>
-
-        {lightboxImagem && (
-          <div className="lightbox-overlay" onClick={fecharLightbox}>
-            <button className="lightbox-fechar" aria-label="Fechar">
-              ×
-            </button>
-            <img
-              src={lightboxImagem}
-              alt="Imagem ampliada"
-              className="lightbox-imagem"
-              onClick={(e) => e.stopPropagation()}
-            />
-          </div>
-        )}
-      </div>
-    );
-  if (erro || !produto)
-    return (
-      <div className="ProdutoDetalhe">
-        <p>{erro || "Produto não encontrado."}</p>
-      </div>
-    );
-
   const parcelaPrincipal =
-    produto.preco.parcelado.length > 0 ? produto.preco.parcelado[0] : null;
+    produto.preco.parcelado && produto.preco.parcelado.length > 0
+      ? produto.preco.parcelado[0]
+      : null;
   const precoPix = produto.preco.aVista * 0.95;
 
   const embaralhar = (arr) => [...arr].sort(() => 0.5 - Math.random());
@@ -349,7 +197,7 @@ export default function ProdutoEspecifico() {
           <Button
             title={"Comprar"}
             variant="primary"
-            onPress={() => console.log("Clicou no botão!")}
+            onPress={handleAddToCart}
           />
 
           <div className="calculadora-frete">
