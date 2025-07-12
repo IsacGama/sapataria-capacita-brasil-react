@@ -3,6 +3,11 @@
     "id": 1,
     "nome": "Sapato Social Penny Loafer Preto",
     "tipo": "social",
+    "cor": "preto",
+    "stars": 4.5,
+    "qtdEstoque": 10,
+    "qtdVendido": 5,
+    "qtdAvaliacao": 110,
     "preco": {
       "semDesconto": 748.00,
       "aVista": 710.60,
@@ -34,8 +39,13 @@
   },
   {
     "id": 2,
-    "tipo": "social",
     "nome": "Sapato Social Derby Preto",
+    "tipo": "social",
+    "cor": "preto",
+    "stars": 3.6,
+    "qtdEstoque": 10,
+    "qtdVendido": 5,
+    "qtdAvaliacao": 1406,
     "preco": {
       "semDesconto": 748.00,
       "aVista": 710.60,
@@ -61,6 +71,44 @@
       "/assets/images/SocialDerbyPreto/SocialDerbyPreto_4.png",
       "/assets/images/SocialDerbyPreto/SocialDerbyPreto_5.png",
       "/assets/images/SocialDerbyPreto/SocialDerbyPreto_6.png"
+    ],
+    "descricao": "",
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44]
+  },
+  {
+    "id": 3,
+    "nome": "Sapato Social Derby Tostado",
+    "tipo": "social",
+    "cor": "Marrrom",
+    "stars": 4.2,
+    "qtdEstoque": 20,
+    "qtdVendido": 5,
+    "qtdAvaliacao": 1707,
+    "preco": {
+      "semDesconto": 848.00,
+      "aVista": 805.60,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 282.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 141.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 70.67
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SocialDerbyTostado/SocialDerbyTostado_1.png",
+      "/assets/images/SocialDerbyTostado/SocialDerbyTostado_2.png",
+      "/assets/images/SocialDerbyTostado/SocialDerbyTostado_3.png",
+      "/assets/images/SocialDerbyTostado/SocialDerbyTostado_4.png",
+      "/assets/images/SocialDerbyTostado/SocialDerbyTostado_5.png",
+      "/assets/images/SocialDerbyTostado/SocialDerbyTostado_6.png"
     ],
     "descricao": "",
     "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44]

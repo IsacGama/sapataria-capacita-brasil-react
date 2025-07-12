@@ -98,3 +98,10 @@
   display: flex;
   gap: 12px;
 }
+
+.social .icon {
+  width: 24px;
+  height: 24px;
+  fill: #eee;
+  transition: fill 0.2s ease;
+}

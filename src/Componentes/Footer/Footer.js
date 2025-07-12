@@ -1,5 +1,9 @@
 import React from "react";
 import styles from "./Footer.module.css";
+import { Link } from "react-router-dom";
+import instagram from "../../RedeSociais/instagram.png";
+import twitter from "../../RedeSociais/twitter.png";
+import facebook from "../../RedeSociais/facebook.png";
 
 export function Footer() {
   return (
@@ -14,34 +18,13 @@ export function Footer() {
           <h3 className={styles.title}>Links Rápidos</h3>
           <ul className={styles.list}>
             <li>
-              <a href="#">Novidades</a>
+              <Link to="/">Inicio</Link>
             </li>
             <li>
-              <a href="#">Coleções</a>
+              <Link to="/sobre">Sobre</Link>
             </li>
             <li>
-              <a href="#">Sapatos</a>
-            </li>
-            <li>
-              <a href="#">Sobre Nós</a>
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <h3 className={styles.title}>Ajuda</h3>
-          <ul className={styles.list}>
-            <li>
-              <a href="#">Contato</a>
-            </li>
-            <li>
-              <a href="#">Política de Privacidade</a>
-            </li>
-            <li>
-              <a href="#">Termos de Serviço</a>
-            </li>
-            <li>
-              <a href="#">FAQs</a>
+              <Link to="/produtos">Produtos</Link>
             </li>
           </ul>
         </div>
@@ -61,9 +44,9 @@ export function Footer() {
       <div className={styles.bottom}>
         <p>© 2025 Sapataria Capacita. Todos os direitos reservados.</p>
         <div className={styles.social}>
-          <a href="#">🌐</a>
-          <a href="#">📷</a>
-          <a href="#">🐦</a>
+          <img src={instagram} alt="Instagram" className={styles.icon} />
+          <img src={twitter} alt="Twitter" className={styles.icon} />
+          <img src={facebook} alt="Facebook" className={styles.icon} />
         </div>
       </div>
     </footer>
