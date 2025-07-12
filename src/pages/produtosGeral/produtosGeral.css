@@ -1,0 +1,44 @@
+.produtos-container {
+  display: flex;
+  gap: 24px;
+  padding: 20px 40px;
+}
+
+.filtro-area {
+  width: 240px;
+}
+
+.btn-abrir-filtro {
+  position: absolute;
+  width: 125px;
+  height: 40px;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-abrir-filtro:hover {
+  background-color: #222;
+}
+
+.produtos-area {
+  flex: 1;
+}
+
+.titulo-pagina {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.grid-produtos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}

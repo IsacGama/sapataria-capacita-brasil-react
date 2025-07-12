@@ -1,0 +1,38 @@
+.stars-container {
+  display: flex;
+  justify-content: center;
+  color: #ccc;
+}
+
+.star-container {
+  position: relative;
+  display: inline-block;
+  margin: 0 1px;
+}
+
+.star-empty, .star-filled {
+  display: inline-block;
+}
+
+.star-filled {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #f39c12; /* Cor das estrelas preenchidas */
+}
+
+/* Tamanhos das estrelas */
+.star-small {
+  font-size: 1em;
+}
+
+.star-medium {
+  font-size: 1.2em;
+}
+
+.star-large {
+  font-size: 1.5em;
+}

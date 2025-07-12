@@ -1,35 +1,120 @@
 .produto-card {
   display: flex;
+  cursor: pointer;
   flex-direction: column;
   align-items: center;
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 16px;
   margin: 16px;
-  width: 250px;
-    transition: transform 0.2s, box-shadow 0.2s;
+  width: 280px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.produto-card:hover {
+  transform: translateY(-5px);
 }
 
 .produto-imagem {
-  width: 20dvw;
+  width: 80%;
   height: auto;
   border-radius: 8px;
+  margin-bottom: 12px;
 }
 
 .produto-informacoes {
   text-align: center;
-  margin-top: 12px;
+  width: 100%;
 }
 
 .produto-nome {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: bold;
   color: #333;
+  margin-bottom: 8px;
 }
 
-.produto-preco {
-  font-size: 1.1em;
-  color: #e74c3c;
-  margin-top: 8px;
+.produto-avaliacao {
+  color: #f39c12;
+  margin-bottom: 8px;
+  font-size: 1.2em;
+}
+
+.produto-preco-sem-desconto {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.produto-opcoes-pagamento {
+  margin-bottom: 16px;
+}
+
+.produto-parcelado {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.produto-a-vista {
+  font-size: 0.9em;
+  color: #27ae60;
+  margin-bottom: 8px;
+}
+
+.produto-avaliacao {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+  color: #ccc; /* Cor das estrelas vazias */
+}
+
+.star-container {
+  position: relative;
+  display: inline-block;
+  font-size: 1.2em;
+  margin: 0 1px;
+}
+
+.star-empty, .star-filled {
+  display: inline-block;
+}
+
+.star-filled {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #f39c12; 
+}
+
+.produto-imagem-container {
+  position: relative;
+  width: 80%;
+  height: 200px;
+  margin-bottom: 12px;
+}
+
+.produto-imagem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+  z-index: 1;
+}
+
+.fade-out {
+  opacity: 0;
+  z-index: 0;
 }
