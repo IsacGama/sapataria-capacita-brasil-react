@@ -3,6 +3,7 @@ import { getSapatos } from '../../utils/requestJson';
 import ProdutoCard from '../../Componentes/produtos/cardProduto/cardProduto';
 import FiltroLateral from '../../Componentes/Filtros/FiltroLateral';
 import './ProdutosGeral.css';
+import Button from '../../Componentes/Buttons/Button';
 
 function Produtos() {
   const [produtos, setProdutos] = useState([]);
@@ -35,17 +36,23 @@ function Produtos() {
 
   return (
     <div className="produtos-container">
-        <button className="btn-abrir-filtro" onClick={() => setFiltroAberto(true)}>
-          Mostrar Filtros
-        </button>
-
       <div className="produtos-area">
+        <Button
+          title={"Abrir Filtros"}
+          variant='abrir-filtro'
+          onClick={() => setFiltroAberto(true)}>
+        </Button>
         <h1 className="titulo-pagina">Todos os Produtos</h1>
         <div className="grid-produtos">
           {produtosFiltrados.map(produto => (
             <ProdutoCard key={produto.id} produto={produto} />
           ))}
         </div>
+        <Button 
+          title={"Carregar mais produtos"}
+          variant="primary"
+          onClick={() => console.log('Carregar mais produtos')}
+        />
       </div>
 
       <FiltroLateral
@@ -55,6 +62,7 @@ function Produtos() {
         aberto={filtroAberto}
         setAberto={setFiltroAberto}
       />
+
     </div>
   );
 }

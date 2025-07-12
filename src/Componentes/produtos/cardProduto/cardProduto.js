@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import ButtonComprar from '../../Buttons/ButtonComprar';
+import Button from '../../Buttons/Button';
 import Stars from '../../Stars/Stars';
 import './cardProduto.css';
 
@@ -43,7 +43,7 @@ function ProdutoCard({ produto }) {
           </p>
         </div>
       </div>
-      <ButtonComprar />
+      <Button title="Comprar" variant="primary" />
     </div>
   );
 }
