@@ -1,6 +1,7 @@
 import styles from "./Header.module.css";
 import React, { useState } from "react";
 import { Menu, X, Search, ShoppingCart, User } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -19,9 +20,9 @@ export function Header() {
         </div>
 
         <nav className={styles.navDesktop}>
-          <a href="#">Inicio</a>
-          <a href="#">Sobre</a>
-          <a href="#">Produtos</a>
+          <Link to="/">Início</Link>
+          <Link to="/sobre">Sobre</Link>
+          <Link to="/produtos">Produtos</Link>
         </nav>
 
         <div className={styles.actions}>
@@ -44,9 +45,15 @@ export function Header() {
 
       {/* Menu Mobile */}
       <div className={`${styles.navMobile} ${menuOpen ? styles.open : ""}`}>
-        <a href="#">Inicio</a>
-        <a href="#">Sobre</a>
-        <a href="#">Produtos</a>
+        <Link to="/" onClick={() => setMenuOpen(false)}>
+          Início
+        </Link>
+        <Link to="/sobre" onClick={() => setMenuOpen(false)}>
+          Sobre
+        </Link>
+        <Link to="/produtos" onClick={() => setMenuOpen(false)}>
+          Produtos
+        </Link>
         <div className={styles.mobileIcons}>
           <Search className={styles.icon} />
           <User className={styles.icon} />
