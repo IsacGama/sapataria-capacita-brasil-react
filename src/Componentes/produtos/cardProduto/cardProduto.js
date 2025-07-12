@@ -12,7 +12,7 @@ function ProdutoCard({ produto }) {
   const preco = produto.preco;
 
   return (
-      <Link 
+      <Link type='none'
         to={`/especifico/${produto.id}`}
         className='produto-card'
         onMouseEnter={() => setHover(true)}
