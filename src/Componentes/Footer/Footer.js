@@ -14,16 +14,13 @@ export function Footer() {
           <h3 className={styles.title}>Links Rápidos</h3>
           <ul className={styles.list}>
             <li>
-              <a href="#">Novidades</a>
+              <a href="#">Inicio</a>
             </li>
             <li>
-              <a href="#">Coleções</a>
+              <a href="#">Sobre</a>
             </li>
             <li>
-              <a href="#">Sapatos</a>
-            </li>
-            <li>
-              <a href="#">Sobre Nós</a>
+              <a href="#">Produtos</a>
             </li>
           </ul>
         </div>

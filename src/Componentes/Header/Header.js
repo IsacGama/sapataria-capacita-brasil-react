@@ -10,18 +10,18 @@ export function Header() {
       <div className={styles.container}>
         {/* Logo */}
         <div className={styles.logo}>
-          <span role="img" aria-label="sapato">
-            👞
-          </span>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/5899/5899460.png"
+            alt="Logo Sapataria Capacita"
+            className={styles.logoImage}
+          />
           Sapataria Capacita
         </div>
 
         <nav className={styles.navDesktop}>
-          <a href="#">Novidades</a>
-          <a href="#">Coleções</a>
-          <a href="#">Produtos</a>
-          <a href="#">Acessórios</a>
+          <a href="#">Inicio</a>
           <a href="#">Sobre</a>
+          <a href="#">Produtos</a>
         </nav>
 
         <div className={styles.actions}>
@@ -44,11 +44,9 @@ export function Header() {
 
       {/* Menu Mobile */}
       <div className={`${styles.navMobile} ${menuOpen ? styles.open : ""}`}>
-        <a href="#">Novidades</a>
-        <a href="#">Coleções</a>
-        <a href="#">Sapatos</a>
-        <a href="#">Acessórios</a>
+        <a href="#">Inicio</a>
         <a href="#">Sobre</a>
+        <a href="#">Produtos</a>
         <div className={styles.mobileIcons}>
           <Search className={styles.icon} />
           <User className={styles.icon} />

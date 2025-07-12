@@ -23,6 +23,11 @@
   color: #000;
 }
 
+.logoImage {
+  width: 40px;
+  height: 40px;
+}
+
 .navDesktop {
   display: flex;
   gap: 24px;
@@ -57,9 +62,9 @@
   color: #666;
 }
 
-.desktopOnly {
+/* .desktopOnly {
   display: none;
-}
+} */
 
 .menuToggle {
   background: none;

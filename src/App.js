@@ -1,17 +1,18 @@
 import "./App.css";
 import { Header } from "./Componentes/Header/Header";
+import { Home } from "./pages/Home/Home";
 import { Footer } from "./Componentes/Footer/Footer";
-import ProdutoEspecifico from "./pages/ProdutoEspecifico/ProdutoEspecifico";
-import ProdutosGeral from "./pages/ProdutosGeral/ProdutosGeral";
+import Produtos from "./pages/ProdutosGeral/ProdutosGeral";
 
 function App() {
   return (
     <div className="App">
       <Header />
-        <ProdutosGeral />
+      <Home />
+      <Produtos />
       <Footer />
-    </div>
-  );
+    </div>
+  );
 }
 
 export default App;
