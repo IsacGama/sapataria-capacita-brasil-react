@@ -165,7 +165,6 @@
   text-decoration: underline;
 }
 
-
 .tamanho-btn {
   background-color: #000000;
   color: #ffffff;
@@ -228,13 +227,20 @@
   background-color: #000;
   color: #fff;
   border: 1px solid #000;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  font-size: 1.5rem;
-  font-weight: bold;
+  padding: 16px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1.1rem;
   cursor: pointer;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
   transition: all 0.2s ease;
+}
+
+.btn-comprar:hover {
+    background-color: #3d3f3d;
+    border-color: #3d3f3d;
 }
 
 .input-grupo {
@@ -256,11 +262,11 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
-  border: 1px solid #000000; /* <<< ALTERAÇÃO: Borda adicionada */
+  border: 1px solid #000000;
 }
 .btn-consultar:hover {
   background-color: #3d3f3d;
-  border-color: #3d3f3d; /* <<< ALTERAÇÃO: Transição de borda adicionada */
+  border-color: #3d3f3d;
 }
 .link-cep {
   display: block;
@@ -294,9 +300,61 @@
   background-color: #f2f2f2;
 }
 
-/* Seção de Relacionados e Lightbox (Sem alterações) */
-.relacionados-container { border-top: 1px solid #eee; margin-top: 80px; padding-top: 40px; }
-.relacionados-container h3 { font-size: 1.5rem; text-align: left; font-weight: bold; margin-bottom: 32px; }
+
+.divisor-detalhes {
+  border: 0;
+  border-top: 1px solid #eee; 
+  margin: 60px 0; 
+}
+
+.detalhes-produto-section {
+  text-align: left; 
+}
+
+.detalhes-titulo-principal {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.detalhes-paragrafo {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 35px;
+}
+
+.detalhes-subtitulo {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.detalhes-lista {
+  list-style-position: inside;
+  padding-left: 0;
+  color: #555;
+}
+
+.detalhes-lista li {
+  margin-bottom: 10px;
+}
+
+
+.relacionados-container {
+  border-top: 1px solid #eee;
+  margin-top: 60px;
+  padding-top: 60px;
+}
+
+.relacionados-container h3 {
+  font-size: 1.5rem;   
+  text-align: left;
+  font-weight: 600;    
+  margin-bottom: 32px;
+}
+
 .relacionados-grid { display: flex; gap: 30px; flex-wrap: wrap; justify-content: flex-start; }
 .relacionado-card { width: 250px; border-radius: 6px; cursor: pointer; transition: transform 0.3s ease, box-shadow 0.3s ease; }
 .relacionado-card:hover { transform: translateY(-8px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
