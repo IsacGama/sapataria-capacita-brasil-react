@@ -1,10 +1,117 @@
 .header {
   background-color: #fff;
-  padding: 20px;
-  color: white;
-  font-family: "Playfair Display", serif;
-  box-shadow: 0 4px 2px -2px gray;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  padding: 16px 24px;
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+}
+
+.logo {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #000;
+}
+
+.navDesktop {
+  display: flex;
+  gap: 24px;
+}
+
+.navDesktop a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.navDesktop a:hover {
+  color: #666;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  color: #000;
+  transition: color 0.2s;
+}
+
+.icon:hover {
+  color: #666;
+}
+
+.desktopOnly {
+  display: none;
+}
+
+.menuToggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+/* Menu mobile oculto inicialmente */
+.navMobile {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  padding: 0 24px;
+  opacity: 0;
+  transform: scaleY(0.95);
+  transform-origin: top;
+  background-color: #fff;
+}
+
+.navMobile.open {
+  max-height: 300px;
+  opacity: 1;
+  transform: scaleY(1);
+  padding-bottom: 16px;
+}
+
+.navMobile a {
+  display: block;
+  padding: 8px 0;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+.mobileIcons {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .navDesktop {
+    display: none;
+  }
+
+  .desktopOnly {
+    display: none;
+  }
+
+  .menuToggle {
+    display: inline;
+  }
 }
