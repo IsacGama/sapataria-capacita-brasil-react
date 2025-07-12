@@ -37,7 +37,7 @@ export function Home() {
         ))}
       </div>
 
-      <Link to="/produtos" className={styles.btnVerTodos}>
+      <Link to="/produtos" className={styles.btnVerTodos} >
         Ver todos os produtos
       </Link>
     </section>
