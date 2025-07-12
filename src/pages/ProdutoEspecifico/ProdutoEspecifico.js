@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import { getSapatos } from '../../utils/requestJson';
 import './ProdutoEspecifico.css'; 
 
@@ -16,6 +17,7 @@ export default function ProdutoEspecifico(){
     const [tamanhoSelecionado, setTamanhoSelecionado] = useState(null);
     const [quantidade, setQuantidade] = useState(1);
     const [lightboxImagem, setLightboxImagem] = useState(null);
+    const { id } = useParams();
 
     useEffect(() => {
         getSapatos()
@@ -24,7 +26,7 @@ export default function ProdutoEspecifico(){
             .finally(() => setCarregando(false));
     }, []);
 
-    const produto = produtos.length > 0 ? produtos[0] : null;
+    const produto = produtos.find(p => p.id === parseInt(id));
 
     const irParaProximo = () => {
         if (!produto) return;

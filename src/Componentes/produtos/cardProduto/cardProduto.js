@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Button from '../../Buttons/Button';
 import Stars from '../../Stars/Stars';
 import './cardProduto.css';
@@ -11,11 +12,12 @@ function ProdutoCard({ produto }) {
   const preco = produto.preco;
 
   return (
-    <div 
-      className='produto-card'
-      onMouseEnter={() => setHover(true)}
-      onMouseLeave={() => setHover(false)}
-    >
+      <Link 
+        to={`/especifico/${produto.id}`}
+        className='produto-card'
+        onMouseEnter={() => setHover(true)}
+        onMouseLeave={() => setHover(false)}
+      >
       <div className="produto-imagem-container">
         <img
           src={imagemPrincipal}
@@ -44,7 +46,7 @@ function ProdutoCard({ produto }) {
         </div>
       </div>
       <Button title="Comprar" variant="primary" />
-    </div>
+    </Link>
   );
 }
 
