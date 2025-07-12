@@ -1,4 +1,3 @@
-/* FiltroLateral.css */
 .filtro-lateral {
   position: fixed;
   top: 0;
@@ -76,6 +75,7 @@
   border-radius: 3px;
   background: #dfe6e9;
   outline: none;
+  appearance: none;
   -webkit-appearance: none;
 }
 
