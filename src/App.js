@@ -12,7 +12,6 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-          <ProdutoEspecifico />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/produtos" element={<Produtos />} />
