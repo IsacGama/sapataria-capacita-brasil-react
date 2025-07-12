@@ -5,13 +5,14 @@ import { Home } from "./pages/Home/Home";
 import Produtos from "./pages/ProdutosGeral/ProdutosGeral";
 import { Sobre } from "./pages/Sobre/Sobre";
 import { Footer } from "./Componentes/Footer/Footer";
+import ProdutoEspecifico from "./pages/ProdutoEspecifico/ProdutoEspecifico";
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Header />
-
+          <ProdutoEspecifico />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/produtos" element={<Produtos />} />

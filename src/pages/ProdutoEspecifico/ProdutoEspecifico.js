@@ -1,14 +1,21 @@
 import { useState, useEffect } from 'react';
 import { getSapatos } from '../../utils/requestJson';
-import './ProdutoEspecifico.css';
+import './ProdutoEspecifico.css'; 
 
-export default function ProdutoEspecifico() {
+import ButtonComprar from '../../Componentes/Buttons/ButtonComprar'; 
+import Stars from '../../Componentes/Stars/Stars';              
+import SelectSize from '../../Componentes/SelectSize/SelectSize';      
+import QuantitySelector from '../../Componentes/QuantitySelector/QuantitySelector'; 
+import ProdutoCard from '../../Componentes/produtos/cardProduto/cardProduto';
+
+export default function ProdutoEspecifico(){
     const [produtos, setProdutos] = useState([]);
     const [carregando, setCarregando] = useState(true);
     const [erro, setErro] = useState('');
-    const [imagemAtiva, setImagemAtiva] = useState(0); // Para controlar a imagem principal
-    const [tamanho, setTamanho] = useState('');
+    const [imagemAtiva, setImagemAtiva] = useState(0);
+    const [tamanhoSelecionado, setTamanhoSelecionado] = useState(null);
     const [quantidade, setQuantidade] = useState(1);
+    const [lightboxImagem, setLightboxImagem] = useState(null);
 
     useEffect(() => {
         getSapatos()
@@ -17,104 +24,135 @@ export default function ProdutoEspecifico() {
             .finally(() => setCarregando(false));
     }, []);
 
-    if (carregando) {
-        return <div className="ProdutoEspecifico"><p>Carregando produto...</p></div>;
-    }
-
     const produto = produtos.length > 0 ? produtos[0] : null;
-    if (erro || !produto) {
-        return <div className="ProdutoEspecifico"><p>{erro || 'Produto não encontrado.'}</p></div>;
-    }
+
+    const irParaProximo = () => {
+        if (!produto) return;
+        const ehUltimaImagem = imagemAtiva === produto.imagens.length - 1;
+        const novoIndice = ehUltimaImagem ? 0 : imagemAtiva + 1;
+        setImagemAtiva(novoIndice);
+    };
+
+    const irParaAnterior = () => {
+        if (!produto) return;
+        const ehPrimeiraImagem = imagemAtiva === 0;
+        const novoIndice = ehPrimeiraImagem ? produto.imagens.length - 1 : imagemAtiva - 1;
+        setImagemAtiva(novoIndice);
+    };
+
+    const abrirLightbox = (src) => setLightboxImagem(src);
+    const fecharLightbox = () => setLightboxImagem(null);
+    
+    useEffect(() => {
+        document.body.classList.toggle('body-no-scroll', !!lightboxImagem);
+        return () => document.body.classList.remove('body-no-scroll');
+    }, [lightboxImagem]);
+
+    if (carregando) return <div className="ProdutoDetalhe"><p>Carregando produto...</p></div>;
+    if (erro || !produto) return <div className="ProdutoDetalhe"><p>{erro || 'Produto não encontrado.'}</p></div>;
+
+    const parcelaPrincipal = produto.preco.parcelado.length > 0 ? produto.preco.parcelado[0] : null;
+    const precoPix = produto.preco.aVista * 0.95;
 
     return (
-        <div className="ProdutoEspecifico">
-            <div className="breadcrumb">Home / Sapatos / {produto.nome}</div>
-
-            <main className="produto-container">
+        <div className="ProdutoDetalhe">
+            <div className="produto-container">
                 <section className="produto-imagens">
-                    <img className="imagem-principal" src={produto.imagens[imagemAtiva]} alt={produto.nome} />
+                    <div className="carrossel-container">
+                        <button onClick={irParaAnterior} className="carrossel-btn btn-anterior" aria-label="Imagem anterior">‹</button>
+                        <div className="carrossel-viewport">
+                            <div className="carrossel-wrapper" style={{ transform: `translateX(-${imagemAtiva * 100}%)` }}>
+                                {produto.imagens.map((img, index) => (
+                                    <img key={index} src={img} alt={`${produto.nome} - Imagem ${index + 1}`} className="carrossel-imagem" onClick={() => abrirLightbox(img)} />
+                                ))}
+                            </div>
+                        </div>
+                        <button onClick={irParaProximo} className="carrossel-btn btn-proximo" aria-label="Próxima imagem">›</button>
+                    </div>
                     <div className="imagens-miniaturas">
                         {produto.imagens.map((img, index) => (
-                            <img
-                                key={index}
-                                src={img}
-                                alt={`Miniatura ${index + 1}`}
-                                className={`miniaturas${imagemAtiva === index ? ' ativa' : ''}`}
-                                onClick={() => setImagemAtiva(index)}
-                            />
+                            <img key={index} src={img} alt={`Miniatura ${index + 1}`} className={`miniaturas${imagemAtiva === index ? ' ativa' : ''}`} onClick={() => setImagemAtiva(index)} />
                         ))}
                     </div>
                 </section>
 
                 <section className="produto-info">
-                    <h2>{produto.nome}</h2>
-                    <p className="tipo">Tipo: {produto.tipo}</p>
-                    <p className="preco">R$ {produto.preco.aVista.toFixed(2).replace('.', ',')}</p>
-                    {Array.isArray(produto.preco.parcelado) && produto.preco.parcelado.length > 0 ? (
-                        <ul className="parcelado-lista">
-                            {produto.preco.parcelado.map((parcela, idx) => (
-                                <li key={idx}>
-                                    {parcela.qtd}x de R$ {parcela.valor.toFixed(2).replace('.', ',')}
-                                </li>
-                            ))}
-                        </ul>
-                    ) : (
-                        <p className="parcelado-fallback">Parcelamento indisponível</p>
-                    )}
+                    <h1>{produto.nome}</h1>
+                    
+                    <div className="avaliacoes">
+                        <Stars rating={produto.stars || 4.5} />
+                        <a href="#avaliar">Avaliar este produto</a>
+                        <a href="#avaliacoes">{produto.reviews || 0} avaliações</a>
+                    </div>
 
-                    <h3 className="descricao-titulo">Descrição</h3>
-                    <p className="descricao-texto">{produto.descricao}</p>
-                    <ul className="caracteristicas">
-                        {(produto.caracteristicas && produto.caracteristicas.length > 0)
-                            ? produto.caracteristicas.map((carac, idx) => <li key={idx}>{carac}</li>)
-                            : (
-                                <>
-                                    <li>Material: Couro Italiano Premium</li>
-                                    <li>Origem: Feito à mão na Itália</li>
-                                    <li>Acabamento: Polido com Perfeição</li>
-                                </>
-                            )
-                        }
-                    </ul>
+                    <p className="preco-principal">R$ {produto.preco.aVista.toFixed(2).replace('.', ',')}</p>
+                    
+                    <div className="opcoes-pagamento">
+                        {parcelaPrincipal && (
+                            <p>em até <strong>{parcelaPrincipal.parcelas}x de R$ {parcelaPrincipal.valor.toFixed(2).replace('.', ',')}</strong> sem juros</p>
+                        )}
+                        <p>ou <strong>R$ {precoPix.toFixed(2).replace('.', ',')}</strong> à vista com 5% no Pix</p>
+                    </div>
+                    
+                    <p className="calçados-tipo">Calçados Adulto</p>
+                    
+                    <SelectSize sizes={produto.tamanhos} onSelect={setTamanhoSelecionado} />
 
-                    <div className="form-compra">
-                        <div className="form-grupo">
-                            <label htmlFor="tamanho">Tamanho</label>
-                            <select id="tamanho" value={tamanho} onChange={e => setTamanho(e.target.value)}>
-                                <option value="">Selecionar o Tamanho</option>
-                                {Array.isArray(produto.tamanhos) && produto.tamanhos.map(t => <option key={t} value={t}>{t}</option>)}
-                            </select>
+                    <div className="descricao-material-container">
+                        <p>{produto.descricao}</p>
+                    </div>
+
+                    <QuantitySelector onChange={setQuantidade} />
+                    
+                    <ButtonComprar tamanhoSelecionado={tamanhoSelecionado} quantidade={quantidade} />
+
+                    <div className="calculadora-frete">
+                        <p>Calcule prazos e preços</p>
+                        <div className="input-grupo">
+                            <input type="text" placeholder="Digite seu CEP" />
+                            <button className="btn-consultar">Consultar</button>
                         </div>
-                        <div className="form-grupo">
-                            <label htmlFor="quantidade">Quantidade</label>
-                            <input
-                                id="quantidade"
-                                type="number"
-                                min="1"
-                                value={quantidade}
-                                onChange={e => setQuantidade(e.target.value)}
-                            />
-                        </div>
-                        <button className="btn-adicionar">Adicionar ao Carrinho</button>
+                        <a href="#naoseimeucep" className="link-cep">Não sei meu CEP</a>
                     </div>
                 </section>
-            </main>
+            </div>
+            
+          
+            <section className="detalhes-produto-section">
+                <h2 className="detalhes-titulo-principal">Detalhes do Produto</h2>
 
+                {produto.caracteristicas && produto.caracteristicas.length > 0 && (
+                    <>
+                        <h3 className="detalhes-subtitulo">Características e Detalhes</h3>
+                        <ul className="detalhes-lista">
+                            {produto.caracteristicas.map((carac, idx) => <li key={idx}>{carac}</li>)}
+                        </ul>
+                    </>
+                )}
+                
+                {produto.detalhesExtra && (
+                     <>
+                        <h3 className="detalhes-subtitulo">Cometa Clássico</h3>
+                        <p className="detalhes-paragrafo">{produto.detalhesExtra}</p>
+                     </>
+                )}
+            </section>
+            
             <section className="relacionados-container">
                 <h3>Você também pode gostar</h3>
                 <div className="relacionados-grid">
                     {produtos.slice(1, 4).map(item => (
-                        <div key={item.id} className="relacionado-card">
-                            <img
-                                src={Array.isArray(item.imagens) && item.imagens.length > 0 ? item.imagens[0] : '/fallback-image.png'}
-                                alt={item.nome}
-                            />
-                            <p className="nome">{item.nome}</p>
-                            <p className="preco">R$ {item.preco.aVista.toFixed(2).replace('.', ',')}</p>
-                        </div>
+                        <ProdutoCard key={item.id} produto={item} />
                     ))}
                 </div>
             </section>
+            
+            {lightboxImagem && (
+                <div className="lightbox-overlay" onClick={fecharLightbox}>
+                    <button className="lightbox-fechar" aria-label="Fechar">×</button>
+                    <img src={lightboxImagem} alt="Imagem ampliada" className="lightbox-imagem" onClick={(e) => e.stopPropagation()} />
+                </div>
+            )}
         </div>
     );
 }
