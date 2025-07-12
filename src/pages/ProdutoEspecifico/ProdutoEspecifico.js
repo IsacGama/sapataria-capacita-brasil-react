@@ -75,60 +75,63 @@ export default function ProdutoEspecifico(){
     }, [lightboxImagem]);
 
     if (carregando) return <div className="ProdutoDetalhe"><p>Carregando produto...</p></div>;
-    if (erro || !produto) return <div className="ProdutoDetalhe"><p>Produto não encontrado.</p></div>;
+    if (erro || !produto) return <div className="ProdutoDetalhe"><p>{erro || 'Produto não encontrado.'}</p></div>;
 
-    const produtosRelacionados = produtos.filter(p => p.id !== parseInt(id)).slice(0, 3);
     const parcelaPrincipal = produto.preco.parcelado.length > 0 ? produto.preco.parcelado[0] : null;
     const precoPix = produto.preco.aVista * 0.95;
 
     return (
         <div className="ProdutoDetalhe">
             <div className="produto-container">
-                <div className="coluna-esquerda">
-                    <section className="produto-imagens">
-                        <div className="carrossel-container">
-                            <button onClick={irParaAnterior} className="carrossel-btn btn-anterior" aria-label="Imagem anterior">‹</button>
-                            <div className="carrossel-viewport">
-                                <div className="carrossel-wrapper" style={{ transform: `translateX(-${imagemAtiva * 100}%)` }}>
-                                    {produto.imagens.map((img, index) => (
-                                        <img key={index} src={img} alt={`${produto.nome} - Imagem ${index + 1}`} className="carrossel-imagem" onClick={() => abrirLightbox(img)} />
-                                    ))}
-                                </div>
+                <section className="produto-imagens">
+                    <div className="carrossel-container">
+                        <button onClick={irParaAnterior} className="carrossel-btn btn-anterior" aria-label="Imagem anterior">‹</button>
+                        <div className="carrossel-viewport">
+                            <div className="carrossel-wrapper" style={{ transform: `translateX(-${imagemAtiva * 100}%)` }}>
+                                {produto.imagens.map((img, index) => (
+                                    <img key={index} src={img} alt={`${produto.nome} - Imagem ${index + 1}`} className="carrossel-imagem" onClick={() => abrirLightbox(img)} />
+                                ))}
                             </div>
-                            <button onClick={irParaProximo} className="carrossel-btn btn-proximo" aria-label="Próxima imagem">›</button>
                         </div>
-                        <div className="imagens-miniaturas">
-                            {produto.imagens.map((img, index) => (
-                                <img key={index} src={img} alt={`Miniatura ${index + 1}`} className={`miniaturas${imagemAtiva === index ? ' ativa' : ''}`} onClick={() => setImagemAtiva(index)} />
-                            ))}
-                        </div>
-                    </section>
-                </div>
+                        <button onClick={irParaProximo} className="carrossel-btn btn-proximo" aria-label="Próxima imagem">›</button>
+                    </div>
+                    <div className="imagens-miniaturas">
+                        {produto.imagens.map((img, index) => (
+                            <img key={index} src={img} alt={`Miniatura ${index + 1}`} className={`miniaturas${imagemAtiva === index ? ' ativa' : ''}`} onClick={() => setImagemAtiva(index)} />
+                        ))}
+                    </div>
+                </section>
 
                 <section className="produto-info">
                     <h1>{produto.nome}</h1>
+                    
                     <div className="avaliacoes">
                         <Stars rating={produto.stars || 4.5} />
                         <a href="#avaliar">Avaliar este produto</a>
                         <a href="#avaliacoes">{produto.reviews || 0} avaliações</a>
                     </div>
+
                     <p className="preco-principal">R$ {produto.preco.aVista.toFixed(2).replace('.', ',')}</p>
+                    
                     <div className="opcoes-pagamento">
                         {parcelaPrincipal && (
                             <p>em até <strong>{parcelaPrincipal.parcelas}x de R$ {parcelaPrincipal.valor.toFixed(2).replace('.', ',')}</strong> sem juros</p>
                         )}
                         <p>ou <strong>R$ {precoPix.toFixed(2).replace('.', ',')}</strong> à vista com 5% no Pix</p>
                     </div>
+                    
                     <p className="calçados-tipo">Calçados Adulto</p>
+                    
                     <SelectSize sizes={produto.tamanhos} onSelect={setTamanhoSelecionado} />
+
+                    <div className="descricao-material-container">
+                        <p>{produto.descricao}</p>
+                    </div>
+
                     <QuantitySelector onChange={setQuantidade} />
-<<<<<<< HEAD
                     
                     <Button title={"Comprar"} variant="primary" onPress={() => handleAddToCart()} />
 
-=======
-                    <Button title={"Comprar"} variant="primary" onPress={() => console.log('Clicou no botão!')} />
->>>>>>> 8cba99e7ad3b0b1ed85023754fea8995ef931339
                     <div className="calculadora-frete">
                         <p>Calcule prazos e preços</p>
                         <div className="input-grupo">
@@ -140,11 +143,11 @@ export default function ProdutoEspecifico(){
                 </section>
             </div>
             
-            <hr className="divisor-detalhes" />
+          
             <section className="detalhes-produto-section">
                 <h2 className="detalhes-titulo-principal">Detalhes do Produto</h2>
-                <p className="detalhes-paragrafo">{produto.descricao}</p>
-                {produto.caracteristicas && (
+
+                {produto.caracteristicas && produto.caracteristicas.length > 0 && (
                     <>
                         <h3 className="detalhes-subtitulo">Características e Detalhes</h3>
                         <ul className="detalhes-lista">
@@ -152,18 +155,19 @@ export default function ProdutoEspecifico(){
                         </ul>
                     </>
                 )}
+                
                 {produto.detalhesExtra && (
-                    <>
+                     <>
                         <h3 className="detalhes-subtitulo">Cometa Clássico</h3>
                         <p className="detalhes-paragrafo">{produto.detalhesExtra}</p>
-                    </>
+                     </>
                 )}
             </section>
-
+            
             <section className="relacionados-container">
                 <h3>Você também pode gostar</h3>
                 <div className="relacionados-grid">
-                    {produtosRelacionados.map(item => (
+                    {produtos.slice(1, 4).map(item => (
                         <ProdutoCard key={item.id} produto={item} />
                     ))}
                 </div>

@@ -8,8 +8,6 @@ import { Footer } from "./Componentes/Footer/Footer";
 import ProdutoEspecifico from "./pages/ProdutoEspecifico/ProdutoEspecifico";
 import { Provider } from "react-redux";
 import { store } from "./store";
-import { Car } from "lucide-react";
-import CartList from "./Componentes/Cart/CartList";
 
 function App() {
   return (
@@ -23,7 +21,6 @@ function App() {
             <Route path="/sobre" element={<Sobre />} />
             <Route path="/especifico/:id" element={<ProdutoEspecifico />} />
           </Routes>
-          <CartList />
           <Footer />
         </div>
       </Router>
