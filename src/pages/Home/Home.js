@@ -27,11 +27,13 @@ export function Home() {
       <Banner imagens={imagens} />
 
       <section className={styles.homeProdutos}>
-        <h2>Destaques da Coleção</h2>
+        <h2 className={styles.titulo}>Destaques da Coleção</h2>
 
         <div className={styles.gridHomeProdutos}>
           {produtos.map((produto) => (
-            <ProdutoCard key={produto.id} produto={produto} />
+            <div className={styles.cardWrapper} key={produto.id}>
+              <ProdutoCard produto={produto} />
+            </div>
           ))}
         </div>
 

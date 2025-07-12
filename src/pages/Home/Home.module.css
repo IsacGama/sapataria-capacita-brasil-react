@@ -1,29 +1,69 @@
 .homeProdutos {
   padding: 40px 20px;
   text-align: center;
+  background-color: #fafafa;
+  border-radius: 16px;
+  margin: 40px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 1200px;
+}
+
+.titulo {
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 24px;
+  color: #1a1a1a;
 }
 
 .gridHomeProdutos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
   gap: 30px;
   margin-top: 20px;
   margin-bottom: 30px;
 }
 
+.cardWrapper {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardWrapper:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
 .btnVerTodos {
   background-color: #000;
   color: white;
-  padding: 12px 24px;
+  padding: 14px 32px;
   text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
-  transition: background 0.3s ease;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   display: inline-block;
 }
 
 .btnVerTodos:hover {
-  background-color: #333;
+  background-color: #222;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .gridHomeProdutos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btnVerTodos {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .homeProdutos {
+    padding: 20px 10px;
+  }
 }
