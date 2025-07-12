@@ -19,7 +19,7 @@ export function Header() {
         <nav className={styles.navDesktop}>
           <a href="#">Novidades</a>
           <a href="#">Coleções</a>
-          <a href="#">Produtos</a>
+          <a href="">Produtos</a>
           <a href="#">Acessórios</a>
           <a href="#">Sobre</a>
         </nav>
