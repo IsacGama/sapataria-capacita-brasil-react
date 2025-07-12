@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import { Link } from "react-router-dom";
+import instagram from "../../RedeSociais/instagram.png";
+import twitter from "../../RedeSociais/twitter.png";
+import facebook from "../../RedeSociais/facebook.png";
 
 export function Footer() {
   return (
@@ -41,9 +44,9 @@ export function Footer() {
       <div className={styles.bottom}>
         <p>© 2025 Sapataria Capacita. Todos os direitos reservados.</p>
         <div className={styles.social}>
-          <a href="#">🌐</a>
-          <a href="#">📷</a>
-          <a href="#">🐦</a>
+          <img src={instagram} alt="Instagram" className={styles.icon} />
+          <img src={twitter} alt="Twitter" className={styles.icon} />
+          <img src={facebook} alt="Facebook" className={styles.icon} />
         </div>
       </div>
     </footer>
