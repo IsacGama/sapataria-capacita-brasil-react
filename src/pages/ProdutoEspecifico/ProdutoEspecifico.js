@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { getSapatos } from '../../utils/requestJson';
 import './ProdutoEspecifico.css'; 
 
-import ButtonComprar from '../../Componentes/Buttons/ButtonComprar'; 
+import Button from '../../Componentes/Buttons/Button'; 
 import Stars from '../../Componentes/Stars/Stars';              
 import SelectSize from '../../Componentes/SelectSize/SelectSize';      
 import QuantitySelector from '../../Componentes/QuantitySelector/QuantitySelector'; 
@@ -104,7 +104,7 @@ export default function ProdutoEspecifico(){
 
                     <QuantitySelector onChange={setQuantidade} />
                     
-                    <ButtonComprar tamanhoSelecionado={tamanhoSelecionado} quantidade={quantidade} />
+                    <Button title={"Comprar"} variant="primary" onPress={() => console.log('Clicou no botão!')} />
 
                     <div className="calculadora-frete">
                         <p>Calcule prazos e preços</p>
