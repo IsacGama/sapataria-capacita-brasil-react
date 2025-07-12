@@ -1,0 +1,34 @@
+:root {
+  --preto-texto: #333;
+  --cinza-escuro: #666;
+  --cinza-claro: #e0e0e0;
+  --vermelho: #e53935;
+  --primary-color: #1976d2; /* ajuste para sua cor primária */
+}
+
+.cart-list {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.cart-list__header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 0.5fr;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--cinza-claro);
+  font-weight: 600;
+  color: var(--cinza-escuro);
+}
+
+.cart-list__empty {
+  text-align: center;
+  padding: 3rem 0;
+  color: var(--cinza-escuro);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .cart-list__header {
+    display: none;
+  }
+}
