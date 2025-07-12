@@ -3,6 +3,7 @@ import { Banner } from "../../Componentes/Banner/Banner";
 import ProdutoCard from "../../Componentes/produtos/cardProduto/cardProduto";
 import { Link } from "react-router-dom";
 import { getSapatos } from "../../utils/requestJson";
+import { Sobre } from "../Sobre/Sobre";
 import styles from "./Home.module.css";
 
 export function Home() {
@@ -25,38 +26,36 @@ export function Home() {
   ];
 
   return (
-  <div>
-    <Banner imagens={imagens} />
+    <div>
+      <Banner imagens={imagens} />
+      <Sobre />
 
-    <section className={styles.homeProdutos}>
-      <h2>Destaques da Coleção</h2>
+      <section className={styles.homeProdutos}>
+        <h2>Destaques da Coleção</h2>
 
-      <div className={styles.gridHomeProdutos}>
-        {produtos.map((produto) => (
-          <ProdutoCard key={produto.id} produto={produto} />
-        ))}
-      </div>
+        <div className={styles.gridHomeProdutos}>
+          {produtos.map((produto) => (
+            <ProdutoCard key={produto.id} produto={produto} />
+          ))}
+        </div>
 
-      <Link to="/produtos" className={styles.btnVerTodos} >
-        Ver todos os produtos
-      </Link>
-    </section>
+        <Link to="/produtos" className={styles.btnVerTodos}>
+          Ver todos os produtos
+        </Link>
+      </section>
 
-    {/* Botão WhatsApp fixo */}
-    <a
-      href="https://wa.me/5599999999999" // substitua pelo seu número com DDI
-      className={styles.whatsappButton}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img
-        src="https://cdn-icons-png.flaticon.com/512/124/124034.png"
-        alt="WhatsApp"
-      />
-    </a>
-  </div>
-);
-
-      
-
+      {/* Botão WhatsApp fixo */}
+      <a
+        href="https://wa.me/5599999999999" // substitua pelo seu número com DDI
+        className={styles.whatsappButton}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/124/124034.png"
+          alt="WhatsApp"
+        />
+      </a>
+    </div>
+  );
 }
