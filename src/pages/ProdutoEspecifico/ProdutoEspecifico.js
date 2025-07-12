@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { getSapatos } from '../../utils/requestJson';
-import './ProdutoEspecifico.css'; 
+import { useDispatch } from 'react-redux';
+import { addItem } from '../../Componentes/Cart/CartSlice';
 
 import Button from '../../Componentes/Buttons/Button'; 
 import Stars from '../../Componentes/Stars/Stars';              
@@ -9,15 +10,19 @@ import SelectSize from '../../Componentes/SelectSize/SelectSize';
 import QuantitySelector from '../../Componentes/QuantitySelector/QuantitySelector'; 
 import ProdutoCard from '../../Componentes/produtos/cardProduto/cardProduto';
 
+import './ProdutoEspecifico.css'; 
+
 export default function ProdutoEspecifico(){
     const [produtos, setProdutos] = useState([]);
     const [carregando, setCarregando] = useState(true);
     const [erro, setErro] = useState('');
     const [imagemAtiva, setImagemAtiva] = useState(0);
-    const [tamanhoSelecionado, setTamanhoSelecionado] = useState(null);
     const [quantidade, setQuantidade] = useState(1);
+    const [tamanhoSelecionado, setTamanhoSelecionado] = useState(null);
     const [lightboxImagem, setLightboxImagem] = useState(null);
     const { id } = useParams();
+    const dispatch = useDispatch()
+    const navigate = useNavigate();
 
     useEffect(() => {
         getSapatos()
@@ -27,6 +32,25 @@ export default function ProdutoEspecifico(){
     }, []);
 
     const produto = produtos.find(p => p.id === parseInt(id));
+
+    const handleAddToCart = () => {
+        if (!tamanhoSelecionado) {
+        alert('Por favor, selecione um tamanho');
+        return;
+        }
+
+        dispatch(addItem({
+        id: produto.id,
+        name: produto.nome,
+        price: produto.preco.aVista,
+        image: produto.imagens[0],
+        size: tamanhoSelecionado,
+        quantity: quantidade,
+        maxQuantity: produto.quantidadeEstoque || 10, // Defina um valor padrão se não houver estoque
+        }));
+
+        //navigate('/carrinho');
+    };
 
     const irParaProximo = () => {
         if (!produto) return;
@@ -106,7 +130,7 @@ export default function ProdutoEspecifico(){
 
                     <QuantitySelector onChange={setQuantidade} />
                     
-                    <Button title={"Comprar"} variant="primary" onPress={() => console.log('Clicou no botão!')} />
+                    <Button title={"Comprar"} variant="primary" onPress={() => handleAddToCart()} />
 
                     <div className="calculadora-frete">
                         <p>Calcule prazos e preços</p>
