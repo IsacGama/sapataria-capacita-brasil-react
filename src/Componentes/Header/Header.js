@@ -28,7 +28,9 @@ export function Header() {
         <div className={styles.actions}>
           <Search className={`${styles.icon} ${styles.desktopOnly}`} />
           <User className={`${styles.icon} ${styles.desktopOnly}`} />
-          <ShoppingCart className={`${styles.icon} ${styles.desktopOnly}`} />
+          <Link to="/carrinho" onClick={() => setMenuOpen(false)}> 
+            <ShoppingCart className={`${styles.icon} ${styles.desktopOnly}`} />
+          </Link>
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className={styles.menuToggle}
@@ -57,7 +59,9 @@ export function Header() {
         <div className={styles.mobileIcons}>
           <Search className={styles.icon} />
           <User className={styles.icon} />
-          <ShoppingCart className={styles.icon} />
+          <Link to="/carrinho" onClick={() => setMenuOpen(false)}> 
+            <ShoppingCart className={styles.icon} />
+          </Link>
         </div>
       </div>
     </header>
