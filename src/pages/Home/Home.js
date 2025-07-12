@@ -7,11 +7,13 @@ import styles from "./Home.module.css";
 
 export function Home() {
   const [produtos, setProdutos] = useState([]);
+  const [carregando, setCarregando] = useState(true);
 
   useEffect(() => {
     async function carregarProdutos() {
       const data = await getSapatos();
       setProdutos(data.slice(0, 3));
+      setCarregando(false);
     }
     carregarProdutos();
   }, []);
@@ -23,22 +25,38 @@ export function Home() {
   ];
 
   return (
-    <div>
-      <Banner imagens={imagens} />
+  <div>
+    <Banner imagens={imagens} />
 
-      <section className={styles.homeProdutos}>
-        <h2>Destaques da Coleção</h2>
+    <section className={styles.homeProdutos}>
+      <h2>Destaques da Coleção</h2>
 
-        <div className={styles.gridHomeProdutos}>
-          {produtos.map((produto) => (
-            <ProdutoCard key={produto.id} produto={produto} />
-          ))}
-        </div>
+      <div className={styles.gridHomeProdutos}>
+        {produtos.map((produto) => (
+          <ProdutoCard key={produto.id} produto={produto} />
+        ))}
+      </div>
 
-        <Link to="/produtos" className={styles.btnVerTodos}>
-          Ver todos os produtos
-        </Link>
-      </section>
-    </div>
-  );
+      <Link to="/produtos" className={styles.btnVerTodos}>
+        Ver todos os produtos
+      </Link>
+    </section>
+
+    {/* Botão WhatsApp fixo */}
+    <a
+      href="https://wa.me/5599999999999" // substitua pelo seu número com DDI
+      className={styles.whatsappButton}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/124/124034.png"
+        alt="WhatsApp"
+      />
+    </a>
+  </div>
+);
+
+      
+
 }
