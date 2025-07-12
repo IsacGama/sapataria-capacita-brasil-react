@@ -13,10 +13,11 @@
   margin-bottom: 30px;
 }
 
-.produto-container {
+.container {
   display: flex;
-  flex-wrap: wrap;
-  gap: 60px;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .produto-imagens {
