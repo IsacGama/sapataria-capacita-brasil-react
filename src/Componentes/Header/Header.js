@@ -2,6 +2,7 @@ import styles from "./Header.module.css";
 import React, { useState } from "react";
 import { Menu, X, Search, ShoppingCart, User } from "lucide-react";
 import { Link } from "react-router-dom";
+import Logo from "../Header/Logo/logo-sapataria.png";
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,14 +11,13 @@ export function Header() {
     <header className={styles.header}>
       <div className={styles.container}>
         {/* Logo */}
-        <div className={styles.logo}>
+        <Link to="/" className={styles.logo}>
           <img
-            src="https://cdn-icons-png.flaticon.com/512/5899/5899460.png"
-            alt="Logo Sapataria Capacita"
+            src={Logo}
+            alt="Sapataria Capacita Logo"
             className={styles.logoImage}
           />
-          Sapataria Capacita
-        </div>
+        </Link>
 
         <nav className={styles.navDesktop}>
           <Link to="/">Início</Link>
