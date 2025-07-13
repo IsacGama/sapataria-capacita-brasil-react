@@ -47,7 +47,7 @@
 .btn-anterior { left: 10px; }
 .btn-proximo { right: 10px; }
 .imagens-miniaturas { display: flex; gap: 12px; margin-top: 18px; justify-content: center; }
-.miniaturas { width: 80px; height: 80px; object-fit: cover; border: 1px solid #ccc; border-radius: 4px; cursor: pointer; transition: transform 0.3s ease, border-color 0.3s ease; }
+.miniaturas { width: 80px; height: 80px; object-fit: cover; border: 1px solid #ccc; border-radius: 4px; cursor: pointer; transition: transform 0.3s ease, border-color 0.3s ease; margin-left: 0; }
 .miniaturas:hover, .miniaturas.ativa { border-color: #000; transform: translateY(-4px); }
 .miniaturas.ativa { border-width: 2px; }
 
@@ -354,6 +354,86 @@
   font-weight: 600;    
   margin-bottom: 32px;
 }
+
+.miniaturas-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+
+.miniaturas {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  box-sizing: border-box;
+  margin-top: 1rem;
+}
+
+.miniaturas:hover,
+.miniaturas.ativa {
+  border-color: #000;
+  transform: translateY(-4px);
+}
+
+
+.imagens-miniaturas {
+  display: flex;
+  gap: 12px;
+  padding-bottom: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* Firefox */
+}
+.imagens-miniaturas::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+.miniaturas-scroll {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.miniaturas-scroll.left {
+  left: 0px;
+}
+.miniaturas-scroll.right {
+  right: -10px;
+}
+
+@media (max-width: 768px) {
+  .produto-container {
+    flex-direction: column;
+  }
+  .produto-info h1 {
+    font-size: 1.6rem;
+  }
+  .preco-principal {
+    font-size: 2rem;
+  }
+  .miniaturas {
+    width: 60px;
+    height: 60px;
+  }
+  .miniaturas-scroll {
+    width: 28px;
+    height: 28px;
+    font-size: 18px;
+  }
+}
+
 
 .relacionados-grid { display: flex; gap: 30px; flex-wrap: wrap; justify-content: flex-start; }
 .relacionado-card { width: 250px; border-radius: 6px; cursor: pointer; transition: transform 0.3s ease, box-shadow 0.3s ease; }
