@@ -61,7 +61,6 @@ export default function ProdutoEspecifico() {
     return () => document.body.classList.remove("body-no-scroll");
   }, [lightboxImagem]);
 
-  // Early return para evitar erro de acesso em produto ou imagens
   if (carregando)
     return (
       <div className="ProdutoDetalhe">
