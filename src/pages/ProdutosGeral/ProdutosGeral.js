@@ -7,6 +7,7 @@ import Button from "../../Componentes/Buttons/Button";
 
 function Produtos() {
   const [produtos, setProdutos] = useState([]);
+  const [produtosExibidos, setProdutosExibidos] = useState(15);
   const [filtros, setFiltros] = useState({
     tipo: [],
     cor: [],
@@ -34,6 +35,12 @@ function Produtos() {
     return tipoOk && corOk && precoOk;
   });
 
+  const carregarMaisProdutos = () => {
+    setProdutosExibidos(prev => prev + 15);
+  };
+
+  const haMaisProdutosParaCarregar = produtosExibidos < produtosFiltrados.length;
+
   return (
     <div className="produtos-container">
       <div className="produtos-area">
@@ -44,15 +51,17 @@ function Produtos() {
         ></Button>
         <h1 className="titulo-pagina">Todos os Produtos</h1>
         <div className="grid-produtos">
-          {produtosFiltrados.map((produto) => (
+          {produtosFiltrados.slice(0, produtosExibidos).map((produto) => (
             <ProdutoCard key={produto.id} produto={produto} />
           ))}
         </div>
-        <Button
-          title={"Carregar mais produtos"}
-          variant="primary"
-          onClick={() => console.log("Carregar mais produtos")}
-        />
+        {haMaisProdutosParaCarregar && (
+          <Button
+            title={"Carregar mais produtos"}
+            variant="primary"
+            onClick={carregarMaisProdutos}
+          />
+        )}
       </div>
 
       <FiltroLateral
