@@ -20,9 +20,11 @@ export function Home() {
   }, []);
 
   const imagens = [
-    "https://blog.brooksfield.com.br/wp-content/uploads/2023/05/SEO_Banner_770-314_TXT-1.jpg",
     "https://blog.brooksfield.com.br/wp-content/uploads/2023/10/SEO_Banner_1903-500_DESK-6.jpg",
     "https://blog.brooksfield.com.br/wp-content/uploads/2023/06/SEO_Banner_1903-500_DESK.jpg",
+    "https://blog.voraxacessorios.com.br/wp-content/uploads/2023/09/Como_usC3A1-los.jpg",
+    "https://blog.voraxacessorios.com.br/wp-content/uploads/2023/09/Como_usar_Oxfords_masculinos.jpg",
+    "https://down-br.img.susercontent.com/file/sg-11134201-7req1-m82u70vwy4r507",
   ];
 
   return (
@@ -44,9 +46,9 @@ export function Home() {
         </Link>
       </section>
 
-      {/* Botão WhatsApp fixo */}
+     
       <a
-        href="https://wa.me/5599999999999" // substitua pelo seu número com DDI
+        href="https://wa.me/5599999999999" 
         className={styles.whatsappButton}
         target="_blank"
         rel="noopener noreferrer"
