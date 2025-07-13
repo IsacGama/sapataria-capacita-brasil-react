@@ -1,0 +1,101 @@
+.product-thumbnails {
+  position: relative;
+  width: 100%;
+  margin: 1rem 0;
+  min-height: 110px;
+  align-self: center;
+  justify-self: center;
+}
+
+.product-thumbnails__viewport {
+  overflow: hidden;
+  height: 100px;
+}
+
+.product-thumbnails__container {
+  display: flex;
+  gap: 12px;
+  will-change: transform;
+  padding-left: 12px;
+  margin-right: 25px;
+}
+
+.product-thumbnails__slide {
+  flex: 0 0 auto;
+  width: 80px;
+}
+
+.product-thumbnails__img {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 5px;
+}
+
+.product-thumbnails__img.is-active {
+  border: 2px solid #000;
+  transform: translateY(-4px);
+}
+
+.product-thumbnails__controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.embla__button {
+  pointer-events: all;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.embla__button--prev {
+  margin-left: 8px;
+}
+
+.embla__button--next {
+  margin-right: 8px;
+}
+
+.embla__button:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .product-thumbnails {
+    min-height: 90px;
+  }
+
+  .product-thumbnails__viewport {
+    height: 80px;
+  }
+
+  .product-thumbnails__slide {
+    width: 60px;
+  }
+
+  .product-thumbnails__img {
+    height: 60px;
+  }
+}

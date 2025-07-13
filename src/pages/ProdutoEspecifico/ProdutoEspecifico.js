@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { getSapatos } from "../../utils/requestJson";
 import { useDispatch } from "react-redux";
@@ -11,6 +11,7 @@ import QuantitySelector from "../../Componentes/QuantitySelector/QuantitySelecto
 import ProdutoCard from "../../Componentes/produtos/cardProduto/cardProduto";
 
 import "./ProdutoEspecifico.css";
+import MiniaturasSlider from "../../Componentes/MiniaturasSlider/MiniaturasSlider";
 
 export default function ProdutoEspecifico() {
   const [produtos, setProdutos] = useState([]);
@@ -20,21 +21,10 @@ export default function ProdutoEspecifico() {
   const [quantidade, setQuantidade] = useState(1);
   const [tamanhoSelecionado, setTamanhoSelecionado] = useState(null);
   const [lightboxImagem, setLightboxImagem] = useState(null);
-  const miniaturaRef = useRef(null);
-  const [mostrarSetas, setMostrarSetas] = useState(false);
   const { id } = useParams();
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const produto = produtos.find((p) => p.id === parseInt(id));
-
-  useEffect(() => {
-    if (miniaturaRef.current) {
-      const primeiraMiniatura = miniaturaRef.current.querySelector('img');
-      if (primeiraMiniatura) {
-        primeiraMiniatura.scrollIntoView({ behavior: 'smooth', inline: 'start' });
-      }
-    }
-  }, [produto?.id]);
 
   useEffect(() => {
     getSapatos()
@@ -42,19 +32,6 @@ export default function ProdutoEspecifico() {
       .catch(() => setErro("Erro ao carregar os produtos."))
       .finally(() => setCarregando(false));
   }, []);
-
-  useEffect(() => {
-    const verificarOverflow = () => {
-      const el = miniaturaRef.current;
-      if (!el) return;
-      setMostrarSetas(el.scrollWidth > el.clientWidth);
-    };
-
-    verificarOverflow();
-    window.addEventListener('resize', verificarOverflow);
-    return () => window.removeEventListener('resize', verificarOverflow);
-  }, [produto?.imagens]);
-
 
   useEffect(() => {
     document.body.classList.toggle("body-no-scroll", !!lightboxImagem);
@@ -160,32 +137,11 @@ export default function ProdutoEspecifico() {
               ›
             </button>
           </div>
-          <div className="miniaturas-container">
-            {mostrarSetas && (
-              <button className="miniaturas-scroll left" onClick={() => miniaturaRef.current.scrollLeft -= 100}>
-                ‹
-              </button>
-            )}
-
-            <div className="imagens-miniaturas" ref={miniaturaRef}>
-              {produto.imagens.map((img, index) => (
-                <img
-                  key={index}
-                  src={img}
-                  alt={`Miniatura ${index + 1}`}
-                  className={`miniaturas${imagemAtiva === index ? " ativa" : ""}`}
-                  onClick={() => setImagemAtiva(index)}
-                />
-              ))}
-            </div>
-
-            {mostrarSetas && (
-              <button className="miniaturas-scroll right" onClick={() => miniaturaRef.current.scrollLeft += 100}>
-                ›
-              </button>
-            )}
-          </div>
-
+          <MiniaturasSlider
+            images={produto.imagens}
+            selectedIndex={imagemAtiva}
+            onThumbnailClick={setImagemAtiva}
+          />
 
         </section>
 
