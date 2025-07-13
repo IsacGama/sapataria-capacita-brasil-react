@@ -25,6 +25,11 @@ export default function ProdutoEspecifico() {
   const navigate = useNavigate();
 
   useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [id]);
+
+
+  useEffect(() => {
     getSapatos()
       .then((data) => setProdutos(data))
       .catch(() => setErro("Erro ao carregar os produtos."))
