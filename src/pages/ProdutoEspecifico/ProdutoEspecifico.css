@@ -435,7 +435,7 @@
 }
 
 
-.relacionados-grid { display: flex; gap: 30px; flex-wrap: wrap; justify-content: flex-start; }
+.relacionados-grid { display: flex; gap: 30px; flex-wrap: wrap; justify-content: center; }
 .relacionado-card { width: 250px; border-radius: 6px; cursor: pointer; transition: transform 0.3s ease, box-shadow 0.3s ease; }
 .relacionado-card:hover { transform: translateY(-8px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
 .relacionado-card img { width: 100%; border-radius: 6px; box-shadow: 0 2px 10px rgba(0,0,0,0.06); margin-bottom: 15px; }

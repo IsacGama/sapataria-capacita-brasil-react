@@ -252,28 +252,6 @@ export default function ProdutoEspecifico() {
         </section>
       </div>
 
-      <section className="detalhes-produto-section">
-        <h2 className="detalhes-titulo-principal">Detalhes do Produto</h2>
-
-        {produto.caracteristicas && produto.caracteristicas.length > 0 && (
-          <>
-            <h3 className="detalhes-subtitulo">Características e Detalhes</h3>
-            <ul className="detalhes-lista">
-              {produto.caracteristicas.map((carac, idx) => (
-                <li key={idx}>{carac}</li>
-              ))}
-            </ul>
-          </>
-        )}
-
-        {produto.detalhesExtra && (
-          <>
-            <h3 className="detalhes-subtitulo">Cometa Clássico</h3>
-            <p className="detalhes-paragrafo">{produto.detalhesExtra}</p>
-          </>
-        )}
-      </section>
-
       <section className="relacionados-container">
         <h3>Você também pode gostar</h3>
         <div className="relacionados-grid">
