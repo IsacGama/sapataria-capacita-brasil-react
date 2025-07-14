@@ -55,7 +55,7 @@ export function Home() {
       >
         <img
           src="https://cdn-icons-png.flaticon.com/512/124/124034.png"
-          alt="WhatsApp"
+          alt="whatsapp"
         />
       </a>
     </div>
