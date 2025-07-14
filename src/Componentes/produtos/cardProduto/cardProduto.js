@@ -4,6 +4,7 @@ import Button from '../../Buttons/Button';
 import Stars from '../../Stars/Stars';
 import './cardProduto.css';
 
+
 function ProdutoCard({ produto }) {
   const [hover, setHover] = useState(false);
   const imagemPrincipal = produto.imagens[0];
