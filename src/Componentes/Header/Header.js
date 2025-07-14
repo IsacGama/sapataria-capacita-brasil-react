@@ -1,23 +1,41 @@
 import styles from "./Header.module.css";
-import React, { useState } from "react";
-import { Menu, X, Search, ShoppingCart, User } from "lucide-react";
+import React, { useEffect, useState } from "react";
+import { Menu, X, Search, User } from "lucide-react";
 import { Link } from "react-router-dom";
+import Logo from "../Header/Logo/logo-sapataria.png";
+import CartIcon from "../Cart/CartIcon"
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(min-width: 769px)");
+
+    const handleResize = () => {
+      if (mediaQuery.matches) {
+        setMenuOpen(false);
+      }
+    };
+
+    mediaQuery.addEventListener("change", handleResize);
+
+    return () => {
+      mediaQuery.removeEventListener("change", handleResize);
+    };
+  }, []);
+
 
   return (
     <header className={styles.header}>
       <div className={styles.container}>
         {/* Logo */}
-        <div className={styles.logo}>
+        <Link to="/" className={styles.logo}>
           <img
-            src="https://cdn-icons-png.flaticon.com/512/5899/5899460.png"
-            alt="Logo Sapataria Capacita"
+            src={Logo}
+            alt="Sapataria Capacita Logo"
             className={styles.logoImage}
           />
-          Sapataria Capacita
-        </div>
+        </Link>
 
         <nav className={styles.navDesktop}>
           <Link to="/">Início</Link>
@@ -28,7 +46,7 @@ export function Header() {
         <div className={styles.actions}>
           <Search className={`${styles.icon} ${styles.desktopOnly}`} />
           <User className={`${styles.icon} ${styles.desktopOnly}`} />
-          <ShoppingCart className={`${styles.icon} ${styles.desktopOnly}`} />
+          <CartIcon isMobile={false} />
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className={styles.menuToggle}
@@ -57,7 +75,7 @@ export function Header() {
         <div className={styles.mobileIcons}>
           <Search className={styles.icon} />
           <User className={styles.icon} />
-          <ShoppingCart className={styles.icon} />
+          <CartIcon isMobile={true} />
         </div>
       </div>
     </header>

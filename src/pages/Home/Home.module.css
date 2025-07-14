@@ -56,6 +56,8 @@
   .gridHomeProdutos {
     flex-direction: column;
     align-items: center;
+    
+    
   }
 
   .btnVerTodos {
@@ -65,6 +67,17 @@
 
   .homeProdutos {
     padding: 20px 10px;
+    .fadeIn {
+  animation: fadeIn 0.6s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
   }
 }
 /* Loader estilo spinner */
@@ -121,5 +134,54 @@
   width: 32px;
   height: 32px;
 }
+
+.bannerContainer {
+  width: 100%;
+  aspect-ratio: 16 / 6; 
+  overflow: hidden;
+  position: relative;
+  .bannerOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), transparent 60%);
+}
+
+}
+
+.bannerImg {
+  width: 100%;
+  max-height: 350px; 
+  object-fit: cover;
+  object-position: center top; 
+}
+
+.btnSecundario {
+  background-color: white;
+  color: #1a1a1a;
+  border: 2px solid #1a1a1a;
+  padding: 12px 28px;
+  border-radius: 9999px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btnSecundario:hover {
+  background-color: #1a1a1a;
+  color: white;
+}
+.estrelas span {
+  display: inline-block;
+  position: relative;
+}
+
+.estrelas span::before {
+  content: '★';
+  color: #ccc;
+}
+
+.estrelas span.filled::before {
+  color: #facc15;
+}
+
 
 

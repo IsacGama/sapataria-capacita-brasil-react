@@ -14,9 +14,13 @@
 }
 
 .produto-imagens {
+  display: flex;
+  flex-direction: column;
   flex: 1;
   max-width: 520px;
   min-width: 300px;
+  justify-content: center;
+  align-items: center;
 }
 
 .carrossel-container { position: relative; }
@@ -47,7 +51,7 @@
 .btn-anterior { left: 10px; }
 .btn-proximo { right: 10px; }
 .imagens-miniaturas { display: flex; gap: 12px; margin-top: 18px; justify-content: center; }
-.miniaturas { width: 80px; height: 80px; object-fit: cover; border: 1px solid #ccc; border-radius: 4px; cursor: pointer; transition: transform 0.3s ease, border-color 0.3s ease; }
+.miniaturas { width: 80px; height: 80px; object-fit: cover; border: 1px solid #ccc; border-radius: 4px; cursor: pointer; transition: transform 0.3s ease, border-color 0.3s ease; margin-left: 0; }
 .miniaturas:hover, .miniaturas.ativa { border-color: #000; transform: translateY(-4px); }
 .miniaturas.ativa { border-width: 2px; }
 
@@ -355,7 +359,24 @@
   margin-bottom: 32px;
 }
 
-.relacionados-grid { display: flex; gap: 30px; flex-wrap: wrap; justify-content: flex-start; }
+@media (max-width: 768px) {
+  .produto-container {
+    flex-direction: column;
+  }
+  .produto-info h1 {
+    font-size: 1.6rem;
+  }
+  .preco-principal {
+    font-size: 2rem;
+  }
+  .miniaturas {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+
+.relacionados-grid { display: flex; gap: 30px; flex-wrap: wrap; justify-content: center; }
 .relacionado-card { width: 250px; border-radius: 6px; cursor: pointer; transition: transform 0.3s ease, box-shadow 0.3s ease; }
 .relacionado-card:hover { transform: translateY(-8px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
 .relacionado-card img { width: 100%; border-radius: 6px; box-shadow: 0 2px 10px rgba(0,0,0,0.06); margin-bottom: 15px; }
@@ -368,3 +389,14 @@ body.body-no-scroll { overflow: hidden; }
 .lightbox-fechar:hover { transform: scale(1.1); }
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 @keyframes zoomIn { from { transform: scale(0.8); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+
+@media (max-width: 992px) {
+  .produto-container {
+    flex-direction: column; 
+  }
+
+  .produto-imagens,
+  .produto-info {
+    max-width: 100%; 
+  }
+}

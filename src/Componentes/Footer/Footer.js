@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import { Link } from "react-router-dom";
-import instagram from "../../RedeSociais/instagram.png";
-import twitter from "../../RedeSociais/twitter.png";
-import facebook from "../../RedeSociais/facebook.png";
 
 export function Footer() {
+  const instagram = "/assets/RedeSociais/instagram.png";
+  const twitter = "/assets/RedeSociais/twitter.png";
+  const facebook = "/assets/RedeSociais/facebook.png"
   return (
     <footer className={styles.footer}>
       <div className={styles.grid}>

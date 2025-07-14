@@ -7,6 +7,7 @@
 }
 
 .btn-quantidade {
+  display: flex;
   padding: 10px 14px;
   background-color: #000;
   color: #fff;
@@ -16,6 +17,9 @@
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .btn-quantidade:hover {
