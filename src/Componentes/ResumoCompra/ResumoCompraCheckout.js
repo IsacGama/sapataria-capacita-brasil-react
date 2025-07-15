@@ -1,16 +1,20 @@
 import { useSelector } from 'react-redux';
 import Button from '../Buttons/Button';
 import './ResumoCompraCheckout.css';
+import { useNavigate } from 'react-router-dom';
 
 export default function ResumoCompraCheckout({ onConfirm }) {
   const cartItems = useSelector(state => state.cart.items);
   const subtotal = useSelector(state => state.cart.total);
   const frete = 0.0;
   const total = subtotal + frete;
+  const navigate = useNavigate()
 
   const handleConfirmOrder = () => {
     if (onConfirm) {
       onConfirm(cartItems, total);
+      navigate('/')
+      window.scrollTo(0, 0);
     }
   };
 

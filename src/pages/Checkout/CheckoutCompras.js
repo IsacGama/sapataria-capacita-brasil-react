@@ -1,9 +1,13 @@
 import './CheckoutCompras.css';
 import ResumoCompraCheckout from '../../Componentes/ResumoCompra/ResumoCompraCheckout';
 import { useRef } from 'react';
+import { useDispatch } from 'react-redux'; 
+import { clearCart } from '../../Componentes/Cart/CartSlice';
+
 
 export default function CheckoutCompras() {
   const formRef = useRef();
+  const dispatch = useDispatch(); 
 
   const handleConfirmOrder = (cartItems, total) => {
     const formData = new FormData(formRef.current);
@@ -36,6 +40,8 @@ export default function CheckoutCompras() {
 
     console.log('Pedido Finalizado:', pedido);
     alert('Pedido confirmado!');
+
+    dispatch(clearCart()); // Zera o carrinho
   };
 
   return (
