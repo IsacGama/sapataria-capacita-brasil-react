@@ -1,0 +1,26 @@
+.resumo-compra {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 16px;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: #fafafa;
+}
+
+.resumo-compra h2 {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.linha {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.total {
+  margin-top: 12px;
+  font-weight: bold;
+}

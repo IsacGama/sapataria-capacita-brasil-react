@@ -1,0 +1,96 @@
+.resumo-compra-checkout {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+  
+}
+
+.resumo-compra-checkout h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.produtos-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.produto-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #edf2f7;
+}
+
+.produto-item:last-child {
+  border-bottom: none;
+}
+
+.produto-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.produto-item .info {
+  flex: 1;
+}
+
+.produto-item .info p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+
+.produto-item .info strong {
+  font-size: 0.95rem;
+  color: #1a202c;
+}
+
+.linha {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 0.95rem;
+  color: #4a5568;
+}
+
+.linha.total {
+  margin-top: 10px;
+  padding-top: 15px;
+  border-top: 1px solid #e2e8f0;
+  font-size: 1.1rem;
+  color: #1a202c;
+  font-weight: 600;
+}
+
+/* Custom scrollbar */
+.produtos-lista::-webkit-scrollbar {
+  width: 6px;
+}
+
+.produtos-lista::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.produtos-lista::-webkit-scrollbar-thumb {
+  background: #cbd5e0;
+  border-radius: 10px;
+}
+
+.produtos-lista::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
+}
