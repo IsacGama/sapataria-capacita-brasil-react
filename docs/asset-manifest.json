@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.460a071c.css",
-    "main.js": "/static/js/main.416e029e.js",
+    "main.js": "/static/js/main.33e6e5bd.js",
     "static/js/453.7dd78835.chunk.js": "/static/js/453.7dd78835.chunk.js",
     "static/media/logo-sapataria.png": "/static/media/logo-sapataria.bdce9cf16f900a26161d.png",
     "static/media/Sapataria Sobre.png": "/static/media/Sapataria Sobre.5f3e5dcb2d745ba323fa.png",
     "index.html": "/index.html",
     "main.460a071c.css.map": "/static/css/main.460a071c.css.map",
-    "main.416e029e.js.map": "/static/js/main.416e029e.js.map",
+    "main.33e6e5bd.js.map": "/static/js/main.33e6e5bd.js.map",
     "453.7dd78835.chunk.js.map": "/static/js/453.7dd78835.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.460a071c.css",
-    "static/js/main.416e029e.js"
+    "static/js/main.33e6e5bd.js"
   ]
 }
