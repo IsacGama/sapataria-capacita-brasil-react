@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Menu, X, Search, User } from "lucide-react";
 import { Link } from "react-router-dom";
 import Logo from "../Header/Logo/logo-sapataria.png";
-import CartIcon from "../Cart/CartIcon"
+import CartIcon from "../Cart/CartIcon";
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,7 +23,6 @@ export function Header() {
       mediaQuery.removeEventListener("change", handleResize);
     };
   }, []);
-
 
   return (
     <header className={styles.header}>
