@@ -13,7 +13,7 @@ function ProdutoCard({ produto }) {
 
   return (
       <Link type='none'
-        to={`/especifico/${produto.id}`}
+        to={`/produtos/${produto.id}`}
         className='produto-card'
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}

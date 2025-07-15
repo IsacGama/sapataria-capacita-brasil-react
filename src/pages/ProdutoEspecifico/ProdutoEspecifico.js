@@ -27,6 +27,13 @@ export default function ProdutoEspecifico() {
   const produto = produtos.find((p) => p.id === parseInt(id));
 
   useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }, [id]);
+
+  useEffect(() => {
     getSapatos()
       .then((data) => setProdutos(data))
       .catch(() => setErro("Erro ao carregar os produtos."))
