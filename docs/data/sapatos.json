@@ -1,0 +1,5022 @@
+[
+  {
+    "id": 1,
+    "nome": "Sapato Social Penny Loafer Preto",
+    "tipo": "Penny Loafer",
+    "cor": "Preto",
+    "stars": 4.5,
+    "qtdEstoque": 10,
+    "qtdVendido": 5,
+    "qtdAvaliacao": 110,
+    "preco": {
+      "semDesconto": 748.0,
+      "aVista": 710.6,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 249.33
+        },
+        {
+          "parcelas": 6,
+          "valor": 124.67
+        },
+        {
+          "parcelas": 12,
+          "valor": 62.33
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_1.png",
+      "/assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_2.png",
+      "/assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_3.png",
+      "/assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_4.png",
+      "/assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_5.png",
+      "/assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_6.png"
+    ],
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Sapato Social Derby Preto",
+    "tipo": "Derby",
+    "cor": "Preto",
+    "stars": 3.6,
+    "qtdEstoque": 10,
+    "qtdVendido": 5,
+    "qtdAvaliacao": 1406,
+    "preco": {
+      "semDesconto": 748.0,
+      "aVista": 710.6,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 249.33
+        },
+        {
+          "parcelas": 6,
+          "valor": 124.67
+        },
+        {
+          "parcelas": 12,
+          "valor": 62.33
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SocialDerbyPreto/SocialDerbyPreto_1.png",
+      "/assets/images/SocialDerbyPreto/SocialDerbyPreto_2.png",
+      "/assets/images/SocialDerbyPreto/SocialDerbyPreto_3.png",
+      "/assets/images/SocialDerbyPreto/SocialDerbyPreto_4.png",
+      "/assets/images/SocialDerbyPreto/SocialDerbyPreto_5.png",
+      "/assets/images/SocialDerbyPreto/SocialDerbyPreto_6.png"
+    ],
+    "descricao": "Um sapato social clássico com design atemporal e conforto excepcional.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Sapato Social Derby Tostado",
+    "tipo": "Derby",
+    "cor": "Tostado",
+    "stars": 4.2,
+    "qtdEstoque": 20,
+    "qtdVendido": 5,
+    "qtdAvaliacao": 1707,
+    "preco": {
+      "semDesconto": 848.0,
+      "aVista": 805.6,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 282.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 141.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 70.67
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SocialDerbyTostado/SocialDerbyTostado_1.png",
+      "/assets/images/SocialDerbyTostado/SocialDerbyTostado_2.png",
+      "/assets/images/SocialDerbyTostado/SocialDerbyTostado_3.png",
+      "/assets/images/SocialDerbyTostado/SocialDerbyTostado_4.png",
+      "/assets/images/SocialDerbyTostado/SocialDerbyTostado_5.png",
+      "/assets/images/SocialDerbyTostado/SocialDerbyTostado_6.png"
+    ],
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "Sapato Social Com Pingente Whisky",
+    "tipo": "Social Com Pingente",
+    "cor": "Whisky",
+    "stars": 3.7,
+    "qtdEstoque": 11,
+    "qtdVendido": 75,
+    "qtdAvaliacao": 73,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 878.0,
+      "aVista": 834.1,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 292.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 146.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 73.17
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SocialComPingenteWhisky/SocialComPingenteWhisky_1.png",
+      "/assets/images/SocialComPingenteWhisky/SocialComPingenteWhisky_2.png",
+      "/assets/images/SocialComPingenteWhisky/SocialComPingenteWhisky_3.png",
+      "/assets/images/SocialComPingenteWhisky/SocialComPingenteWhisky_4.png",
+      "/assets/images/SocialComPingenteWhisky/SocialComPingenteWhisky_5.png",
+      "/assets/images/SocialComPingenteWhisky/SocialComPingenteWhisky_6.png"
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "Sapato Social Derby Tostado",
+    "tipo": "Derby",
+    "cor": "Tostado",
+    "stars": 4.8,
+    "qtdEstoque": 9,
+    "qtdVendido": 393,
+    "qtdAvaliacao": 38,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 848.0,
+      "aVista": 805.6,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 282.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 141.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 70.67
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SocialDerbyTostado/SocialDerbyTostado_1.png",
+      "/assets/images/SocialDerbyTostado/SocialDerbyTostado_2.png",
+      "/assets/images/SocialDerbyTostado/SocialDerbyTostado_3.png",
+      "/assets/images/SocialDerbyTostado/SocialDerbyTostado_4.png",
+      "/assets/images/SocialDerbyTostado/SocialDerbyTostado_5.png",
+      "/assets/images/SocialDerbyTostado/SocialDerbyTostado_6.png"
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "Sapato Social Derby Café",
+    "tipo": "Derby",
+    "cor": "Cafe",
+    "stars": 4.4,
+    "qtdEstoque": 7,
+    "qtdVendido": 15,
+    "qtdAvaliacao": 7,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 848.0,
+      "aVista": 805.6,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 282.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 141.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 70.67
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SocialDerbyCafé/SocialDerbyCafé_1.png",
+      "/assets/images/SocialDerbyCafé/SocialDerbyCafé_2.png",
+      "/assets/images/SocialDerbyCafé/SocialDerbyCafé_3.png",
+      "/assets/images/SocialDerbyCafé/SocialDerbyCafé_4.png",
+      "/assets/images/SocialDerbyCafé/SocialDerbyCafé_5.png",
+      "/assets/images/SocialDerbyCafé/SocialDerbyCafé_6.png"
+    ]
+  },
+  {
+    "id": 7,
+    "nome": "Sapato Social Penny Loafer Pinhão",
+    "tipo": "Penny Loafer",
+    "cor": "Pinhão",
+    "stars": 4.7,
+    "qtdEstoque": 6,
+    "qtdVendido": 45,
+    "qtdAvaliacao": 37,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 848.0,
+      "aVista": 805.6,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 282.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 141.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 70.67
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SocialPennyLoaferPinhão/SocialPennyLoaferPinhão_1.png",
+      "/assets/images/SocialPennyLoaferPinhão/SocialPennyLoaferPinhão_2.png",
+      "/assets/images/SocialPennyLoaferPinhão/SocialPennyLoaferPinhão_3.png",
+      "/assets/images/SocialPennyLoaferPinhão/SocialPennyLoaferPinhão_4.png",
+      "/assets/images/SocialPennyLoaferPinhão/SocialPennyLoaferPinhão_5.png",
+      "/assets/images/SocialPennyLoaferPinhão/SocialPennyLoaferPinhão_6.png"
+    ]
+  },
+  {
+    "id": 8,
+    "nome": "Sapato Social Loafer Com Bridão Preto",
+    "tipo": "Loafer Com Bridão",
+    "cor": "Preto",
+    "stars": 4.4,
+    "qtdEstoque": 19,
+    "qtdVendido": 309,
+    "qtdAvaliacao": 141,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 568.0,
+      "aVista": 539.6,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 189.33
+        },
+        {
+          "parcelas": 6,
+          "valor": 94.67
+        },
+        {
+          "parcelas": 12,
+          "valor": 47.33
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SocialLoaferComBridãoPreto/SocialLoaferComBridãoPreto_1.png",
+      "/assets/images/SocialLoaferComBridãoPreto/SocialLoaferComBridãoPreto_2.png",
+      "/assets/images/SocialLoaferComBridãoPreto/SocialLoaferComBridãoPreto_3.png",
+      "/assets/images/SocialLoaferComBridãoPreto/SocialLoaferComBridãoPreto_4.png",
+      "/assets/images/SocialLoaferComBridãoPreto/SocialLoaferComBridãoPreto_5.png",
+      "/assets/images/SocialLoaferComBridãoPreto/SocialLoaferComBridãoPreto_6.png",
+      "/assets/images/SocialLoaferComBridãoPreto/SocialLoaferComBridãoPreto_7.png"
+    ]
+  },
+  {
+    "id": 9,
+    "nome": "Sapato Social Penny Loafer Café",
+    "tipo": "Penny Loafer",
+    "cor": "Cafe",
+    "stars": 4.4,
+    "qtdEstoque": 6,
+    "qtdVendido": 50,
+    "qtdAvaliacao": 34,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 848.0,
+      "aVista": 805.6,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 282.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 141.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 70.67
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SocialPennyLoaferCafé/SocialPennyLoaferCafé_1.png",
+      "/assets/images/SocialPennyLoaferCafé/SocialPennyLoaferCafé_2.png",
+      "/assets/images/SocialPennyLoaferCafé/SocialPennyLoaferCafé_3.png",
+      "/assets/images/SocialPennyLoaferCafé/SocialPennyLoaferCafé_4.png",
+      "/assets/images/SocialPennyLoaferCafé/SocialPennyLoaferCafé_5.png",
+      "/assets/images/SocialPennyLoaferCafé/SocialPennyLoaferCafé_6.png"
+    ]
+  },
+  {
+    "id": 10,
+    "nome": "Sapato Social De Amarrar Liso Preto",
+    "tipo": "Social De Amarrar",
+    "cor": "Preto",
+    "stars": 5.0,
+    "qtdEstoque": 6,
+    "qtdVendido": 253,
+    "qtdAvaliacao": 24,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 748.0,
+      "aVista": 710.6,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 249.33
+        },
+        {
+          "parcelas": 6,
+          "valor": 124.67
+        },
+        {
+          "parcelas": 12,
+          "valor": 62.33
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SocialDeAmarrarLisoPreto/SocialDeAmarrarLisoPreto_1.png",
+      "/assets/images/SocialDeAmarrarLisoPreto/SocialDeAmarrarLisoPreto_2.png",
+      "/assets/images/SocialDeAmarrarLisoPreto/SocialDeAmarrarLisoPreto_3.png",
+      "/assets/images/SocialDeAmarrarLisoPreto/SocialDeAmarrarLisoPreto_4.png",
+      "/assets/images/SocialDeAmarrarLisoPreto/SocialDeAmarrarLisoPreto_5.png",
+      "/assets/images/SocialDeAmarrarLisoPreto/SocialDeAmarrarLisoPreto_6.png"
+    ]
+  },
+  {
+    "id": 11,
+    "nome": "Sapato Social Derby Whisky",
+    "tipo": "Derby",
+    "cor": "Whisky",
+    "stars": 4.4,
+    "qtdEstoque": 10,
+    "qtdVendido": 409,
+    "qtdAvaliacao": 286,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 878.0,
+      "aVista": 834.1,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 292.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 146.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 73.17
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SocialDerbyWhisky/SocialDerbyWhisky_1.png",
+      "/assets/images/SocialDerbyWhisky/SocialDerbyWhisky_2.png",
+      "/assets/images/SocialDerbyWhisky/SocialDerbyWhisky_3.png",
+      "/assets/images/SocialDerbyWhisky/SocialDerbyWhisky_4.png",
+      "/assets/images/SocialDerbyWhisky/SocialDerbyWhisky_5.png",
+      "/assets/images/SocialDerbyWhisky/SocialDerbyWhisky_6.png"
+    ]
+  },
+  {
+    "id": 12,
+    "nome": "Sapato Social Penny Loafer Damasco",
+    "tipo": "Penny Loafer",
+    "cor": "Damasco",
+    "stars": 4.4,
+    "qtdEstoque": 11,
+    "qtdVendido": 356,
+    "qtdAvaliacao": 349,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 748.0,
+      "aVista": 710.6,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 249.33
+        },
+        {
+          "parcelas": 6,
+          "valor": 124.67
+        },
+        {
+          "parcelas": 12,
+          "valor": 62.33
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SocialPennyLoaferDamasco/SocialPennyLoaferDamasco_1.png",
+      "/assets/images/SocialPennyLoaferDamasco/SocialPennyLoaferDamasco_2.png",
+      "/assets/images/SocialPennyLoaferDamasco/SocialPennyLoaferDamasco_3.png",
+      "/assets/images/SocialPennyLoaferDamasco/SocialPennyLoaferDamasco_4.png",
+      "/assets/images/SocialPennyLoaferDamasco/SocialPennyLoaferDamasco_5.png",
+      "/assets/images/SocialPennyLoaferDamasco/SocialPennyLoaferDamasco_6.png"
+    ]
+  },
+  {
+    "id": 13,
+    "nome": "Sapato Social Monk Preto",
+    "tipo": "Monk",
+    "cor": "Preto",
+    "stars": 4.0,
+    "qtdEstoque": 19,
+    "qtdVendido": 140,
+    "qtdAvaliacao": 138,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 878.0,
+      "aVista": 834.1,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 292.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 146.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 73.17
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SocialMonkPreto/SocialMonkPreto_1.png",
+      "/assets/images/SocialMonkPreto/SocialMonkPreto_2.png",
+      "/assets/images/SocialMonkPreto/SocialMonkPreto_3.png",
+      "/assets/images/SocialMonkPreto/SocialMonkPreto_4.png",
+      "/assets/images/SocialMonkPreto/SocialMonkPreto_5.png",
+      "/assets/images/SocialMonkPreto/SocialMonkPreto_6.png"
+    ]
+  },
+  {
+    "id": 14,
+    "nome": "Sapato Social Penny Loafer Preto",
+    "tipo": "Penny Loafer",
+    "cor": "Preto",
+    "stars": 5.0,
+    "qtdEstoque": 13,
+    "qtdVendido": 39,
+    "qtdAvaliacao": 8,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 848.0,
+      "aVista": 805.6,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 282.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 141.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 70.67
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_1.png",
+      "/assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_2.png",
+      "/assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_3.png",
+      "/assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_4.png",
+      "/assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_5.png",
+      "/assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_6.png"
+    ]
+  },
+  {
+    "id": 15,
+    "nome": "Sapato Social Derby De Amarrar Preto",
+    "tipo": "Derby De Amarrar",
+    "cor": "Preto",
+    "stars": 3.9,
+    "qtdEstoque": 10,
+    "qtdVendido": 134,
+    "qtdAvaliacao": 27,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 568.0,
+      "aVista": 539.6,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 189.33
+        },
+        {
+          "parcelas": 6,
+          "valor": 94.67
+        },
+        {
+          "parcelas": 12,
+          "valor": 47.33
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SocialDerbyDeAmarrarPreto/SocialDerbyDeAmarrarPreto_1.png",
+      "/assets/images/SocialDerbyDeAmarrarPreto/SocialDerbyDeAmarrarPreto_2.png",
+      "/assets/images/SocialDerbyDeAmarrarPreto/SocialDerbyDeAmarrarPreto_3.png",
+      "/assets/images/SocialDerbyDeAmarrarPreto/SocialDerbyDeAmarrarPreto_4.png",
+      "/assets/images/SocialDerbyDeAmarrarPreto/SocialDerbyDeAmarrarPreto_5.png",
+      "/assets/images/SocialDerbyDeAmarrarPreto/SocialDerbyDeAmarrarPreto_6.png"
+    ]
+  },
+  {
+    "id": 16,
+    "nome": "Sapato Social Derby De Amarrar Café",
+    "tipo": "Derby De Amarrar",
+    "cor": "Cafe",
+    "stars": 4.6,
+    "qtdEstoque": 10,
+    "qtdVendido": 49,
+    "qtdAvaliacao": 37,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 568.0,
+      "aVista": 539.6,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 189.33
+        },
+        {
+          "parcelas": 6,
+          "valor": 94.67
+        },
+        {
+          "parcelas": 12,
+          "valor": 47.33
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SocialDerbyDeAmarrarCafé/SocialDerbyDeAmarrarCafé_1.png",
+      "/assets/images/SocialDerbyDeAmarrarCafé/SocialDerbyDeAmarrarCafé_2.png",
+      "/assets/images/SocialDerbyDeAmarrarCafé/SocialDerbyDeAmarrarCafé_3.png",
+      "/assets/images/SocialDerbyDeAmarrarCafé/SocialDerbyDeAmarrarCafé_4.png",
+      "/assets/images/SocialDerbyDeAmarrarCafé/SocialDerbyDeAmarrarCafé_5.png",
+      "/assets/images/SocialDerbyDeAmarrarCafé/SocialDerbyDeAmarrarCafé_6.png"
+    ]
+  },
+  {
+    "id": 17,
+    "nome": "Sapato Social Derby Full Brogue Tostado",
+    "tipo": "Derby Full Brogue",
+    "cor": "Tostado",
+    "stars": 3.8,
+    "qtdEstoque": 14,
+    "qtdVendido": 426,
+    "qtdAvaliacao": 274,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 748.0,
+      "aVista": 710.6,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 249.33
+        },
+        {
+          "parcelas": 6,
+          "valor": 124.67
+        },
+        {
+          "parcelas": 12,
+          "valor": 62.33
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SocialDerbyFullBrogueTostado/SocialDerbyFullBrogueTostado_1.png",
+      "/assets/images/SocialDerbyFullBrogueTostado/SocialDerbyFullBrogueTostado_2.png",
+      "/assets/images/SocialDerbyFullBrogueTostado/SocialDerbyFullBrogueTostado_3.png",
+      "/assets/images/SocialDerbyFullBrogueTostado/SocialDerbyFullBrogueTostado_4.png",
+      "/assets/images/SocialDerbyFullBrogueTostado/SocialDerbyFullBrogueTostado_5.png",
+      "/assets/images/SocialDerbyFullBrogueTostado/SocialDerbyFullBrogueTostado_6.png"
+    ]
+  },
+  {
+    "id": 18,
+    "nome": "Sapato Social Penny Loafer Chocolate",
+    "tipo": "Penny Loafer",
+    "cor": "Chocolate",
+    "stars": 4.5,
+    "qtdEstoque": 9,
+    "qtdVendido": 349,
+    "qtdAvaliacao": 145,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 878.0,
+      "aVista": 834.1,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 292.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 146.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 73.17
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SocialPennyLoaferChocolate/SocialPennyLoaferChocolate_1.png",
+      "/assets/images/SocialPennyLoaferChocolate/SocialPennyLoaferChocolate_2.png",
+      "/assets/images/SocialPennyLoaferChocolate/SocialPennyLoaferChocolate_3.png",
+      "/assets/images/SocialPennyLoaferChocolate/SocialPennyLoaferChocolate_4.png",
+      "/assets/images/SocialPennyLoaferChocolate/SocialPennyLoaferChocolate_5.png",
+      "/assets/images/SocialPennyLoaferChocolate/SocialPennyLoaferChocolate_6.png"
+    ]
+  },
+  {
+    "id": 19,
+    "nome": "Sapato Social Derby Full Brogue Preto",
+    "tipo": "Derby Full Brogue",
+    "cor": "Preto",
+    "stars": 4.0,
+    "qtdEstoque": 14,
+    "qtdVendido": 27,
+    "qtdAvaliacao": 5,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 748.0,
+      "aVista": 710.6,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 249.33
+        },
+        {
+          "parcelas": 6,
+          "valor": 124.67
+        },
+        {
+          "parcelas": 12,
+          "valor": 62.33
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SocialDerbyFullBroguePreto/SocialDerbyFullBroguePreto_1.png",
+      "/assets/images/SocialDerbyFullBroguePreto/SocialDerbyFullBroguePreto_2.png",
+      "/assets/images/SocialDerbyFullBroguePreto/SocialDerbyFullBroguePreto_3.png",
+      "/assets/images/SocialDerbyFullBroguePreto/SocialDerbyFullBroguePreto_4.png",
+      "/assets/images/SocialDerbyFullBroguePreto/SocialDerbyFullBroguePreto_5.png",
+      "/assets/images/SocialDerbyFullBroguePreto/SocialDerbyFullBroguePreto_6.png"
+    ]
+  },
+  {
+    "id": 20,
+    "nome": "Sapato Casual Penny Loafer Tratorado Café",
+    "tipo": "Penny Loafer",
+    "cor": "Cafe",
+    "stars": 5.0,
+    "qtdEstoque": 6,
+    "qtdVendido": 177,
+    "qtdAvaliacao": 125,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 548.0,
+      "aVista": 548.0,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 182.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 91.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 45.67
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualPennyLoaferTratoradoCafé/CasualPennyLoaferTratoradoCafé_1.png",
+      "/assets/images/CasualPennyLoaferTratoradoCafé/CasualPennyLoaferTratoradoCafé_2.png",
+      "/assets/images/CasualPennyLoaferTratoradoCafé/CasualPennyLoaferTratoradoCafé_3.png",
+      "/assets/images/CasualPennyLoaferTratoradoCafé/CasualPennyLoaferTratoradoCafé_4.png",
+      "/assets/images/CasualPennyLoaferTratoradoCafé/CasualPennyLoaferTratoradoCafé_5.png",
+      "/assets/images/CasualPennyLoaferTratoradoCafé/CasualPennyLoaferTratoradoCafé_6.png"
+    ]
+  },
+  {
+    "id": 21,
+    "nome": "Casual Derby Wallabee Conhaque",
+    "tipo": "Derby Wallabee",
+    "cor": "Conhaque",
+    "stars": 4.0,
+    "qtdEstoque": 14,
+    "qtdVendido": 96,
+    "qtdAvaliacao": 38,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 598.0,
+      "aVista": 568.1,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 199.33
+        },
+        {
+          "parcelas": 6,
+          "valor": 99.67
+        },
+        {
+          "parcelas": 12,
+          "valor": 49.83
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualDerbyWallabeeConhaque/CasualDerbyWallabeeConhaque_1.png",
+      "/assets/images/CasualDerbyWallabeeConhaque/CasualDerbyWallabeeConhaque_2.png",
+      "/assets/images/CasualDerbyWallabeeConhaque/CasualDerbyWallabeeConhaque_3.png",
+      "/assets/images/CasualDerbyWallabeeConhaque/CasualDerbyWallabeeConhaque_4.png",
+      "/assets/images/CasualDerbyWallabeeConhaque/CasualDerbyWallabeeConhaque_5.png",
+      "/assets/images/CasualDerbyWallabeeConhaque/CasualDerbyWallabeeConhaque_6.png"
+    ]
+  },
+  {
+    "id": 22,
+    "nome": "Sapato Casual Pala Lisa Marinho",
+    "tipo": "Casual",
+    "cor": "Marinho",
+    "stars": 4.7,
+    "qtdEstoque": 10,
+    "qtdVendido": 40,
+    "qtdAvaliacao": 27,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 498.0,
+      "aVista": 498.0,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 166.0
+        },
+        {
+          "parcelas": 6,
+          "valor": 83.0
+        },
+        {
+          "parcelas": 12,
+          "valor": 41.5
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualPalaLisaMarinho/CasualPalaLisaMarinho_1.png",
+      "/assets/images/CasualPalaLisaMarinho/CasualPalaLisaMarinho_2.png",
+      "/assets/images/CasualPalaLisaMarinho/CasualPalaLisaMarinho_3.png",
+      "/assets/images/CasualPalaLisaMarinho/CasualPalaLisaMarinho_4.png",
+      "/assets/images/CasualPalaLisaMarinho/CasualPalaLisaMarinho_5.png",
+      "/assets/images/CasualPalaLisaMarinho/CasualPalaLisaMarinho_6.png"
+    ]
+  },
+  {
+    "id": 23,
+    "nome": "Casual Derby Wallabee Brown",
+    "tipo": "Derby Wallabee",
+    "cor": "Marrom",
+    "stars": 3.8,
+    "qtdEstoque": 15,
+    "qtdVendido": 403,
+    "qtdAvaliacao": 103,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 598.0,
+      "aVista": 568.1,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 199.33
+        },
+        {
+          "parcelas": 6,
+          "valor": 99.67
+        },
+        {
+          "parcelas": 12,
+          "valor": 49.83
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualDerbyWallabeeBrown/CasualDerbyWallabeeBrown_1.png",
+      "/assets/images/CasualDerbyWallabeeBrown/CasualDerbyWallabeeBrown_2.png",
+      "/assets/images/CasualDerbyWallabeeBrown/CasualDerbyWallabeeBrown_3.png",
+      "/assets/images/CasualDerbyWallabeeBrown/CasualDerbyWallabeeBrown_4.png",
+      "/assets/images/CasualDerbyWallabeeBrown/CasualDerbyWallabeeBrown_5.png",
+      "/assets/images/CasualDerbyWallabeeBrown/CasualDerbyWallabeeBrown_6.png"
+    ]
+  },
+  {
+    "id": 24,
+    "nome": "Sapato Casual Penny Loafer Tratorado Tan",
+    "tipo": "Penny Loafer",
+    "cor": "Marrom",
+    "stars": 4.2,
+    "qtdEstoque": 17,
+    "qtdVendido": 237,
+    "qtdAvaliacao": 112,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 548.0,
+      "aVista": 548.0,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 182.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 91.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 45.67
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualPennyLoaferTratoradoTan/CasualPennyLoaferTratoradoTan_1.png",
+      "/assets/images/CasualPennyLoaferTratoradoTan/CasualPennyLoaferTratoradoTan_2.png",
+      "/assets/images/CasualPennyLoaferTratoradoTan/CasualPennyLoaferTratoradoTan_3.png",
+      "/assets/images/CasualPennyLoaferTratoradoTan/CasualPennyLoaferTratoradoTan_4.png",
+      "/assets/images/CasualPennyLoaferTratoradoTan/CasualPennyLoaferTratoradoTan_5.png",
+      "/assets/images/CasualPennyLoaferTratoradoTan/CasualPennyLoaferTratoradoTan_6.png"
+    ]
+  },
+  {
+    "id": 25,
+    "nome": "Sapato Casual Drive Penny Loafer Whisky",
+    "tipo": "Penny Loafer",
+    "cor": "Whisky",
+    "stars": 4.7,
+    "qtdEstoque": 16,
+    "qtdVendido": 416,
+    "qtdAvaliacao": 297,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 398.0,
+      "aVista": 398.0,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 132.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 66.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 33.17
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualDrivePennyLoaferWhisky/CasualDrivePennyLoaferWhisky_1.png",
+      "/assets/images/CasualDrivePennyLoaferWhisky/CasualDrivePennyLoaferWhisky_2.png",
+      "/assets/images/CasualDrivePennyLoaferWhisky/CasualDrivePennyLoaferWhisky_3.png",
+      "/assets/images/CasualDrivePennyLoaferWhisky/CasualDrivePennyLoaferWhisky_4.png",
+      "/assets/images/CasualDrivePennyLoaferWhisky/CasualDrivePennyLoaferWhisky_5.png",
+      "/assets/images/CasualDrivePennyLoaferWhisky/CasualDrivePennyLoaferWhisky_6.png"
+    ]
+  },
+  {
+    "id": 26,
+    "nome": "Sapato Casual Loafer Com Bridão Na Gravata Whisky",
+    "tipo": "Loafer Com Bridão",
+    "cor": "Whisky",
+    "stars": 4.5,
+    "qtdEstoque": 19,
+    "qtdVendido": 16,
+    "qtdAvaliacao": 8,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 578.0,
+      "aVista": 578.0,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 192.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 96.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 48.17
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualLoaferComBridãoNaGravataWhisky/CasualLoaferComBridãoNaGravataWhisky_1.png",
+      "/assets/images/CasualLoaferComBridãoNaGravataWhisky/CasualLoaferComBridãoNaGravataWhisky_2.png",
+      "/assets/images/CasualLoaferComBridãoNaGravataWhisky/CasualLoaferComBridãoNaGravataWhisky_3.png",
+      "/assets/images/CasualLoaferComBridãoNaGravataWhisky/CasualLoaferComBridãoNaGravataWhisky_4.png",
+      "/assets/images/CasualLoaferComBridãoNaGravataWhisky/CasualLoaferComBridãoNaGravataWhisky_5.png",
+      "/assets/images/CasualLoaferComBridãoNaGravataWhisky/CasualLoaferComBridãoNaGravataWhisky_6.png"
+    ]
+  },
+  {
+    "id": 27,
+    "nome": "Sapato Casual Drive Com Bridão Chocolate",
+    "tipo": "Casual Drive",
+    "cor": "Chocolate",
+    "stars": 4.6,
+    "qtdEstoque": 5,
+    "qtdVendido": 338,
+    "qtdAvaliacao": 332,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 398.0,
+      "aVista": 398.0,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 132.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 66.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 33.17
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualDriveComBridãoChocolate/CasualDriveComBridãoChocolate_1.png",
+      "/assets/images/CasualDriveComBridãoChocolate/CasualDriveComBridãoChocolate_2.png",
+      "/assets/images/CasualDriveComBridãoChocolate/CasualDriveComBridãoChocolate_3.png",
+      "/assets/images/CasualDriveComBridãoChocolate/CasualDriveComBridãoChocolate_4.png",
+      "/assets/images/CasualDriveComBridãoChocolate/CasualDriveComBridãoChocolate_5.png",
+      "/assets/images/CasualDriveComBridãoChocolate/CasualDriveComBridãoChocolate_6.png",
+      "/assets/images/CasualDriveComBridãoChocolate/CasualDriveComBridãoChocolate_7.png"
+    ]
+  },
+  {
+    "id": 28,
+    "nome": "Sapato Casual Penny Loafer Havana",
+    "tipo": "Penny Loafer",
+    "cor": "Havana",
+    "stars": 4.1,
+    "qtdEstoque": 14,
+    "qtdVendido": 397,
+    "qtdAvaliacao": 43,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 498.0,
+      "aVista": 498.0,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 166.0
+        },
+        {
+          "parcelas": 6,
+          "valor": 83.0
+        },
+        {
+          "parcelas": 12,
+          "valor": 41.5
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualPennyLoaferHavana/CasualPennyLoaferHavana_1.png",
+      "/assets/images/CasualPennyLoaferHavana/CasualPennyLoaferHavana_2.png",
+      "/assets/images/CasualPennyLoaferHavana/CasualPennyLoaferHavana_3.png",
+      "/assets/images/CasualPennyLoaferHavana/CasualPennyLoaferHavana_4.png",
+      "/assets/images/CasualPennyLoaferHavana/CasualPennyLoaferHavana_5.png",
+      "/assets/images/CasualPennyLoaferHavana/CasualPennyLoaferHavana_6.png"
+    ]
+  },
+  {
+    "id": 29,
+    "nome": "Sapato Casual Drive Com Bridão Preto",
+    "tipo": "Casual Drive",
+    "cor": "Preto",
+    "stars": 4.7,
+    "qtdEstoque": 17,
+    "qtdVendido": 74,
+    "qtdAvaliacao": 70,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 398.0,
+      "aVista": 398.0,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 132.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 66.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 33.17
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualDriveComBridãoPreto/CasualDriveComBridãoPreto_1.png",
+      "/assets/images/CasualDriveComBridãoPreto/CasualDriveComBridãoPreto_2.png",
+      "/assets/images/CasualDriveComBridãoPreto/CasualDriveComBridãoPreto_3.png",
+      "/assets/images/CasualDriveComBridãoPreto/CasualDriveComBridãoPreto_4.png",
+      "/assets/images/CasualDriveComBridãoPreto/CasualDriveComBridãoPreto_5.png",
+      "/assets/images/CasualDriveComBridãoPreto/CasualDriveComBridãoPreto_6.png"
+    ]
+  },
+  {
+    "id": 30,
+    "nome": "Sapato Casual Penny Loafer Café",
+    "tipo": "Penny Loafer",
+    "cor": "Cafe",
+    "stars": 4.3,
+    "qtdEstoque": 16,
+    "qtdVendido": 442,
+    "qtdAvaliacao": 150,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 498.0,
+      "aVista": 498.0,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 166.0
+        },
+        {
+          "parcelas": 6,
+          "valor": 83.0
+        },
+        {
+          "parcelas": 12,
+          "valor": 41.5
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualPennyLoaferCafé/CasualPennyLoaferCafé_1.png",
+      "/assets/images/CasualPennyLoaferCafé/CasualPennyLoaferCafé_2.png",
+      "/assets/images/CasualPennyLoaferCafé/CasualPennyLoaferCafé_3.png",
+      "/assets/images/CasualPennyLoaferCafé/CasualPennyLoaferCafé_4.png",
+      "/assets/images/CasualPennyLoaferCafé/CasualPennyLoaferCafé_5.png",
+      "/assets/images/CasualPennyLoaferCafé/CasualPennyLoaferCafé_6.png"
+    ]
+  },
+  {
+    "id": 31,
+    "nome": "Sapato Casual Penny Loafer Tratorado Café",
+    "tipo": "Penny Loafer",
+    "cor": "Cafe",
+    "stars": 3.5,
+    "qtdEstoque": 13,
+    "qtdVendido": 110,
+    "qtdAvaliacao": 22,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 548.0,
+      "aVista": 548.0,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 182.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 91.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 45.67
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualPennyLoaferTratoradoCafé/CasualPennyLoaferTratoradoCafé_1.png",
+      "/assets/images/CasualPennyLoaferTratoradoCafé/CasualPennyLoaferTratoradoCafé_2.png",
+      "/assets/images/CasualPennyLoaferTratoradoCafé/CasualPennyLoaferTratoradoCafé_3.png",
+      "/assets/images/CasualPennyLoaferTratoradoCafé/CasualPennyLoaferTratoradoCafé_4.png",
+      "/assets/images/CasualPennyLoaferTratoradoCafé/CasualPennyLoaferTratoradoCafé_5.png",
+      "/assets/images/CasualPennyLoaferTratoradoCafé/CasualPennyLoaferTratoradoCafé_6.png"
+    ]
+  },
+  {
+    "id": 32,
+    "nome": "Sapato Casual Penny Loafer Preto",
+    "tipo": "Penny Loafer",
+    "cor": "Preto",
+    "stars": 3.7,
+    "qtdEstoque": 8,
+    "qtdVendido": 498,
+    "qtdAvaliacao": 349,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 498.0,
+      "aVista": 498.0,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 166.0
+        },
+        {
+          "parcelas": 6,
+          "valor": 83.0
+        },
+        {
+          "parcelas": 12,
+          "valor": 41.5
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualPennyLoaferPreto/CasualPennyLoaferPreto_1.png",
+      "/assets/images/CasualPennyLoaferPreto/CasualPennyLoaferPreto_2.png",
+      "/assets/images/CasualPennyLoaferPreto/CasualPennyLoaferPreto_3.png",
+      "/assets/images/CasualPennyLoaferPreto/CasualPennyLoaferPreto_4.png",
+      "/assets/images/CasualPennyLoaferPreto/CasualPennyLoaferPreto_5.png",
+      "/assets/images/CasualPennyLoaferPreto/CasualPennyLoaferPreto_6.png"
+    ]
+  },
+  {
+    "id": 33,
+    "nome": "Sapato Casual Penny Loafer Tratorado Alecrim",
+    "tipo": "Penny Loafer",
+    "cor": "Alecrim",
+    "stars": 4.0,
+    "qtdEstoque": 5,
+    "qtdVendido": 81,
+    "qtdAvaliacao": 8,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 548.0,
+      "aVista": 548.0,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 182.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 91.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 45.67
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualPennyLoaferTratoradoAlecrim/CasualPennyLoaferTratoradoAlecrim_1.png",
+      "/assets/images/CasualPennyLoaferTratoradoAlecrim/CasualPennyLoaferTratoradoAlecrim_2.png",
+      "/assets/images/CasualPennyLoaferTratoradoAlecrim/CasualPennyLoaferTratoradoAlecrim_3.png",
+      "/assets/images/CasualPennyLoaferTratoradoAlecrim/CasualPennyLoaferTratoradoAlecrim_4.png",
+      "/assets/images/CasualPennyLoaferTratoradoAlecrim/CasualPennyLoaferTratoradoAlecrim_5.png",
+      "/assets/images/CasualPennyLoaferTratoradoAlecrim/CasualPennyLoaferTratoradoAlecrim_6.png"
+    ]
+  },
+  {
+    "id": 34,
+    "nome": "Sapato Casual Drive Com Laço Café",
+    "tipo": "Casual Drive",
+    "cor": "Cafe",
+    "stars": 3.7,
+    "qtdEstoque": 10,
+    "qtdVendido": 481,
+    "qtdAvaliacao": 138,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 398.0,
+      "aVista": 398.0,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 132.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 66.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 33.17
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualDriveComLaçoCafé/CasualDriveComLaçoCafé_1.png",
+      "/assets/images/CasualDriveComLaçoCafé/CasualDriveComLaçoCafé_2.png",
+      "/assets/images/CasualDriveComLaçoCafé/CasualDriveComLaçoCafé_3.png",
+      "/assets/images/CasualDriveComLaçoCafé/CasualDriveComLaçoCafé_4.png",
+      "/assets/images/CasualDriveComLaçoCafé/CasualDriveComLaçoCafé_5.png",
+      "/assets/images/CasualDriveComLaçoCafé/CasualDriveComLaçoCafé_6.png"
+    ]
+  },
+  {
+    "id": 35,
+    "nome": "Sapato Casual Drive Penny Loafer Preto",
+    "tipo": "Penny Loafer",
+    "cor": "Preto",
+    "stars": 4.4,
+    "qtdEstoque": 9,
+    "qtdVendido": 251,
+    "qtdAvaliacao": 110,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 398.0,
+      "aVista": 398.0,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 132.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 66.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 33.17
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualDrivePennyLoaferPreto/CasualDrivePennyLoaferPreto_1.png",
+      "/assets/images/CasualDrivePennyLoaferPreto/CasualDrivePennyLoaferPreto_2.png",
+      "/assets/images/CasualDrivePennyLoaferPreto/CasualDrivePennyLoaferPreto_3.png",
+      "/assets/images/CasualDrivePennyLoaferPreto/CasualDrivePennyLoaferPreto_4.png",
+      "/assets/images/CasualDrivePennyLoaferPreto/CasualDrivePennyLoaferPreto_5.png",
+      "/assets/images/CasualDrivePennyLoaferPreto/CasualDrivePennyLoaferPreto_6.png"
+    ]
+  },
+  {
+    "id": 36,
+    "nome": "Sapato Casual Derby 2 furos Tabaco",
+    "tipo": "Derby",
+    "cor": "Tabaco",
+    "stars": 3.5,
+    "qtdEstoque": 7,
+    "qtdVendido": 422,
+    "qtdAvaliacao": 194,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 598.0,
+      "aVista": 568.1,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 199.33
+        },
+        {
+          "parcelas": 6,
+          "valor": 99.67
+        },
+        {
+          "parcelas": 12,
+          "valor": 49.83
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualDerby2furosTabaco/CasualDerby2furosTabaco_1.png",
+      "/assets/images/CasualDerby2furosTabaco/CasualDerby2furosTabaco_2.png",
+      "/assets/images/CasualDerby2furosTabaco/CasualDerby2furosTabaco_3.png",
+      "/assets/images/CasualDerby2furosTabaco/CasualDerby2furosTabaco_4.png",
+      "/assets/images/CasualDerby2furosTabaco/CasualDerby2furosTabaco_5.png"
+    ]
+  },
+  {
+    "id": 37,
+    "nome": "Sapato Casual Penny Loafer Troy",
+    "tipo": "Penny Loafer",
+    "cor": "Troy",
+    "stars": 4.4,
+    "qtdEstoque": 6,
+    "qtdVendido": 291,
+    "qtdAvaliacao": 188,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 598.0,
+      "aVista": 568.1,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 199.33
+        },
+        {
+          "parcelas": 6,
+          "valor": 99.67
+        },
+        {
+          "parcelas": 12,
+          "valor": 49.83
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualPennyLoaferTroy/CasualPennyLoaferTroy_1.png",
+      "/assets/images/CasualPennyLoaferTroy/CasualPennyLoaferTroy_2.png",
+      "/assets/images/CasualPennyLoaferTroy/CasualPennyLoaferTroy_3.png",
+      "/assets/images/CasualPennyLoaferTroy/CasualPennyLoaferTroy_4.png",
+      "/assets/images/CasualPennyLoaferTroy/CasualPennyLoaferTroy_5.png"
+    ]
+  },
+  {
+    "id": 38,
+    "nome": "Sapato Casual Pala Lisa Marinho",
+    "tipo": "Casual",
+    "cor": "Marinho",
+    "stars": 4.5,
+    "qtdEstoque": 18,
+    "qtdVendido": 319,
+    "qtdAvaliacao": 32,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 598.0,
+      "aVista": 568.1,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 199.33
+        },
+        {
+          "parcelas": 6,
+          "valor": 99.67
+        },
+        {
+          "parcelas": 12,
+          "valor": 49.83
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualPalaLisaMarinho/CasualPalaLisaMarinho_1.png",
+      "/assets/images/CasualPalaLisaMarinho/CasualPalaLisaMarinho_2.png",
+      "/assets/images/CasualPalaLisaMarinho/CasualPalaLisaMarinho_3.png",
+      "/assets/images/CasualPalaLisaMarinho/CasualPalaLisaMarinho_4.png",
+      "/assets/images/CasualPalaLisaMarinho/CasualPalaLisaMarinho_5.png"
+    ]
+  },
+  {
+    "id": 39,
+    "nome": "Sapato Mocassim Penny Loafer Café/Tostado",
+    "tipo": "Mocassim",
+    "cor": "Cafe",
+    "stars": 3.6,
+    "qtdEstoque": 20,
+    "qtdVendido": 298,
+    "qtdAvaliacao": 50,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 398.0,
+      "aVista": 398.0,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 132.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 66.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 33.17
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MocassimPennyLoaferCaféTostado/MocassimPennyLoaferCaféTostado_1.png",
+      "/assets/images/MocassimPennyLoaferCaféTostado/MocassimPennyLoaferCaféTostado_2.png",
+      "/assets/images/MocassimPennyLoaferCaféTostado/MocassimPennyLoaferCaféTostado_3.png",
+      "/assets/images/MocassimPennyLoaferCaféTostado/MocassimPennyLoaferCaféTostado_4.png",
+      "/assets/images/MocassimPennyLoaferCaféTostado/MocassimPennyLoaferCaféTostado_5.png",
+      "/assets/images/MocassimPennyLoaferCaféTostado/MocassimPennyLoaferCaféTostado_6.png"
+    ]
+  },
+  {
+    "id": 40,
+    "nome": "Sapato Mocassim Penny Loafer Preto",
+    "tipo": "Mocassim",
+    "cor": "Preto",
+    "stars": 4.9,
+    "qtdEstoque": 18,
+    "qtdVendido": 412,
+    "qtdAvaliacao": 58,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 398.0,
+      "aVista": 398.0,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 132.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 66.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 33.17
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MocassimPennyLoaferPreto/MocassimPennyLoaferPreto_1.png",
+      "/assets/images/MocassimPennyLoaferPreto/MocassimPennyLoaferPreto_2.png",
+      "/assets/images/MocassimPennyLoaferPreto/MocassimPennyLoaferPreto_3.png",
+      "/assets/images/MocassimPennyLoaferPreto/MocassimPennyLoaferPreto_4.png",
+      "/assets/images/MocassimPennyLoaferPreto/MocassimPennyLoaferPreto_5.png",
+      "/assets/images/MocassimPennyLoaferPreto/MocassimPennyLoaferPreto_6.png"
+    ]
+  },
+  {
+    "id": 41,
+    "nome": "Sapato Mocassim Com Bridão Castanho",
+    "tipo": "Mocassim",
+    "cor": "Castanho",
+    "stars": 4.0,
+    "qtdEstoque": 18,
+    "qtdVendido": 344,
+    "qtdAvaliacao": 124,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 398.0,
+      "aVista": 398.0,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 132.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 66.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 33.17
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MocassimComBridãoCastanho/MocassimComBridãoCastanho_1.png",
+      "/assets/images/MocassimComBridãoCastanho/MocassimComBridãoCastanho_2.png",
+      "/assets/images/MocassimComBridãoCastanho/MocassimComBridãoCastanho_3.png",
+      "/assets/images/MocassimComBridãoCastanho/MocassimComBridãoCastanho_4.png",
+      "/assets/images/MocassimComBridãoCastanho/MocassimComBridãoCastanho_5.png",
+      "/assets/images/MocassimComBridãoCastanho/MocassimComBridãoCastanho_6.png"
+    ]
+  },
+  {
+    "id": 42,
+    "nome": "Sapato Mocassim Com Bridão Preto",
+    "tipo": "Mocassim",
+    "cor": "Preto",
+    "stars": 4.2,
+    "qtdEstoque": 17,
+    "qtdVendido": 453,
+    "qtdAvaliacao": 15,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 398.0,
+      "aVista": 398.0,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 132.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 66.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 33.17
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MocassimComBridãoPreto/MocassimComBridãoPreto_1.png",
+      "/assets/images/MocassimComBridãoPreto/MocassimComBridãoPreto_2.png",
+      "/assets/images/MocassimComBridãoPreto/MocassimComBridãoPreto_3.png",
+      "/assets/images/MocassimComBridãoPreto/MocassimComBridãoPreto_4.png",
+      "/assets/images/MocassimComBridãoPreto/MocassimComBridãoPreto_5.png",
+      "/assets/images/MocassimComBridãoPreto/MocassimComBridãoPreto_6.png"
+    ]
+  },
+  {
+    "id": 43,
+    "nome": "Casual Abotinado Derby Café",
+    "tipo": "Abotinado",
+    "cor": "Cafe",
+    "stars": 4.9,
+    "qtdEstoque": 18,
+    "qtdVendido": 474,
+    "qtdAvaliacao": 138,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 698.0,
+      "aVista": 698.0,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 232.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 116.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 58.17
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualAbotinadoDerbyCafé/CasualAbotinadoDerbyCafé_1.png",
+      "/assets/images/CasualAbotinadoDerbyCafé/CasualAbotinadoDerbyCafé_2.png",
+      "/assets/images/CasualAbotinadoDerbyCafé/CasualAbotinadoDerbyCafé_3.png",
+      "/assets/images/CasualAbotinadoDerbyCafé/CasualAbotinadoDerbyCafé_4.png",
+      "/assets/images/CasualAbotinadoDerbyCafé/CasualAbotinadoDerbyCafé_5.png",
+      "/assets/images/CasualAbotinadoDerbyCafé/CasualAbotinadoDerbyCafé_6.png"
+    ]
+  },
+  {
+    "id": 44,
+    "nome": "Casual Abotinado Derby Preto",
+    "tipo": "Abotinado",
+    "cor": "Preto",
+    "stars": 4.4,
+    "qtdEstoque": 17,
+    "qtdVendido": 188,
+    "qtdAvaliacao": 106,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 698.0,
+      "aVista": 698.0,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 232.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 116.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 58.17
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualAbotinadoDerbyPreto/CasualAbotinadoDerbyPreto_1.png",
+      "/assets/images/CasualAbotinadoDerbyPreto/CasualAbotinadoDerbyPreto_2.png",
+      "/assets/images/CasualAbotinadoDerbyPreto/CasualAbotinadoDerbyPreto_3.png",
+      "/assets/images/CasualAbotinadoDerbyPreto/CasualAbotinadoDerbyPreto_4.png",
+      "/assets/images/CasualAbotinadoDerbyPreto/CasualAbotinadoDerbyPreto_5.png",
+      "/assets/images/CasualAbotinadoDerbyPreto/CasualAbotinadoDerbyPreto_6.png"
+    ]
+  },
+  {
+    "id": 45,
+    "nome": "Casual Abotinado Derby Amêndoa",
+    "tipo": "Abotinado",
+    "cor": "Amêndoa",
+    "stars": 4.0,
+    "qtdEstoque": 11,
+    "qtdVendido": 254,
+    "qtdAvaliacao": 91,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 798.0,
+      "aVista": 758.1,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 266.0
+        },
+        {
+          "parcelas": 6,
+          "valor": 133.0
+        },
+        {
+          "parcelas": 12,
+          "valor": 66.5
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/CasualAbotinadoDerbyAmêndoa/CasualAbotinadoDerbyAmêndoa_1.png",
+      "/assets/images/CasualAbotinadoDerbyAmêndoa/CasualAbotinadoDerbyAmêndoa_2.png",
+      "/assets/images/CasualAbotinadoDerbyAmêndoa/CasualAbotinadoDerbyAmêndoa_3.png",
+      "/assets/images/CasualAbotinadoDerbyAmêndoa/CasualAbotinadoDerbyAmêndoa_4.png",
+      "/assets/images/CasualAbotinadoDerbyAmêndoa/CasualAbotinadoDerbyAmêndoa_5.png",
+      "/assets/images/CasualAbotinadoDerbyAmêndoa/CasualAbotinadoDerbyAmêndoa_6.png"
+    ]
+  },
+  {
+    "id": 46,
+    "nome": "Bota Desert Boot Café",
+    "tipo": "Abotinado",
+    "cor": "Cafe",
+    "stars": 3.6,
+    "qtdEstoque": 12,
+    "qtdVendido": 47,
+    "qtdAvaliacao": 9,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 698.0,
+      "aVista": 663.1,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 232.67
+        },
+        {
+          "parcelas": 6,
+          "valor": 116.33
+        },
+        {
+          "parcelas": 12,
+          "valor": 58.17
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/BotaDesertBootCafé/BotaDesertBootCafé_1.png",
+      "/assets/images/BotaDesertBootCafé/BotaDesertBootCafé_2.png",
+      "/assets/images/BotaDesertBootCafé/BotaDesertBootCafé_3.png",
+      "/assets/images/BotaDesertBootCafé/BotaDesertBootCafé_4.png",
+      "/assets/images/BotaDesertBootCafé/BotaDesertBootCafé_5.png"
+    ]
+  },
+  {
+    "id": 47,
+    "nome": "Sandália Slide Casual Preto",
+    "tipo": "Sandália",
+    "cor": "Preto",
+    "stars": 4.4,
+    "qtdEstoque": 12,
+    "qtdVendido": 442,
+    "qtdAvaliacao": 88,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 328.0,
+      "aVista": 311.6,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 109.33
+        },
+        {
+          "parcelas": 6,
+          "valor": 54.67
+        },
+        {
+          "parcelas": 12,
+          "valor": 27.33
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SandáliaSlideCasualPreto/SandáliaSlideCasualPreto_1.png",
+      "/assets/images/SandáliaSlideCasualPreto/SandáliaSlideCasualPreto_2.png",
+      "/assets/images/SandáliaSlideCasualPreto/SandáliaSlideCasualPreto_3.png",
+      "/assets/images/SandáliaSlideCasualPreto/SandáliaSlideCasualPreto_4.png"
+    ]
+  },
+  {
+    "id": 48,
+    "nome": "Sandália Slide Casual Café",
+    "tipo": "Sandália",
+    "cor": "Cafe",
+    "stars": 4.7,
+    "qtdEstoque": 15,
+    "qtdVendido": 442,
+    "qtdAvaliacao": 431,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 328.0,
+      "aVista": 311.6,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 109.33
+        },
+        {
+          "parcelas": 6,
+          "valor": 54.67
+        },
+        {
+          "parcelas": 12,
+          "valor": 27.33
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SandáliaSlideCasualCafé/SandáliaSlideCasualCafé_1.png",
+      "/assets/images/SandáliaSlideCasualCafé/SandáliaSlideCasualCafé_2.png",
+      "/assets/images/SandáliaSlideCasualCafé/SandáliaSlideCasualCafé_3.png",
+      "/assets/images/SandáliaSlideCasualCafé/SandáliaSlideCasualCafé_4.png"
+    ]
+  },
+  {
+    "id": 49,
+    "nome": "Sandália Casual Com Tira Tressê Tan",
+    "tipo": "Sandália",
+    "cor": "Tan",
+    "stars": 4.2,
+    "qtdEstoque": 9,
+    "qtdVendido": 47,
+    "qtdAvaliacao": 28,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 328.0,
+      "aVista": 311.6,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 109.33
+        },
+        {
+          "parcelas": 6,
+          "valor": 54.67
+        },
+        {
+          "parcelas": 12,
+          "valor": 27.33
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SandáliaCasualComTiraTressêTan/SandáliaCasualComTiraTressêTan_1.png",
+      "/assets/images/SandáliaCasualComTiraTressêTan/SandáliaCasualComTiraTressêTan_2.png",
+      "/assets/images/SandáliaCasualComTiraTressêTan/SandáliaCasualComTiraTressêTan_3.png",
+      "/assets/images/SandáliaCasualComTiraTressêTan/SandáliaCasualComTiraTressêTan_4.png"
+    ]
+  },
+  {
+    "id": 50,
+    "nome": "Sandália Casual Com Tiras e Fivela Lateral Tan",
+    "tipo": "Sandália",
+    "cor": "Tan",
+    "stars": 4.7,
+    "qtdEstoque": 9,
+    "qtdVendido": 95,
+    "qtdAvaliacao": 62,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 328.0,
+      "aVista": 311.6,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 109.33
+        },
+        {
+          "parcelas": 6,
+          "valor": 54.67
+        },
+        {
+          "parcelas": 12,
+          "valor": 27.33
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/SandáliaCasualComTiraseFivelaLateralTan/SandáliaCasualComTiraseFivelaLateralTan_1.png",
+      "/assets/images/SandáliaCasualComTiraseFivelaLateralTan/SandáliaCasualComTiraseFivelaLateralTan_2.png",
+      "/assets/images/SandáliaCasualComTiraseFivelaLateralTan/SandáliaCasualComTiraseFivelaLateralTan_3.png",
+      "/assets/images/SandáliaCasualComTiraseFivelaLateralTan/SandáliaCasualComTiraseFivelaLateralTan_4.png"
+    ]
+  },
+  {
+    "id": 51,
+    "nome": "Sapato Masculino Oxford Giovanni Preto",
+    "tipo": "Oxford",
+    "cor": "Preto",
+    "stars": 4.4,
+    "qtdEstoque": 13,
+    "qtdVendido": 453,
+    "qtdAvaliacao": 367,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 799.9,
+      "aVista": 719.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 266.63
+        },
+        {
+          "parcelas": 6,
+          "valor": 133.32
+        },
+        {
+          "parcelas": 12,
+          "valor": 66.66
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoOxfordGiovanniPreto/MasculinoOxfordGiovanniPreto_1.png",
+      "/assets/images/MasculinoOxfordGiovanniPreto/MasculinoOxfordGiovanniPreto_2.png",
+      "/assets/images/MasculinoOxfordGiovanniPreto/MasculinoOxfordGiovanniPreto_3.png",
+      "/assets/images/MasculinoOxfordGiovanniPreto/MasculinoOxfordGiovanniPreto_4.png",
+      "/assets/images/MasculinoOxfordGiovanniPreto/MasculinoOxfordGiovanniPreto_5.png",
+      "/assets/images/MasculinoOxfordGiovanniPreto/MasculinoOxfordGiovanniPreto_6.png"
+    ]
+  },
+  {
+    "id": 52,
+    "nome": "Sapato Masculino Oxford Giovanni Café",
+    "tipo": "Oxford",
+    "cor": "Cafe",
+    "stars": 4.6,
+    "qtdEstoque": 10,
+    "qtdVendido": 271,
+    "qtdAvaliacao": 89,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 799.9,
+      "aVista": 719.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 266.63
+        },
+        {
+          "parcelas": 6,
+          "valor": 133.32
+        },
+        {
+          "parcelas": 12,
+          "valor": 66.66
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoOxfordGiovanniCafé/MasculinoOxfordGiovanniCafé_1.png",
+      "/assets/images/MasculinoOxfordGiovanniCafé/MasculinoOxfordGiovanniCafé_2.png",
+      "/assets/images/MasculinoOxfordGiovanniCafé/MasculinoOxfordGiovanniCafé_3.png",
+      "/assets/images/MasculinoOxfordGiovanniCafé/MasculinoOxfordGiovanniCafé_4.png",
+      "/assets/images/MasculinoOxfordGiovanniCafé/MasculinoOxfordGiovanniCafé_5.png",
+      "/assets/images/MasculinoOxfordGiovanniCafé/MasculinoOxfordGiovanniCafé_6.png",
+      "/assets/images/MasculinoOxfordGiovanniCafé/MasculinoOxfordGiovanniCafé_7.png",
+      "/assets/images/MasculinoOxfordGiovanniCafé/MasculinoOxfordGiovanniCafé_8.png"
+    ]
+  },
+  {
+    "id": 53,
+    "nome": "Sapato Masculino Oxford Giovanni Tan",
+    "tipo": "Oxford",
+    "cor": "Tan",
+    "stars": 4.1,
+    "qtdEstoque": 16,
+    "qtdVendido": 185,
+    "qtdAvaliacao": 45,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 799.9,
+      "aVista": 719.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 266.63
+        },
+        {
+          "parcelas": 6,
+          "valor": 133.32
+        },
+        {
+          "parcelas": 12,
+          "valor": 66.66
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/OxfordGiovanniTan/OxfordGiovanniTan_1.png",
+      "/assets/images/OxfordGiovanniTan/OxfordGiovanniTan_2.png",
+      "/assets/images/OxfordGiovanniTan/OxfordGiovanniTan_3.png",
+      "/assets/images/OxfordGiovanniTan/OxfordGiovanniTan_4.png",
+      "/assets/images/OxfordGiovanniTan/OxfordGiovanniTan_5.png"
+    ]
+  },
+  {
+    "id": 54,
+    "nome": "Sapato Masculino Oxford Giovanni Canela",
+    "tipo": "Oxford",
+    "cor": "Canela",
+    "stars": 4.2,
+    "qtdEstoque": 11,
+    "qtdVendido": 460,
+    "qtdAvaliacao": 389,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 799.9,
+      "aVista": 719.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 266.63
+        },
+        {
+          "parcelas": 6,
+          "valor": 133.32
+        },
+        {
+          "parcelas": 12,
+          "valor": 66.66
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoOxfordGiovanniCanela/MasculinoOxfordGiovanniCanela_1.png",
+      "/assets/images/MasculinoOxfordGiovanniCanela/MasculinoOxfordGiovanniCanela_2.png",
+      "/assets/images/MasculinoOxfordGiovanniCanela/MasculinoOxfordGiovanniCanela_3.png",
+      "/assets/images/MasculinoOxfordGiovanniCanela/MasculinoOxfordGiovanniCanela_4.png"
+    ]
+  },
+  {
+    "id": 55,
+    "nome": "Sapato Masculino Oxford Ferretti Preto",
+    "tipo": "Oxford",
+    "cor": "Preto",
+    "stars": 3.9,
+    "qtdEstoque": 14,
+    "qtdVendido": 253,
+    "qtdAvaliacao": 240,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 799.9,
+      "aVista": 719.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 266.63
+        },
+        {
+          "parcelas": 6,
+          "valor": 133.32
+        },
+        {
+          "parcelas": 12,
+          "valor": 66.66
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoOxfordFerrettiPreto/MasculinoOxfordFerrettiPreto_1.png",
+      "/assets/images/MasculinoOxfordFerrettiPreto/MasculinoOxfordFerrettiPreto_2.png",
+      "/assets/images/MasculinoOxfordFerrettiPreto/MasculinoOxfordFerrettiPreto_3.png",
+      "/assets/images/MasculinoOxfordFerrettiPreto/MasculinoOxfordFerrettiPreto_4.png"
+    ]
+  },
+  {
+    "id": 56,
+    "nome": "Sapato Masculino Oxford Ferretti Marinho",
+    "tipo": "Oxford",
+    "cor": "Marinho",
+    "stars": 4.9,
+    "qtdEstoque": 6,
+    "qtdVendido": 214,
+    "qtdAvaliacao": 19,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 799.9,
+      "aVista": 719.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 266.63
+        },
+        {
+          "parcelas": 6,
+          "valor": 133.32
+        },
+        {
+          "parcelas": 12,
+          "valor": 66.66
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoOxfordFerrettiMarinho/MasculinoOxfordFerrettiMarinho_1.png",
+      "/assets/images/MasculinoOxfordFerrettiMarinho/MasculinoOxfordFerrettiMarinho_2.png",
+      "/assets/images/MasculinoOxfordFerrettiMarinho/MasculinoOxfordFerrettiMarinho_3.png",
+      "/assets/images/MasculinoOxfordFerrettiMarinho/MasculinoOxfordFerrettiMarinho_4.png"
+    ]
+  },
+  {
+    "id": 57,
+    "nome": "Sapato Masculino Oxford Ferretti Cafe",
+    "tipo": "Oxford",
+    "cor": "Cafe",
+    "stars": 4.9,
+    "qtdEstoque": 5,
+    "qtdVendido": 34,
+    "qtdAvaliacao": 5,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 799.9,
+      "aVista": 719.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 266.63
+        },
+        {
+          "parcelas": 6,
+          "valor": 133.32
+        },
+        {
+          "parcelas": 12,
+          "valor": 66.66
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoOxfordFerrettiCafe/MasculinoOxfordFerrettiCafe_1.png",
+      "/assets/images/MasculinoOxfordFerrettiCafe/MasculinoOxfordFerrettiCafe_2.png",
+      "/assets/images/MasculinoOxfordFerrettiCafe/MasculinoOxfordFerrettiCafe_3.png",
+      "/assets/images/MasculinoOxfordFerrettiCafe/MasculinoOxfordFerrettiCafe_4.png",
+      "/assets/images/MasculinoOxfordFerrettiCafe/MasculinoOxfordFerrettiCafe_5.png"
+    ]
+  },
+  {
+    "id": 58,
+    "nome": "Sapato Masculino Oxford Ferretti Canela",
+    "tipo": "Oxford",
+    "cor": "Canela",
+    "stars": 4.7,
+    "qtdEstoque": 16,
+    "qtdVendido": 129,
+    "qtdAvaliacao": 28,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 799.9,
+      "aVista": 719.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 266.63
+        },
+        {
+          "parcelas": 6,
+          "valor": 133.32
+        },
+        {
+          "parcelas": 12,
+          "valor": 66.66
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoOxfordFerrettiCanela/MasculinoOxfordFerrettiCanela_1.png",
+      "/assets/images/MasculinoOxfordFerrettiCanela/MasculinoOxfordFerrettiCanela_2.png",
+      "/assets/images/MasculinoOxfordFerrettiCanela/MasculinoOxfordFerrettiCanela_3.png",
+      "/assets/images/MasculinoOxfordFerrettiCanela/MasculinoOxfordFerrettiCanela_4.png"
+    ]
+  },
+  {
+    "id": 59,
+    "nome": "Sapato Masculino Derby Vittorio Preto",
+    "tipo": "Derby",
+    "cor": "Preto",
+    "stars": 3.9,
+    "qtdEstoque": 13,
+    "qtdVendido": 146,
+    "qtdAvaliacao": 92,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 799.9,
+      "aVista": 719.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 266.63
+        },
+        {
+          "parcelas": 6,
+          "valor": 133.32
+        },
+        {
+          "parcelas": 12,
+          "valor": 66.66
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoDerbyVittorioPreto/MasculinoDerbyVittorioPreto_1.png",
+      "/assets/images/MasculinoDerbyVittorioPreto/MasculinoDerbyVittorioPreto_2.png",
+      "/assets/images/MasculinoDerbyVittorioPreto/MasculinoDerbyVittorioPreto_3.png",
+      "/assets/images/MasculinoDerbyVittorioPreto/MasculinoDerbyVittorioPreto_4.png"
+    ]
+  },
+  {
+    "id": 60,
+    "nome": "Sapato Masculino Derby Vittorio Cafe",
+    "tipo": "Derby",
+    "cor": "Cafe",
+    "stars": 4.0,
+    "qtdEstoque": 10,
+    "qtdVendido": 199,
+    "qtdAvaliacao": 163,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 799.9,
+      "aVista": 719.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 266.63
+        },
+        {
+          "parcelas": 6,
+          "valor": 133.32
+        },
+        {
+          "parcelas": 12,
+          "valor": 66.66
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoDerbyVittorioCafe/MasculinoDerbyVittorioCafe_1.png",
+      "/assets/images/MasculinoDerbyVittorioCafe/MasculinoDerbyVittorioCafe_2.png",
+      "/assets/images/MasculinoDerbyVittorioCafe/MasculinoDerbyVittorioCafe_3.png",
+      "/assets/images/MasculinoDerbyVittorioCafe/MasculinoDerbyVittorioCafe_4.png"
+    ]
+  },
+  {
+    "id": 61,
+    "nome": "Sapato Masculino Derby Vittorio Tan",
+    "tipo": "Derby",
+    "cor": "Tan",
+    "stars": 4.9,
+    "qtdEstoque": 14,
+    "qtdVendido": 171,
+    "qtdAvaliacao": 159,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 799.9,
+      "aVista": 719.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 266.63
+        },
+        {
+          "parcelas": 6,
+          "valor": 133.32
+        },
+        {
+          "parcelas": 12,
+          "valor": 66.66
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoDerbyVittorioTan/MasculinoDerbyVittorioTan_1.png",
+      "/assets/images/MasculinoDerbyVittorioTan/MasculinoDerbyVittorioTan_2.png",
+      "/assets/images/MasculinoDerbyVittorioTan/MasculinoDerbyVittorioTan_3.png",
+      "/assets/images/MasculinoDerbyVittorioTan/MasculinoDerbyVittorioTan_4.png"
+    ]
+  },
+  {
+    "id": 62,
+    "nome": "Sapato Masculino Derby Vittorio Havana",
+    "tipo": "Derby",
+    "cor": "Havana",
+    "stars": 4.3,
+    "qtdEstoque": 9,
+    "qtdVendido": 358,
+    "qtdAvaliacao": 316,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 799.9,
+      "aVista": 719.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 266.63
+        },
+        {
+          "parcelas": 6,
+          "valor": 133.32
+        },
+        {
+          "parcelas": 12,
+          "valor": 66.66
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoDerbyVittorioHavana/MasculinoDerbyVittorioHavana_1.png",
+      "/assets/images/MasculinoDerbyVittorioHavana/MasculinoDerbyVittorioHavana_2.png",
+      "/assets/images/MasculinoDerbyVittorioHavana/MasculinoDerbyVittorioHavana_3.png",
+      "/assets/images/MasculinoDerbyVittorioHavana/MasculinoDerbyVittorioHavana_4.png",
+      "/assets/images/MasculinoDerbyVittorioHavana/MasculinoDerbyVittorioHavana_5.png"
+    ]
+  },
+  {
+    "id": 63,
+    "nome": "Sapato Masculino Monk Strap Gianpaolo Preto",
+    "tipo": "Monk",
+    "cor": "Preto",
+    "stars": 4.8,
+    "qtdEstoque": 8,
+    "qtdVendido": 427,
+    "qtdAvaliacao": 88,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 799.9,
+      "aVista": 719.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 266.63
+        },
+        {
+          "parcelas": 6,
+          "valor": 133.32
+        },
+        {
+          "parcelas": 12,
+          "valor": 66.66
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoMonkStrapGianpaoloPreto/MasculinoMonkStrapGianpaoloPreto_1.png",
+      "/assets/images/MasculinoMonkStrapGianpaoloPreto/MasculinoMonkStrapGianpaoloPreto_2.png",
+      "/assets/images/MasculinoMonkStrapGianpaoloPreto/MasculinoMonkStrapGianpaoloPreto_3.png",
+      "/assets/images/MasculinoMonkStrapGianpaoloPreto/MasculinoMonkStrapGianpaoloPreto_4.png"
+    ]
+  },
+  {
+    "id": 64,
+    "nome": "Sapato Masculino Monk Strap Gianpaolo Cafe",
+    "tipo": "Monk",
+    "cor": "Cafe",
+    "stars": 4.6,
+    "qtdEstoque": 13,
+    "qtdVendido": 132,
+    "qtdAvaliacao": 42,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 799.9,
+      "aVista": 719.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 266.63
+        },
+        {
+          "parcelas": 6,
+          "valor": 133.32
+        },
+        {
+          "parcelas": 12,
+          "valor": 66.66
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoMonkStrapGianpaoloCafe/MasculinoMonkStrapGianpaoloCafe_1.png",
+      "/assets/images/MasculinoMonkStrapGianpaoloCafe/MasculinoMonkStrapGianpaoloCafe_2.png",
+      "/assets/images/MasculinoMonkStrapGianpaoloCafe/MasculinoMonkStrapGianpaoloCafe_3.png",
+      "/assets/images/MasculinoMonkStrapGianpaoloCafe/MasculinoMonkStrapGianpaoloCafe_4.png",
+      "/assets/images/MasculinoMonkStrapGianpaoloCafe/MasculinoMonkStrapGianpaoloCafe_5.png"
+    ]
+  },
+  {
+    "id": 65,
+    "nome": "Sapato Masculino Monk Strap Gianpaolo Canela",
+    "tipo": "Monk",
+    "cor": "Canela",
+    "stars": 3.7,
+    "qtdEstoque": 20,
+    "qtdVendido": 495,
+    "qtdAvaliacao": 356,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 799.9,
+      "aVista": 719.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 266.63
+        },
+        {
+          "parcelas": 6,
+          "valor": 133.32
+        },
+        {
+          "parcelas": 12,
+          "valor": 66.66
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoMonkStrapGianpaoloCanela/MasculinoMonkStrapGianpaoloCanela_1.png",
+      "/assets/images/MasculinoMonkStrapGianpaoloCanela/MasculinoMonkStrapGianpaoloCanela_2.png",
+      "/assets/images/MasculinoMonkStrapGianpaoloCanela/MasculinoMonkStrapGianpaoloCanela_3.png",
+      "/assets/images/MasculinoMonkStrapGianpaoloCanela/MasculinoMonkStrapGianpaoloCanela_4.png"
+    ]
+  },
+  {
+    "id": 66,
+    "nome": "Sapato Masculino Oxford Maurizio Preto",
+    "tipo": "Oxford",
+    "cor": "Preto",
+    "stars": 4.3,
+    "qtdEstoque": 18,
+    "qtdVendido": 338,
+    "qtdAvaliacao": 243,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoOxfordMaurizioPreto/MasculinoOxfordMaurizioPreto_1.png",
+      "/assets/images/MasculinoOxfordMaurizioPreto/MasculinoOxfordMaurizioPreto_2.png",
+      "/assets/images/MasculinoOxfordMaurizioPreto/MasculinoOxfordMaurizioPreto_3.png",
+      "/assets/images/MasculinoOxfordMaurizioPreto/MasculinoOxfordMaurizioPreto_4.png",
+      "/assets/images/MasculinoOxfordMaurizioPreto/MasculinoOxfordMaurizioPreto_5.png"
+    ]
+  },
+  {
+    "id": 67,
+    "nome": "Sapato Masculino Oxford Maurizio Cafe",
+    "tipo": "Oxford",
+    "cor": "Cafe",
+    "stars": 4.1,
+    "qtdEstoque": 5,
+    "qtdVendido": 275,
+    "qtdAvaliacao": 41,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoOxfordMaurizioCafe/MasculinoOxfordMaurizioCafe_1.png",
+      "/assets/images/MasculinoOxfordMaurizioCafe/MasculinoOxfordMaurizioCafe_2.png",
+      "/assets/images/MasculinoOxfordMaurizioCafe/MasculinoOxfordMaurizioCafe_3.png",
+      "/assets/images/MasculinoOxfordMaurizioCafe/MasculinoOxfordMaurizioCafe_4.png",
+      "/assets/images/MasculinoOxfordMaurizioCafe/MasculinoOxfordMaurizioCafe_5.png",
+      "/assets/images/MasculinoOxfordMaurizioCafe/MasculinoOxfordMaurizioCafe_6.png",
+      "/assets/images/MasculinoOxfordMaurizioCafe/MasculinoOxfordMaurizioCafe_7.png",
+      "/assets/images/MasculinoOxfordMaurizioCafe/MasculinoOxfordMaurizioCafe_8.png"
+    ]
+  },
+  {
+    "id": 68,
+    "nome": "Sapato Masculino Oxford Maurizio Tan",
+    "tipo": "Oxford",
+    "cor": "Tan",
+    "stars": 3.9,
+    "qtdEstoque": 7,
+    "qtdVendido": 281,
+    "qtdAvaliacao": 157,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoOxfordMaurizioTan/MasculinoOxfordMaurizioTan_1.png",
+      "/assets/images/MasculinoOxfordMaurizioTan/MasculinoOxfordMaurizioTan_2.png",
+      "/assets/images/MasculinoOxfordMaurizioTan/MasculinoOxfordMaurizioTan_3.png",
+      "/assets/images/MasculinoOxfordMaurizioTan/MasculinoOxfordMaurizioTan_4.png",
+      "/assets/images/MasculinoOxfordMaurizioTan/MasculinoOxfordMaurizioTan_5.png",
+      "/assets/images/MasculinoOxfordMaurizioTan/MasculinoOxfordMaurizioTan_6.png"
+    ]
+  },
+  {
+    "id": 69,
+    "nome": "Sapato Masculino Loafer Pagano Preto",
+    "tipo": "Loafer",
+    "cor": "Preto",
+    "stars": 4.3,
+    "qtdEstoque": 9,
+    "qtdVendido": 205,
+    "qtdAvaliacao": 55,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoLoaferPaganoPreto/MasculinoLoaferPaganoPreto_1.png",
+      "/assets/images/MasculinoLoaferPaganoPreto/MasculinoLoaferPaganoPreto_2.png",
+      "/assets/images/MasculinoLoaferPaganoPreto/MasculinoLoaferPaganoPreto_3.png",
+      "/assets/images/MasculinoLoaferPaganoPreto/MasculinoLoaferPaganoPreto_4.png",
+      "/assets/images/MasculinoLoaferPaganoPreto/MasculinoLoaferPaganoPreto_5.png"
+    ]
+  },
+  {
+    "id": 70,
+    "nome": "Sapato Masculino Loafer Pagano Cafe",
+    "tipo": "Loafer",
+    "cor": "Cafe",
+    "stars": 3.6,
+    "qtdEstoque": 18,
+    "qtdVendido": 201,
+    "qtdAvaliacao": 199,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoLoaferPaganoCafe/MasculinoLoaferPaganoCafe_1.png",
+      "/assets/images/MasculinoLoaferPaganoCafe/MasculinoLoaferPaganoCafe_2.png",
+      "/assets/images/MasculinoLoaferPaganoCafe/MasculinoLoaferPaganoCafe_3.png",
+      "/assets/images/MasculinoLoaferPaganoCafe/MasculinoLoaferPaganoCafe_4.png",
+      "/assets/images/MasculinoLoaferPaganoCafe/MasculinoLoaferPaganoCafe_5.png"
+    ]
+  },
+  {
+    "id": 71,
+    "nome": "Sapato Masculino Loafer Pagano Tan",
+    "tipo": "Loafer",
+    "cor": "Tan",
+    "stars": 4.2,
+    "qtdEstoque": 11,
+    "qtdVendido": 396,
+    "qtdAvaliacao": 147,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoLoaferPaganoTan/MasculinoLoaferPaganoTan_1.png",
+      "/assets/images/MasculinoLoaferPaganoTan/MasculinoLoaferPaganoTan_2.png",
+      "/assets/images/MasculinoLoaferPaganoTan/MasculinoLoaferPaganoTan_3.png",
+      "/assets/images/MasculinoLoaferPaganoTan/MasculinoLoaferPaganoTan_4.png",
+      "/assets/images/MasculinoLoaferPaganoTan/MasculinoLoaferPaganoTan_5.png",
+      "/assets/images/MasculinoLoaferPaganoTan/MasculinoLoaferPaganoTan_6.png",
+      "/assets/images/MasculinoLoaferPaganoTan/MasculinoLoaferPaganoTan_7.png",
+      "/assets/images/MasculinoLoaferPaganoTan/MasculinoLoaferPaganoTan_8.png"
+    ]
+  },
+  {
+    "id": 72,
+    "nome": "Sapato Masculino Oxford Manzoni Preto",
+    "tipo": "Oxford",
+    "cor": "Preto",
+    "stars": 4.7,
+    "qtdEstoque": 19,
+    "qtdVendido": 349,
+    "qtdAvaliacao": 314,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 899.9,
+      "aVista": 809.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 299.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 149.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 74.99
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoOxfordManzoniPreto/MasculinoOxfordManzoniPreto_1.png",
+      "/assets/images/MasculinoOxfordManzoniPreto/MasculinoOxfordManzoniPreto_2.png",
+      "/assets/images/MasculinoOxfordManzoniPreto/MasculinoOxfordManzoniPreto_3.png",
+      "/assets/images/MasculinoOxfordManzoniPreto/MasculinoOxfordManzoniPreto_4.png"
+    ]
+  },
+  {
+    "id": 73,
+    "nome": "Sapato Masculino Oxford Manzoni Cafe",
+    "tipo": "Oxford",
+    "cor": "Cafe",
+    "stars": 4.5,
+    "qtdEstoque": 20,
+    "qtdVendido": 95,
+    "qtdAvaliacao": 13,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 899.9,
+      "aVista": 809.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 299.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 149.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 74.99
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoOxfordManzoniCafe/MasculinoOxfordManzoniCafe_1.png",
+      "/assets/images/MasculinoOxfordManzoniCafe/MasculinoOxfordManzoniCafe_2.png",
+      "/assets/images/MasculinoOxfordManzoniCafe/MasculinoOxfordManzoniCafe_3.png",
+      "/assets/images/MasculinoOxfordManzoniCafe/MasculinoOxfordManzoniCafe_4.png",
+      "/assets/images/MasculinoOxfordManzoniCafe/MasculinoOxfordManzoniCafe_5.png"
+    ]
+  },
+  {
+    "id": 74,
+    "nome": "Sapato Masculino Oxford Manzoni Tan",
+    "tipo": "Oxford",
+    "cor": "Tan",
+    "stars": 3.6,
+    "qtdEstoque": 6,
+    "qtdVendido": 30,
+    "qtdAvaliacao": 29,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 899.9,
+      "aVista": 809.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 299.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 149.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 74.99
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoOxfordManzoniTan/MasculinoOxfordManzoniTan_1.png",
+      "/assets/images/MasculinoOxfordManzoniTan/MasculinoOxfordManzoniTan_2.png",
+      "/assets/images/MasculinoOxfordManzoniTan/MasculinoOxfordManzoniTan_3.png",
+      "/assets/images/MasculinoOxfordManzoniTan/MasculinoOxfordManzoniTan_4.png"
+    ]
+  },
+  {
+    "id": 75,
+    "nome": "Sapato Masculino Oxford Manzoni Havana",
+    "tipo": "Oxford",
+    "cor": "Havana",
+    "stars": 3.6,
+    "qtdEstoque": 7,
+    "qtdVendido": 151,
+    "qtdAvaliacao": 91,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 899.9,
+      "aVista": 809.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 299.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 149.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 74.99
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoOxfordManzoniHavana/MasculinoOxfordManzoniHavana_1.png",
+      "/assets/images/MasculinoOxfordManzoniHavana/MasculinoOxfordManzoniHavana_2.png",
+      "/assets/images/MasculinoOxfordManzoniHavana/MasculinoOxfordManzoniHavana_3.png",
+      "/assets/images/MasculinoOxfordManzoniHavana/MasculinoOxfordManzoniHavana_4.png"
+    ]
+  },
+  {
+    "id": 76,
+    "nome": "Sapato Masculino Derby Bellini Preto",
+    "tipo": "Derby",
+    "cor": "Preto",
+    "stars": 3.6,
+    "qtdEstoque": 17,
+    "qtdVendido": 27,
+    "qtdAvaliacao": 5,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 899.9,
+      "aVista": 809.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 299.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 149.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 74.99
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoDerbyBelliniPreto/MasculinoDerbyBelliniPreto_1.png",
+      "/assets/images/MasculinoDerbyBelliniPreto/MasculinoDerbyBelliniPreto_2.png",
+      "/assets/images/MasculinoDerbyBelliniPreto/MasculinoDerbyBelliniPreto_3.png",
+      "/assets/images/MasculinoDerbyBelliniPreto/MasculinoDerbyBelliniPreto_4.png"
+    ]
+  },
+  {
+    "id": 77,
+    "nome": "Sapato Masculino Derby Bellini Cafe",
+    "tipo": "Derby",
+    "cor": "Cafe",
+    "stars": 3.7,
+    "qtdEstoque": 18,
+    "qtdVendido": 354,
+    "qtdAvaliacao": 145,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 899.9,
+      "aVista": 809.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 299.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 149.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 74.99
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoDerbyBelliniCafe/MasculinoDerbyBelliniCafe_1.png",
+      "/assets/images/MasculinoDerbyBelliniCafe/MasculinoDerbyBelliniCafe_2.png",
+      "/assets/images/MasculinoDerbyBelliniCafe/MasculinoDerbyBelliniCafe_3.png",
+      "/assets/images/MasculinoDerbyBelliniCafe/MasculinoDerbyBelliniCafe_4.png"
+    ]
+  },
+  {
+    "id": 78,
+    "nome": "Sapato Masculino Derby Bellini Tan",
+    "tipo": "Derby",
+    "cor": "Tan",
+    "stars": 4.1,
+    "qtdEstoque": 8,
+    "qtdVendido": 241,
+    "qtdAvaliacao": 134,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 899.9,
+      "aVista": 809.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 299.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 149.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 74.99
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoDerbyBelliniTan/MasculinoDerbyBelliniTan_1.png",
+      "/assets/images/MasculinoDerbyBelliniTan/MasculinoDerbyBelliniTan_2.png",
+      "/assets/images/MasculinoDerbyBelliniTan/MasculinoDerbyBelliniTan_3.png",
+      "/assets/images/MasculinoDerbyBelliniTan/MasculinoDerbyBelliniTan_4.png",
+      "/assets/images/MasculinoDerbyBelliniTan/MasculinoDerbyBelliniTan_5.png",
+      "/assets/images/MasculinoDerbyBelliniTan/MasculinoDerbyBelliniTan_6.png",
+      "/assets/images/MasculinoDerbyBelliniTan/MasculinoDerbyBelliniTan_7.png"
+    ]
+  },
+  {
+    "id": 79,
+    "nome": "Sapato Masculino Derby Bellini Havana",
+    "tipo": "Derby",
+    "cor": "Havana",
+    "stars": 3.7,
+    "qtdEstoque": 15,
+    "qtdVendido": 425,
+    "qtdAvaliacao": 322,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 899.9,
+      "aVista": 809.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 299.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 149.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 74.99
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoDerbyBelliniHavana/MasculinoDerbyBelliniHavana_1.png",
+      "/assets/images/MasculinoDerbyBelliniHavana/MasculinoDerbyBelliniHavana_2.png",
+      "/assets/images/MasculinoDerbyBelliniHavana/MasculinoDerbyBelliniHavana_3.png",
+      "/assets/images/MasculinoDerbyBelliniHavana/MasculinoDerbyBelliniHavana_4.png"
+    ]
+  },
+  {
+    "id": 80,
+    "nome": "Sapato Masculino Oxford Ferraro Preto",
+    "tipo": "Oxford",
+    "cor": "Preto",
+    "stars": 3.6,
+    "qtdEstoque": 15,
+    "qtdVendido": 43,
+    "qtdAvaliacao": 29,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 899.9,
+      "aVista": 809.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 299.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 149.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 74.99
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoOxfordFerraroPreto/MasculinoOxfordFerraroPreto_1.png",
+      "/assets/images/MasculinoOxfordFerraroPreto/MasculinoOxfordFerraroPreto_2.png",
+      "/assets/images/MasculinoOxfordFerraroPreto/MasculinoOxfordFerraroPreto_3.png",
+      "/assets/images/MasculinoOxfordFerraroPreto/MasculinoOxfordFerraroPreto_4.png"
+    ]
+  },
+  {
+    "id": 81,
+    "nome": "Sapato Masculino Oxford Ferraro Cafe",
+    "tipo": "Oxford",
+    "cor": "Cafe",
+    "stars": 4.3,
+    "qtdEstoque": 11,
+    "qtdVendido": 266,
+    "qtdAvaliacao": 242,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 899.9,
+      "aVista": 809.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 299.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 149.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 74.99
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoOxfordFerraroCafe/MasculinoOxfordFerraroCafe_1.png",
+      "/assets/images/MasculinoOxfordFerraroCafe/MasculinoOxfordFerraroCafe_2.png",
+      "/assets/images/MasculinoOxfordFerraroCafe/MasculinoOxfordFerraroCafe_3.png",
+      "/assets/images/MasculinoOxfordFerraroCafe/MasculinoOxfordFerraroCafe_4.png",
+      "/assets/images/MasculinoOxfordFerraroCafe/MasculinoOxfordFerraroCafe_5.png"
+    ]
+  },
+  {
+    "id": 82,
+    "nome": "Sapato Masculino Derby Brunelli Preto",
+    "tipo": "Derby",
+    "cor": "Preto",
+    "stars": 3.5,
+    "qtdEstoque": 6,
+    "qtdVendido": 457,
+    "qtdAvaliacao": 208,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoDerbyBrunelliPreto/MasculinoDerbyBrunelliPreto_1.png",
+      "/assets/images/MasculinoDerbyBrunelliPreto/MasculinoDerbyBrunelliPreto_2.png",
+      "/assets/images/MasculinoDerbyBrunelliPreto/MasculinoDerbyBrunelliPreto_3.png",
+      "/assets/images/MasculinoDerbyBrunelliPreto/MasculinoDerbyBrunelliPreto_4.png",
+      "/assets/images/MasculinoDerbyBrunelliPreto/MasculinoDerbyBrunelliPreto_5.png",
+      "/assets/images/MasculinoDerbyBrunelliPreto/MasculinoDerbyBrunelliPreto_6.png",
+      "/assets/images/MasculinoDerbyBrunelliPreto/MasculinoDerbyBrunelliPreto_7.png",
+      "/assets/images/MasculinoDerbyBrunelliPreto/MasculinoDerbyBrunelliPreto_8.png"
+    ]
+  },
+  {
+    "id": 83,
+    "nome": "Sapato Masculino Derby Brunelli Cafe",
+    "tipo": "Cafe",
+    "cor": "Derby",
+    "stars": 4.4,
+    "qtdEstoque": 12,
+    "qtdVendido": 379,
+    "qtdAvaliacao": 92,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoDerbyBrunelliCafe/MasculinoDerbyBrunelliCafe_1.png",
+      "/assets/images/MasculinoDerbyBrunelliCafe/MasculinoDerbyBrunelliCafe_2.png",
+      "/assets/images/MasculinoDerbyBrunelliCafe/MasculinoDerbyBrunelliCafe_3.png",
+      "/assets/images/MasculinoDerbyBrunelliCafe/MasculinoDerbyBrunelliCafe_4.png",
+      "/assets/images/MasculinoDerbyBrunelliCafe/MasculinoDerbyBrunelliCafe_5.png"
+    ]
+  },
+  {
+    "id": 84,
+    "nome": "Sapato Masculino Derby Brunelli Tan",
+    "tipo": "Derby",
+    "cor": "Tan",
+    "stars": 3.9,
+    "qtdEstoque": 11,
+    "qtdVendido": 121,
+    "qtdAvaliacao": 116,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoDerbyBrunelliTan/MasculinoDerbyBrunelliTan_1.png",
+      "/assets/images/MasculinoDerbyBrunelliTan/MasculinoDerbyBrunelliTan_2.png",
+      "/assets/images/MasculinoDerbyBrunelliTan/MasculinoDerbyBrunelliTan_3.png",
+      "/assets/images/MasculinoDerbyBrunelliTan/MasculinoDerbyBrunelliTan_4.png",
+      "/assets/images/MasculinoDerbyBrunelliTan/MasculinoDerbyBrunelliTan_5.png"
+    ]
+  },
+  {
+    "id": 85,
+    "nome": "Sapato Masculino Derby Tenorio Preto",
+    "tipo": "Derby",
+    "cor": "Preto",
+    "stars": 3.6,
+    "qtdEstoque": 17,
+    "qtdVendido": 169,
+    "qtdAvaliacao": 126,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 799.9,
+      "aVista": 719.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 266.63
+        },
+        {
+          "parcelas": 6,
+          "valor": 133.32
+        },
+        {
+          "parcelas": 12,
+          "valor": 66.66
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoDerbyTenorioPreto/MasculinoDerbyTenorioPreto_1.png",
+      "/assets/images/MasculinoDerbyTenorioPreto/MasculinoDerbyTenorioPreto_2.png",
+      "/assets/images/MasculinoDerbyTenorioPreto/MasculinoDerbyTenorioPreto_3.png",
+      "/assets/images/MasculinoDerbyTenorioPreto/MasculinoDerbyTenorioPreto_4.png"
+    ]
+  },
+  {
+    "id": 86,
+    "nome": "Sapato Masculino Derby Tenorio Cafe",
+    "tipo": "Derby",
+    "cor": "Cafe",
+    "stars": 3.8,
+    "qtdEstoque": 6,
+    "qtdVendido": 499,
+    "qtdAvaliacao": 311,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 799.9,
+      "aVista": 719.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 266.63
+        },
+        {
+          "parcelas": 6,
+          "valor": 133.32
+        },
+        {
+          "parcelas": 12,
+          "valor": 66.66
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoDerbyTenorioCafe/MasculinoDerbyTenorioCafe_1.png",
+      "/assets/images/MasculinoDerbyTenorioCafe/MasculinoDerbyTenorioCafe_2.png",
+      "/assets/images/MasculinoDerbyTenorioCafe/MasculinoDerbyTenorioCafe_3.png",
+      "/assets/images/MasculinoDerbyTenorioCafe/MasculinoDerbyTenorioCafe_4.png",
+      "/assets/images/MasculinoDerbyTenorioCafe/MasculinoDerbyTenorioCafe_5.png"
+    ]
+  },
+  {
+    "id": 87,
+    "nome": "Sapato Masculino Derby Salvattore Preto",
+    "tipo": "Derby",
+    "cor": "Cafe",
+    "stars": 4.5,
+    "qtdEstoque": 7,
+    "qtdVendido": 370,
+    "qtdAvaliacao": 317,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 799.9,
+      "aVista": 719.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 266.63
+        },
+        {
+          "parcelas": 6,
+          "valor": 133.32
+        },
+        {
+          "parcelas": 12,
+          "valor": 66.66
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoDerbySalvattorePreto/MasculinoDerbySalvattorePreto_1.png",
+      "/assets/images/MasculinoDerbySalvattorePreto/MasculinoDerbySalvattorePreto_2.png",
+      "/assets/images/MasculinoDerbySalvattorePreto/MasculinoDerbySalvattorePreto_3.png",
+      "/assets/images/MasculinoDerbySalvattorePreto/MasculinoDerbySalvattorePreto_4.png"
+    ]
+  },
+  {
+    "id": 88,
+    "nome": "Sapato Masculino Derby Salvattore Cafe",
+    "tipo": "Derby",
+    "cor": "Cafe",
+    "stars": 3.8,
+    "qtdEstoque": 9,
+    "qtdVendido": 37,
+    "qtdAvaliacao": 13,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 799.9,
+      "aVista": 719.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 266.63
+        },
+        {
+          "parcelas": 6,
+          "valor": 133.32
+        },
+        {
+          "parcelas": 12,
+          "valor": 66.66
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoDerbySalvattoreCafe/MasculinoDerbySalvattoreCafe_1.png",
+      "/assets/images/MasculinoDerbySalvattoreCafe/MasculinoDerbySalvattoreCafe_2.png",
+      "/assets/images/MasculinoDerbySalvattoreCafe/MasculinoDerbySalvattoreCafe_3.png",
+      "/assets/images/MasculinoDerbySalvattoreCafe/MasculinoDerbySalvattoreCafe_4.png"
+    ]
+  },
+  {
+    "id": 89,
+    "nome": "Sapato Masculino Derby Salvattore Tan",
+    "tipo": "Derby",
+    "cor": "Tan",
+    "stars": 4.4,
+    "qtdEstoque": 19,
+    "qtdVendido": 221,
+    "qtdAvaliacao": 40,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 799.9,
+      "aVista": 719.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 266.63
+        },
+        {
+          "parcelas": 6,
+          "valor": 133.32
+        },
+        {
+          "parcelas": 12,
+          "valor": 66.66
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoDerbySalvattoreTan/MasculinoDerbySalvattoreTan_1.png",
+      "/assets/images/MasculinoDerbySalvattoreTan/MasculinoDerbySalvattoreTan_2.png",
+      "/assets/images/MasculinoDerbySalvattoreTan/MasculinoDerbySalvattoreTan_3.png",
+      "/assets/images/MasculinoDerbySalvattoreTan/MasculinoDerbySalvattoreTan_4.png"
+    ]
+  },
+  {
+    "id": 90,
+    "nome": "Sapato Loafer Masculino Luigi Preto",
+    "tipo": "Loafer",
+    "cor": "Preto",
+    "stars": 4.8,
+    "qtdEstoque": 11,
+    "qtdVendido": 139,
+    "qtdAvaliacao": 19,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/LoaferMasculinoLuigiPreto/LoaferMasculinoLuigiPreto_1.png",
+      "/assets/images/LoaferMasculinoLuigiPreto/LoaferMasculinoLuigiPreto_2.png",
+      "/assets/images/LoaferMasculinoLuigiPreto/LoaferMasculinoLuigiPreto_3.png",
+      "/assets/images/LoaferMasculinoLuigiPreto/LoaferMasculinoLuigiPreto_4.png",
+      "/assets/images/LoaferMasculinoLuigiPreto/LoaferMasculinoLuigiPreto_5.png",
+      "/assets/images/LoaferMasculinoLuigiPreto/LoaferMasculinoLuigiPreto_6.png"
+    ]
+  },
+  {
+    "id": 91,
+    "nome": "Sapato Loafer Masculino Luigi Cafe",
+    "tipo": "Loafer",
+    "cor": "Cafe",
+    "stars": 3.5,
+    "qtdEstoque": 13,
+    "qtdVendido": 79,
+    "qtdAvaliacao": 70,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/LoaferMasculinoLuigiCafe/LoaferMasculinoLuigiCafe_1.png",
+      "/assets/images/LoaferMasculinoLuigiCafe/LoaferMasculinoLuigiCafe_2.png",
+      "/assets/images/LoaferMasculinoLuigiCafe/LoaferMasculinoLuigiCafe_3.png",
+      "/assets/images/LoaferMasculinoLuigiCafe/LoaferMasculinoLuigiCafe_4.png",
+      "/assets/images/LoaferMasculinoLuigiCafe/LoaferMasculinoLuigiCafe_5.png",
+      "/assets/images/LoaferMasculinoLuigiCafe/LoaferMasculinoLuigiCafe_6.png",
+      "/assets/images/LoaferMasculinoLuigiCafe/LoaferMasculinoLuigiCafe_7.png",
+      "/assets/images/LoaferMasculinoLuigiCafe/LoaferMasculinoLuigiCafe_8.png"
+    ]
+  },
+  {
+    "id": 92,
+    "nome": "Sapato Loafer Masculino Luigi Tan",
+    "tipo": "Loafer",
+    "cor": "Tan",
+    "stars": 4.6,
+    "qtdEstoque": 19,
+    "qtdVendido": 466,
+    "qtdAvaliacao": 194,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/LoaferMasculinoLuigiTan/LoaferMasculinoLuigiTan_1.png",
+      "/assets/images/LoaferMasculinoLuigiTan/LoaferMasculinoLuigiTan_2.png",
+      "/assets/images/LoaferMasculinoLuigiTan/LoaferMasculinoLuigiTan_3.png",
+      "/assets/images/LoaferMasculinoLuigiTan/LoaferMasculinoLuigiTan_4.png",
+      "/assets/images/LoaferMasculinoLuigiTan/LoaferMasculinoLuigiTan_5.png"
+    ]
+  },
+  {
+    "id": 93,
+    "nome": "Sapato Masculino Sider Antony Preto",
+    "tipo": "Sider",
+    "cor": "Preto",
+    "stars": 4.9,
+    "qtdEstoque": 16,
+    "qtdVendido": 390,
+    "qtdAvaliacao": 73,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 899.9,
+      "aVista": 809.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 299.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 149.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 74.99
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoSiderAntonyPreto/MasculinoSiderAntonyPreto_1.png",
+      "/assets/images/MasculinoSiderAntonyPreto/MasculinoSiderAntonyPreto_2.png",
+      "/assets/images/MasculinoSiderAntonyPreto/MasculinoSiderAntonyPreto_3.png",
+      "/assets/images/MasculinoSiderAntonyPreto/MasculinoSiderAntonyPreto_4.png",
+      "/assets/images/MasculinoSiderAntonyPreto/MasculinoSiderAntonyPreto_5.png"
+    ]
+  },
+  {
+    "id": 94,
+    "nome": "Sapato Masculino Sider Antony Cafe",
+    "tipo": "Sider",
+    "cor": "Cafe",
+    "stars": 3.7,
+    "qtdEstoque": 9,
+    "qtdVendido": 372,
+    "qtdAvaliacao": 35,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 899.9,
+      "aVista": 809.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 299.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 149.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 74.99
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoSiderAntonyCafe/MasculinoSiderAntonyCafe_1.png",
+      "/assets/images/MasculinoSiderAntonyCafe/MasculinoSiderAntonyCafe_2.png",
+      "/assets/images/MasculinoSiderAntonyCafe/MasculinoSiderAntonyCafe_3.png",
+      "/assets/images/MasculinoSiderAntonyCafe/MasculinoSiderAntonyCafe_4.png",
+      "/assets/images/MasculinoSiderAntonyCafe/MasculinoSiderAntonyCafe_5.png",
+      "/assets/images/MasculinoSiderAntonyCafe/MasculinoSiderAntonyCafe_6.png",
+      "/assets/images/MasculinoSiderAntonyCafe/MasculinoSiderAntonyCafe_7.png",
+      "/assets/images/MasculinoSiderAntonyCafe/MasculinoSiderAntonyCafe_8.png"
+    ]
+  },
+  {
+    "id": 95,
+    "nome": "Sapato Masculino Sider Antony Tan",
+    "tipo": "Sider",
+    "cor": "Tan",
+    "stars": 4.4,
+    "qtdEstoque": 20,
+    "qtdVendido": 398,
+    "qtdAvaliacao": 354,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 899.9,
+      "aVista": 809.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 299.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 149.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 74.99
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoSiderAntonyTan/MasculinoSiderAntonyTan_1.png",
+      "/assets/images/MasculinoSiderAntonyTan/MasculinoSiderAntonyTan_2.png",
+      "/assets/images/MasculinoSiderAntonyTan/MasculinoSiderAntonyTan_3.png",
+      "/assets/images/MasculinoSiderAntonyTan/MasculinoSiderAntonyTan_4.png",
+      "/assets/images/MasculinoSiderAntonyTan/MasculinoSiderAntonyTan_5.png",
+      "/assets/images/MasculinoSiderAntonyTan/MasculinoSiderAntonyTan_6.png"
+    ]
+  },
+  {
+    "id": 96,
+    "nome": "Sapato Tenis Masculino Casual Morelli Preto",
+    "tipo": "Morelli",
+    "cor": "Preto",
+    "stars": 3.5,
+    "qtdEstoque": 7,
+    "qtdVendido": 74,
+    "qtdAvaliacao": 61,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/TenisMasculinoCasualMorelliPreto/TenisMasculinoCasualMorelliPreto_1.png",
+      "/assets/images/TenisMasculinoCasualMorelliPreto/TenisMasculinoCasualMorelliPreto_2.png",
+      "/assets/images/TenisMasculinoCasualMorelliPreto/TenisMasculinoCasualMorelliPreto_3.png",
+      "/assets/images/TenisMasculinoCasualMorelliPreto/TenisMasculinoCasualMorelliPreto_4.png",
+      "/assets/images/TenisMasculinoCasualMorelliPreto/TenisMasculinoCasualMorelliPreto_5.png",
+      "/assets/images/TenisMasculinoCasualMorelliPreto/TenisMasculinoCasualMorelliPreto_6.png",
+      "/assets/images/TenisMasculinoCasualMorelliPreto/TenisMasculinoCasualMorelliPreto_7.png",
+      "/assets/images/TenisMasculinoCasualMorelliPreto/TenisMasculinoCasualMorelliPreto_8.png"
+    ]
+  },
+  {
+    "id": 97,
+    "nome": "Sapato Tenis Masculino Casual Morelli Marinho",
+    "tipo": "Morelli",
+    "cor": "Marinho",
+    "stars": 4.1,
+    "qtdEstoque": 16,
+    "qtdVendido": 68,
+    "qtdAvaliacao": 57,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/TenisMasculinoCasualMorelliMarinho/TenisMasculinoCasualMorelliMarinho_1.png",
+      "/assets/images/TenisMasculinoCasualMorelliMarinho/TenisMasculinoCasualMorelliMarinho_2.png",
+      "/assets/images/TenisMasculinoCasualMorelliMarinho/TenisMasculinoCasualMorelliMarinho_3.png",
+      "/assets/images/TenisMasculinoCasualMorelliMarinho/TenisMasculinoCasualMorelliMarinho_4.png",
+      "/assets/images/TenisMasculinoCasualMorelliMarinho/TenisMasculinoCasualMorelliMarinho_5.png",
+      "/assets/images/TenisMasculinoCasualMorelliMarinho/TenisMasculinoCasualMorelliMarinho_6.png"
+    ]
+  },
+  {
+    "id": 98,
+    "nome": "Sapato Tenis Masculino Casual Morelli Cafe",
+    "tipo": "Morelli",
+    "cor": "Cafe",
+    "stars": 4.4,
+    "qtdEstoque": 15,
+    "qtdVendido": 149,
+    "qtdAvaliacao": 124,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/TenisMasculinoCasualMorelliCafe/TenisMasculinoCasualMorelliCafe_1.png",
+      "/assets/images/TenisMasculinoCasualMorelliCafe/TenisMasculinoCasualMorelliCafe_2.png",
+      "/assets/images/TenisMasculinoCasualMorelliCafe/TenisMasculinoCasualMorelliCafe_3.png",
+      "/assets/images/TenisMasculinoCasualMorelliCafe/TenisMasculinoCasualMorelliCafe_4.png"
+    ]
+  },
+  {
+    "id": 99,
+    "nome": "Sapato Tenis Masculino Casual Morelli Conhaque",
+    "tipo": "Morelli",
+    "cor": "Conhaque",
+    "stars": 4.8,
+    "qtdEstoque": 11,
+    "qtdVendido": 410,
+    "qtdAvaliacao": 250,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/TenisMasculinoCasualMorelliConhaque/TenisMasculinoCasualMorelliConhaque_1.png",
+      "/assets/images/TenisMasculinoCasualMorelliConhaque/TenisMasculinoCasualMorelliConhaque_2.png",
+      "/assets/images/TenisMasculinoCasualMorelliConhaque/TenisMasculinoCasualMorelliConhaque_3.png",
+      "/assets/images/TenisMasculinoCasualMorelliConhaque/TenisMasculinoCasualMorelliConhaque_4.png"
+    ]
+  },
+  {
+    "id": 100,
+    "nome": "Sapato Tenis Masculino Casual Morelli Mouse",
+    "tipo": "Morelli",
+    "cor": "Mouse",
+    "stars": 4.0,
+    "qtdEstoque": 13,
+    "qtdVendido": 468,
+    "qtdAvaliacao": 280,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/TenisMasculinoCasualMorelliMouse/TenisMasculinoCasualMorelliMouse_1.png",
+      "/assets/images/TenisMasculinoCasualMorelliMouse/TenisMasculinoCasualMorelliMouse_2.png",
+      "/assets/images/TenisMasculinoCasualMorelliMouse/TenisMasculinoCasualMorelliMouse_3.png",
+      "/assets/images/TenisMasculinoCasualMorelliMouse/TenisMasculinoCasualMorelliMouse_4.png",
+      "/assets/images/TenisMasculinoCasualMorelliMouse/TenisMasculinoCasualMorelliMouse_5.png",
+      "/assets/images/TenisMasculinoCasualMorelliMouse/TenisMasculinoCasualMorelliMouse_6.png",
+      "/assets/images/TenisMasculinoCasualMorelliMouse/TenisMasculinoCasualMorelliMouse_7.png"
+    ]
+  },
+  {
+    "id": 101,
+    "nome": "Sapato Tenis Masculino Casual Morelli Cinza",
+    "tipo": "Morelli",
+    "cor": "Cinza",
+    "stars": 3.8,
+    "qtdEstoque": 9,
+    "qtdVendido": 469,
+    "qtdAvaliacao": 242,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/TenisMasculinoCasualMorelliCinza/TenisMasculinoCasualMorelliCinza_1.png",
+      "/assets/images/TenisMasculinoCasualMorelliCinza/TenisMasculinoCasualMorelliCinza_2.png",
+      "/assets/images/TenisMasculinoCasualMorelliCinza/TenisMasculinoCasualMorelliCinza_3.png",
+      "/assets/images/TenisMasculinoCasualMorelliCinza/TenisMasculinoCasualMorelliCinza_4.png"
+    ]
+  },
+  {
+    "id": 102,
+    "nome": "Sapato Tenis Masculino Casual Morelli Branco",
+    "tipo": "Morelli",
+    "cor": "Branco",
+    "stars": 3.8,
+    "qtdEstoque": 8,
+    "qtdVendido": 215,
+    "qtdAvaliacao": 184,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/TenisMasculinoCasualMorelliBranco/TenisMasculinoCasualMorelliBranco_1.png",
+      "/assets/images/TenisMasculinoCasualMorelliBranco/TenisMasculinoCasualMorelliBranco_2.png",
+      "/assets/images/TenisMasculinoCasualMorelliBranco/TenisMasculinoCasualMorelliBranco_3.png",
+      "/assets/images/TenisMasculinoCasualMorelliBranco/TenisMasculinoCasualMorelliBranco_4.png"
+    ]
+  },
+  {
+    "id": 103,
+    "nome": "Sapato Masculino Casual Felippo Preto",
+    "tipo": "Felippo",
+    "cor": "Preto",
+    "stars": 4.1,
+    "qtdEstoque": 6,
+    "qtdVendido": 418,
+    "qtdAvaliacao": 381,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoCasualFelippoPreto/MasculinoCasualFelippoPreto_1.png",
+      "/assets/images/MasculinoCasualFelippoPreto/MasculinoCasualFelippoPreto_2.png",
+      "/assets/images/MasculinoCasualFelippoPreto/MasculinoCasualFelippoPreto_3.png",
+      "/assets/images/MasculinoCasualFelippoPreto/MasculinoCasualFelippoPreto_4.png",
+      "/assets/images/MasculinoCasualFelippoPreto/MasculinoCasualFelippoPreto_5.png",
+      "/assets/images/MasculinoCasualFelippoPreto/MasculinoCasualFelippoPreto_6.png"
+    ]
+  },
+  {
+    "id": 104,
+    "nome": "Sapato Masculino Casual Felippo Marinho",
+    "tipo": "Felippo",
+    "cor": "Marinho",
+    "stars": 3.8,
+    "qtdEstoque": 15,
+    "qtdVendido": 371,
+    "qtdAvaliacao": 313,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoCasualFelippoMarinho/MasculinoCasualFelippoMarinho_1.png",
+      "/assets/images/MasculinoCasualFelippoMarinho/MasculinoCasualFelippoMarinho_2.png",
+      "/assets/images/MasculinoCasualFelippoMarinho/MasculinoCasualFelippoMarinho_3.png",
+      "/assets/images/MasculinoCasualFelippoMarinho/MasculinoCasualFelippoMarinho_4.png",
+      "/assets/images/MasculinoCasualFelippoMarinho/MasculinoCasualFelippoMarinho_5.png"
+    ]
+  },
+  {
+    "id": 105,
+    "nome": "Sapato Masculino Casual Felippo Cafe",
+    "tipo": "Felippo",
+    "cor": "Cafe",
+    "stars": 3.6,
+    "qtdEstoque": 7,
+    "qtdVendido": 444,
+    "qtdAvaliacao": 325,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoCasualFelippoCafe/MasculinoCasualFelippoCafe_1.png",
+      "/assets/images/MasculinoCasualFelippoCafe/MasculinoCasualFelippoCafe_2.png",
+      "/assets/images/MasculinoCasualFelippoCafe/MasculinoCasualFelippoCafe_3.png",
+      "/assets/images/MasculinoCasualFelippoCafe/MasculinoCasualFelippoCafe_4.png",
+      "/assets/images/MasculinoCasualFelippoCafe/MasculinoCasualFelippoCafe_5.png",
+      "/assets/images/MasculinoCasualFelippoCafe/MasculinoCasualFelippoCafe_6.png"
+    ]
+  },
+  {
+    "id": 106,
+    "nome": "Sapato Masculino Casual Felippo Moss",
+    "tipo": "Felippo",
+    "cor": "Moss",
+    "stars": 3.8,
+    "qtdEstoque": 17,
+    "qtdVendido": 495,
+    "qtdAvaliacao": 29,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoCasualFelippoMoss/MasculinoCasualFelippoMoss_1.png",
+      "/assets/images/MasculinoCasualFelippoMoss/MasculinoCasualFelippoMoss_2.png",
+      "/assets/images/MasculinoCasualFelippoMoss/MasculinoCasualFelippoMoss_3.png",
+      "/assets/images/MasculinoCasualFelippoMoss/MasculinoCasualFelippoMoss_4.png",
+      "/assets/images/MasculinoCasualFelippoMoss/MasculinoCasualFelippoMoss_5.png"
+    ]
+  },
+  {
+    "id": 107,
+    "nome": "Sapato Masculino Casual Felippo Pinhao",
+    "tipo": "Felippo",
+    "cor": "Pinhão",
+    "stars": 4.8,
+    "qtdEstoque": 14,
+    "qtdVendido": 179,
+    "qtdAvaliacao": 157,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoCasualFelippoPinhao/MasculinoCasualFelippoPinhao_1.png",
+      "/assets/images/MasculinoCasualFelippoPinhao/MasculinoCasualFelippoPinhao_2.png",
+      "/assets/images/MasculinoCasualFelippoPinhao/MasculinoCasualFelippoPinhao_3.png",
+      "/assets/images/MasculinoCasualFelippoPinhao/MasculinoCasualFelippoPinhao_4.png",
+      "/assets/images/MasculinoCasualFelippoPinhao/MasculinoCasualFelippoPinhao_5.png",
+      "/assets/images/MasculinoCasualFelippoPinhao/MasculinoCasualFelippoPinhao_6.png",
+      "/assets/images/MasculinoCasualFelippoPinhao/MasculinoCasualFelippoPinhao_7.png",
+      "/assets/images/MasculinoCasualFelippoPinhao/MasculinoCasualFelippoPinhao_8.png"
+    ]
+  },
+  {
+    "id": 108,
+    "nome": "Sapato Masculino Casual Felippo Mouse",
+    "tipo": "Felippo",
+    "cor": "Mouse",
+    "stars": 4.4,
+    "qtdEstoque": 17,
+    "qtdVendido": 313,
+    "qtdAvaliacao": 73,
+    "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
+    "tamanhos": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "preco": {
+      "semDesconto": 629.9,
+      "aVista": 566.91,
+      "parcelado": [
+        {
+          "parcelas": 3,
+          "valor": 209.97
+        },
+        {
+          "parcelas": 6,
+          "valor": 104.98
+        },
+        {
+          "parcelas": 12,
+          "valor": 52.49
+        }
+      ]
+    },
+    "imagens": [
+      "/assets/images/MasculinoCasualFelippoMouse/MasculinoCasualFelippoMouse_1.png",
+      "/assets/images/MasculinoCasualFelippoMouse/MasculinoCasualFelippoMouse_2.png",
+      "/assets/images/MasculinoCasualFelippoMouse/MasculinoCasualFelippoMouse_3.png",
+      "/assets/images/MasculinoCasualFelippoMouse/MasculinoCasualFelippoMouse_4.png",
+      "/assets/images/MasculinoCasualFelippoMouse/MasculinoCasualFelippoMouse_5.png",
+      "/assets/images/MasculinoCasualFelippoMouse/MasculinoCasualFelippoMouse_6.png"
+    ]
+  }
+]
