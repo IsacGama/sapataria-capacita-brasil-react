@@ -1,4 +1,4 @@
-import styles from "./Sobre.module.css";
+import styles from "./ApresentaLoja.module.css";
 import LogoSapataria from "../Sobre/imagens/LogoSapataria/Sapataria Sobre.png";
 
 export function ApresentaçãoLoja() {
