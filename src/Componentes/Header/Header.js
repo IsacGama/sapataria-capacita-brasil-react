@@ -3,10 +3,17 @@ import React, { useEffect, useState } from "react";
 import { Menu, X, Search, User } from "lucide-react";
 import { Link } from "react-router-dom";
 import Logo from "../Header/Logo/logo-sapataria.png";
+<<<<<<< HEAD
 import CartIcon from "../Cart/CartIcon";
+=======
+import CartIcon from "../Cart/CartIcon"
+import SearchBar from "../SearchBar/SearchBar";
+>>>>>>> bb3e9241552c2df48dd403f074a1264696142f1d
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [showSearch, setShowSearch] = useState(false);
+  const [searchResults, setSearchResults] = useState([]);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(min-width: 769px)");
@@ -43,9 +50,16 @@ export function Header() {
         </nav>
 
         <div className={styles.actions}>
-          <Search className={`${styles.icon} ${styles.desktopOnly}`} />
+          <Search
+            className={`${styles.icon} ${styles.desktopOnly}`}
+            onClick={() => setShowSearch(!showSearch)}
+            style={{ cursor: "pointer" }}
+          />
           <User className={`${styles.icon} ${styles.desktopOnly}`} />
-          <CartIcon isMobile={false} />
+          <Link to="/carrinho" onClick={() => setMenuOpen(false)}> 
+           <CartIcon isMobile={false} />
+          </Link>
+          
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className={styles.menuToggle}
@@ -74,9 +88,19 @@ export function Header() {
         <div className={styles.mobileIcons}>
           <Search className={styles.icon} />
           <User className={styles.icon} />
-          <CartIcon isMobile={true} />
+          <Link to="/carrinho" onClick={() => setMenuOpen(false)}> 
+            <CartIcon className={styles.icon} />
+          </Link>
         </div>
       </div>
+
+      {/* Barra de pesquisa */}
+      {showSearch && (
+        <SearchBar
+          onClose={() => setShowSearch(false)}
+          onResults={(res) => setSearchResults(res)}
+        />
+      )}
     </header>
   );
 }
