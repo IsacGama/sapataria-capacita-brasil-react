@@ -1,19 +1,19 @@
-import { useSelector } from 'react-redux';
-import Button from '../Buttons/Button';
-import './ResumoCompraCheckout.css';
-import { useNavigate } from 'react-router-dom';
+import { useSelector } from "react-redux";
+import Button from "../Buttons/Button";
+import "./ResumoCompraCheckout.css";
+import { useNavigate } from "react-router-dom";
 
 export default function ResumoCompraCheckout({ onConfirm }) {
-  const cartItems = useSelector(state => state.cart.items);
-  const subtotal = useSelector(state => state.cart.total);
+  const cartItems = useSelector((state) => state.cart.items);
+  const subtotal = useSelector((state) => state.cart.total);
   const frete = 0.0;
   const total = subtotal + frete;
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const handleConfirmOrder = () => {
     if (onConfirm) {
       onConfirm(cartItems, total);
-      navigate('/')
+      navigate("/");
       window.scrollTo(0, 0);
     }
   };
@@ -23,7 +23,7 @@ export default function ResumoCompraCheckout({ onConfirm }) {
       <h2>Resumo da Compra</h2>
 
       <ul className="produtos-lista">
-        {cartItems.map(item => (
+        {cartItems.map((item) => (
           <li key={`${item.id}-${item.size}`} className="produto-item">
             <img src={item.image} alt={item.name} />
             <div className="info">
@@ -40,7 +40,7 @@ export default function ResumoCompraCheckout({ onConfirm }) {
       </div>
 
       <div className="linha">
-        <span>Shipping</span>
+        <span>Frete</span>
         <span>${frete.toFixed(2)}</span>
       </div>
 
@@ -50,7 +50,7 @@ export default function ResumoCompraCheckout({ onConfirm }) {
       </div>
 
       <Button
-        title="Confirm Order"
+        title="Confirmar Pedido"
         variant="primary"
         onPress={handleConfirmOrder}
         disabled={cartItems.length === 0}

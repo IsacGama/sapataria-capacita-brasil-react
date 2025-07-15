@@ -1,27 +1,27 @@
-import { useSelector } from 'react-redux';
-import Button from '../Buttons/Button';
-import './ResumoCompraCarrinho.css';
-import { useNavigate } from 'react-router-dom';
+import { useSelector } from "react-redux";
+import Button from "../Buttons/Button";
+import "./ResumoCompraCarrinho.css";
+import { useNavigate } from "react-router-dom";
 
 const ResumoCompraCarrinho = () => {
-  const cartItems = useSelector(state => state.cart.items);
-  const subtotal = useSelector(state => state.cart.total);
+  const cartItems = useSelector((state) => state.cart.items);
+  const subtotal = useSelector((state) => state.cart.total);
   const frete = 0.0;
   const total = subtotal + frete;
 
   const navigate = useNavigate();
 
   const handleCheckout = () => {
-    navigate('/checkout');
+    navigate("/checkout");
   };
 
   const handleContinuarComprando = () => {
-    navigate('/produtos');
+    navigate("/produtos");
   };
 
   return (
     <div className="resumo-compra">
-      <h2>Order Summary</h2>
+      <h2>Resumo da Compra</h2>
 
       <div className="linha">
         <span>Subtotal</span>
@@ -29,12 +29,8 @@ const ResumoCompraCarrinho = () => {
       </div>
 
       <div className="linha">
-        <span>Shipping</span>
-        {frete > 0 ? (
-          <span>${frete.toFixed(2)}</span>
-        ) : (
-          <span>Grátis</span>
-        )}
+        <span>Frete</span>
+        {frete > 0 ? <span>${frete.toFixed(2)}</span> : <span>Grátis</span>}
       </div>
 
       <div className="linha total">
@@ -42,8 +38,8 @@ const ResumoCompraCarrinho = () => {
         <strong>${total.toFixed(2)}</strong>
       </div>
 
-      <Button 
-        title="Finalizar Compra" 
+      <Button
+        title="Finalizar Compra"
         variant="primary"
         onPress={handleCheckout}
         disabled={cartItems.length === 0}

@@ -1,13 +1,12 @@
-import './CheckoutCompras.css';
-import ResumoCompraCheckout from '../../Componentes/ResumoCompra/ResumoCompraCheckout';
-import { useRef } from 'react';
-import { useDispatch } from 'react-redux'; 
-import { clearCart } from '../../Componentes/Cart/CartSlice';
-
+import "./CheckoutCompras.css";
+import ResumoCompraCheckout from "../../Componentes/ResumoCompra/ResumoCompraCheckout";
+import { useRef } from "react";
+import { useDispatch } from "react-redux";
+import { clearCart } from "../../Componentes/Cart/CartSlice";
 
 export default function CheckoutCompras() {
   const formRef = useRef();
-  const dispatch = useDispatch(); 
+  const dispatch = useDispatch();
 
   const handleConfirmOrder = (cartItems, total) => {
     const formData = new FormData(formRef.current);
@@ -32,14 +31,14 @@ export default function CheckoutCompras() {
           numero: formJson.cardNumber,
           validade: formJson.expiry,
           cvv: formJson.cvv,
-        }
+        },
       },
       itens: cartItems,
-      total
+      total,
     };
 
-    console.log('Pedido Finalizado:', pedido);
-    alert('Pedido confirmado!');
+    console.log("Pedido Finalizado:", pedido);
+    alert("Pedido confirmado!");
 
     dispatch(clearCart()); // Zera o carrinho
   };
@@ -52,18 +51,18 @@ export default function CheckoutCompras() {
 
           {/* Dados Pessoais */}
           <section className="form-section">
-            <h3>Personal Information</h3>
+            <h3>Informações Pessoais</h3>
             <div className="form-grid">
               <div className="form-grid-full">
-                <label>Full Name</label>
+                <label>Nome Completo</label>
                 <input type="text" name="name" required />
               </div>
               <div>
-                <label>Email Address</label>
+                <label>Email</label>
                 <input type="email" name="email" required />
               </div>
               <div>
-                <label>Phone Number</label>
+                <label>Telefone</label>
                 <input type="tel" name="phone" required />
               </div>
             </div>
@@ -71,26 +70,26 @@ export default function CheckoutCompras() {
 
           {/* Endereço */}
           <section className="form-section">
-            <h3>Shipping Address</h3>
+            <h3>Endereço de Entrega</h3>
             <div className="form-grid">
               <div className="form-grid-full">
-                <label>Street Address</label>
+                <label>Endereço</label>
                 <input type="text" name="address" required />
               </div>
               <div>
-                <label>City</label>
+                <label>Cidade</label>
                 <input type="text" name="city" required />
               </div>
               <div>
-                <label>State / Province</label>
+                <label>Estado</label>
                 <input type="text" name="state" required />
               </div>
               <div>
-                <label>Zip / Postal Code</label>
+                <label>CEP</label>
                 <input type="text" name="zip" required />
               </div>
               <div className="form-grid-full">
-                <label>Country</label>
+                <label>País</label>
                 <input type="text" name="country" required />
               </div>
             </div>
@@ -98,12 +97,17 @@ export default function CheckoutCompras() {
 
           {/* Pagamento */}
           <section className="form-section">
-            <h3>Payment Method</h3>
+            <h3>Método de Pagamento</h3>
             <div className="form-grid">
               <div className="form-grid-full">
                 <label>
-                  <input type="radio" name="payment" value="credit" defaultChecked />
-                  Credit Card
+                  <input
+                    type="radio"
+                    name="payment"
+                    value="credit"
+                    defaultChecked
+                  />
+                  Cartão de Crédito
                 </label>
                 <label>
                   <input type="radio" name="payment" value="paypal" />
@@ -111,11 +115,11 @@ export default function CheckoutCompras() {
                 </label>
               </div>
               <div className="form-grid-full">
-                <label>Card Number</label>
+                <label>Número do Cartão</label>
                 <input type="text" name="cardNumber" />
               </div>
               <div>
-                <label>Expiry Date</label>
+                <label>Data de Validade</label>
                 <input type="text" name="expiry" placeholder="MM/YY" />
               </div>
               <div>
@@ -126,7 +130,9 @@ export default function CheckoutCompras() {
           </section>
         </form>
 
-        <ResumoCompraCheckout onConfirm={(cartItems, total) => handleConfirmOrder(cartItems, total)} />
+        <ResumoCompraCheckout
+          onConfirm={(cartItems, total) => handleConfirmOrder(cartItems, total)}
+        />
       </div>
     </div>
   );
