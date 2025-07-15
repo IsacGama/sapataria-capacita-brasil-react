@@ -75,7 +75,9 @@ export function Header() {
         <div className={styles.mobileIcons}>
           <Search className={styles.icon} />
           <User className={styles.icon} />
-          <CartIcon isMobile={true} />
+          <Link to="/carrinho" onClick={() => setMenuOpen(false)}> 
+            <ShoppingCart className={styles.icon} />
+          </Link>
         </div>
       </div>
     </header>
