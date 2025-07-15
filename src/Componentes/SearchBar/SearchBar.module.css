@@ -1,0 +1,95 @@
+.searchBar {
+  position: absolute;
+  top: 70px;
+  right: 2rem;
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 350px;
+  z-index: 1000;
+}
+
+.form {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.input {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.searchBtn {
+  padding: 0.5rem 0.8rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.closeBtn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #888;
+}
+
+.resultadosContainer {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.cardResultado {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 6px;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+.cardResultado:hover {
+  background-color: #f5f5f5;
+}
+
+.cardImagem {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+
+.cardInfo {
+  flex: 1;
+}
+
+.cardNome {
+  font-size: 0.95rem;
+  margin: 0;
+  font-weight: 500;
+}
+
+.cardPreco {
+  font-size: 0.85rem;
+  color: #555;
+  margin: 0.25rem 0 0 0;
+}
+
+.semResultado {
+  margin-top: 1rem;
+  text-align: center;
+  color: #888;
+  font-size: 0.9rem;
+}

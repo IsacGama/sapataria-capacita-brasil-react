@@ -4,9 +4,12 @@ import { Menu, X, Search, User } from "lucide-react";
 import { Link } from "react-router-dom";
 import Logo from "../Header/Logo/logo-sapataria.png";
 import CartIcon from "../Cart/CartIcon"
+import SearchBar from "../SearchBar/SearchBar";
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [showSearch, setShowSearch] = useState(false);
+  const [searchResults, setSearchResults] = useState([]);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(min-width: 769px)");
@@ -44,7 +47,11 @@ export function Header() {
         </nav>
 
         <div className={styles.actions}>
-          <Search className={`${styles.icon} ${styles.desktopOnly}`} />
+          <Search
+            className={`${styles.icon} ${styles.desktopOnly}`}
+            onClick={() => setShowSearch(!showSearch)}
+            style={{ cursor: "pointer" }}
+          />
           <User className={`${styles.icon} ${styles.desktopOnly}`} />
           <Link to="/carrinho" onClick={() => setMenuOpen(false)}> 
            <CartIcon isMobile={false} />
@@ -83,6 +90,14 @@ export function Header() {
           </Link>
         </div>
       </div>
+
+      {/* Barra de pesquisa */}
+      {showSearch && (
+        <SearchBar
+          onClose={() => setShowSearch(false)}
+          onResults={(res) => setSearchResults(res)}
+        />
+      )}
     </header>
   );
 }
