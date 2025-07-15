@@ -18,6 +18,18 @@
   padding: 0 1rem;
 }
 
+@media (max-width: 1024px) {
+  .cardsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .cardsContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
 .card {
   background-color: white;
   padding: 1rem;
