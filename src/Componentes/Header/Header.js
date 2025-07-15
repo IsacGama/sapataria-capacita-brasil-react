@@ -46,7 +46,10 @@ export function Header() {
         <div className={styles.actions}>
           <Search className={`${styles.icon} ${styles.desktopOnly}`} />
           <User className={`${styles.icon} ${styles.desktopOnly}`} />
-          <CartIcon isMobile={false} />
+          <Link to="/carrinho" onClick={() => setMenuOpen(false)}> 
+           <CartIcon isMobile={false} />
+          </Link>
+          
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className={styles.menuToggle}
@@ -76,7 +79,7 @@ export function Header() {
           <Search className={styles.icon} />
           <User className={styles.icon} />
           <Link to="/carrinho" onClick={() => setMenuOpen(false)}> 
-            <ShoppingCart className={styles.icon} />
+            <CartIcon className={styles.icon} />
           </Link>
         </div>
       </div>
