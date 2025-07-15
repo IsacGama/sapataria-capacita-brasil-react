@@ -3,12 +3,8 @@ import React, { useEffect, useState } from "react";
 import { Menu, X, Search, User } from "lucide-react";
 import { Link } from "react-router-dom";
 import Logo from "../Header/Logo/logo-sapataria.png";
-<<<<<<< HEAD
 import CartIcon from "../Cart/CartIcon";
-=======
-import CartIcon from "../Cart/CartIcon"
 import SearchBar from "../SearchBar/SearchBar";
->>>>>>> bb3e9241552c2df48dd403f074a1264696142f1d
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -56,10 +52,10 @@ export function Header() {
             style={{ cursor: "pointer" }}
           />
           <User className={`${styles.icon} ${styles.desktopOnly}`} />
-          <Link to="/carrinho" onClick={() => setMenuOpen(false)}> 
-           <CartIcon isMobile={false} />
+          <Link to="/carrinho" onClick={() => setMenuOpen(false)}>
+            <CartIcon isMobile={false} />
           </Link>
-          
+
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className={styles.menuToggle}
@@ -88,7 +84,7 @@ export function Header() {
         <div className={styles.mobileIcons}>
           <Search className={styles.icon} />
           <User className={styles.icon} />
-          <Link to="/carrinho" onClick={() => setMenuOpen(false)}> 
+          <Link to="/carrinho" onClick={() => setMenuOpen(false)}>
             <CartIcon className={styles.icon} />
           </Link>
         </div>
