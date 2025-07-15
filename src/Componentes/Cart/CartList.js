@@ -1,10 +1,12 @@
 import { useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom'; // Importação adicionada
 import CartItem from './CartItem';
 import './CartList.css';
 import Button from '../Buttons/Button';
 
 function CartList() {
   const cartItems = useSelector(state => state.cart.items);
+  const navigate = useNavigate(); // Hook adicionado
 
   const calculateTotal = () => {
     return cartItems.reduce(
@@ -13,8 +15,14 @@ function CartList() {
     );
   };
 
+  const handleCheckout = () => {
+    navigate('/checkout'); // Navegação corrigida
+  };
+
   return (
     <div className="cart-list">
+      <h1>Carrinho de Compras</h1> {/* Título adicionado */}
+      
       <div className="cart-list__header">
         <div>PRODUTO</div>
         <div>PREÇO</div>
@@ -36,7 +44,13 @@ function CartList() {
                 ${calculateTotal().toFixed(2)}
               </span>
             </div>
-            <Button title="Finalizar Compra" variant="primary" />
+            
+            <Button 
+              title="Finalizar Compra" 
+              variant="primary"
+              onClick={handleCheckout}
+              disabled={cartItems.length === 0}
+            />
           </div>
         </>
       ) : (

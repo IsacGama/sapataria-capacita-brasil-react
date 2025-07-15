@@ -10,7 +10,7 @@ import  CarrinhoDeCompras  from "./pages/Carrinho/CarrinhoDeCompras"
 import ProdutoEspecifico from "./pages/ProdutoEspecifico/ProdutoEspecifico";
 import { Provider } from "react-redux";
 import { store } from "./store";
-import CheckoutCompras from "./pages/Checkout/CheckoutCompras";
+import Checkout from "./Componentes/checkout/Checkout"; // Nova importação
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
             <Route path="/sobre" element={<Sobre />} />
             <Route path="/especifico/:id" element={<ProdutoEspecifico />} />
             <Route path="/carrinho" element={<CarrinhoDeCompras />} />
-            <Route path="/carrinho/checkout" element={<CheckoutCompras/>} />
+            <Route path="/checkout" element={<Checkout />} /> {/* Nova rota */}
           </Routes>
           <Footer />
         </div>
