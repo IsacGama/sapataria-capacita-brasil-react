@@ -3,8 +3,8 @@ import { Banner } from "../../Componentes/Banner/Banner";
 import ProdutoCard from "../../Componentes/produtos/cardProduto/cardProduto";
 import { Link } from "react-router-dom";
 import { getSapatos } from "../../utils/requestJson";
-import { Sobre } from "../Sobre/Sobre";
 import styles from "./Home.module.css";
+import { ApresentaçãoLoja } from "../Sobre/ApresentaçãoLoja";
 
 export function Home() {
   const [produtos, setProdutos] = useState([]);
@@ -30,7 +30,7 @@ export function Home() {
   return (
     <div>
       <Banner imagens={imagens} />
-      <Sobre />
+      <ApresentaçãoLoja />
 
       <section className={styles.homeProdutos}>
         <h2>Destaques da Coleção</h2>
@@ -46,9 +46,8 @@ export function Home() {
         </Link>
       </section>
 
-     
       <a
-        href="https://wa.me/5599999999999" 
+        href="https://wa.me/5599999999999"
         className={styles.whatsappButton}
         target="_blank"
         rel="noopener noreferrer"
