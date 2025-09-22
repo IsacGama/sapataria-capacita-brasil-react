@@ -1,0 +1,332 @@
+/* Container geral da página */
+.user-page {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  font-family: "Inter", sans-serif;
+  color: #2d3436;
+  background: linear-gradient(180deg, #f9fbfd 0%, #f1f5f9 100%);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+/* Cabeçalho */
+.user-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e1e5ea;
+}
+
+.user-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+/* Mensagem de erro */
+.error {
+  background: #ffe5e5;
+  color: #b91c1c;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 600;
+  border: 1px solid #fecaca;
+}
+
+.produtos-container {
+  display: flex;
+  gap: 24px;
+  padding: 20px 40px;
+}
+
+.produtos-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-produtos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  justify-content: center;
+}
+
+/* Seções */
+.produtos-section,
+.users-section {
+  margin-bottom: 3rem;
+}
+
+.produtos-section h2,
+.users-section h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  color: #2563eb;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Novo produto */
+.novo-produto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.novo-produto label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  color: #374151;
+}
+
+.produto-card label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  color: #374151;
+  width: 100%;
+}
+.novo-produto input,
+.produto-card input,
+.novo-produto textarea,
+.produto-card textarea {
+  margin-top: 0.4rem;
+  padding: 0.7rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  background: #f9fafb;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.novo-produto input:focus,
+.produto-card input:focus,
+.novo-produto textarea:focus,
+.produto-card textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.novo-produto input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* Grid de produtos */
+.produtos-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+/* Card do produto */
+.produto-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  padding: 16px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.produto-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Imagem do produto */
+.produto-imagem-mini {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.produto-card:hover .produto-imagem-mini {
+  transform: scale(1.03);
+  opacity: 0.95;
+}
+
+/* Infos do produto */
+.produto-nome {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  text-align: center;
+  color: #111827;
+}
+
+.produto-tipo,
+.produto-cor,
+.produto-estoque,
+.produto-vendido,
+.produto-avaliacao {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin: 2px 0;
+  text-align: center;
+}
+
+/* Ações */
+.produto-actions {
+  margin-top: auto;
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+  padding-top: 0.75rem;
+  border-top: 1px solid #f1f5f9;
+}
+
+/* Cards de usuários */
+.user-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
+  background-color: #fff;
+  font-weight: 500;
+  color: #374151;
+  transition: background 0.2s;
+}
+
+.user-card:hover {
+  background: #f9fafb;
+}
+
+/* Botões */
+button {
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+button.primary {
+  background-color: #2563eb;
+  color: white;
+}
+
+button.success {
+  background-color: #16a34a;
+  color: white;
+}
+
+button.secondary {
+  background-color: #6b7280;
+  color: white;
+}
+
+button.danger {
+  background-color: #dc2626;
+  color: white;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .novo-produto {
+    flex-direction: column;
+  }
+
+  .produto-card {
+    width: 100%;
+  }
+}
+
+.novo-produto textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* Input de arquivos */
+.novo-produto input[type="file"] {
+  margin-top: 0.4rem;
+  padding: 0.4rem;
+  background: #f9fafb;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+/* Preview de imagens no card */
+.produto-preview-imagens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.produto-preview-imagens img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+
+/* Ajuste para campos de tamanhos em linha */
+.novo-produto .tamanhos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 0.4rem;
+}
+
+.novo-produto .tamanhos-container span {
+  background: #e5e7eb;
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: #374151;
+}
+
+/* Card do produto com descrição */
+.produto-card .produto-descricao {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin: 6px 0;
+  text-align: center;
+  min-height: 40px;
+}
+
+/* Responsividade para campos novos */
+@media (max-width: 768px) {
+  .novo-produto label {
+    flex: 1 1 100%;
+  }
+
+  .produto-preview-imagens img {
+    width: 40px;
+    height: 40px;
+  }
+}
