@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { getSapatos } from "../../utils/requestJson";
+import { getProdutos } from "../../utils/requestJson";
 import { useDispatch } from "react-redux";
 import { addItem } from "../../Componentes/Cart/CartSlice";
 
@@ -29,12 +29,12 @@ export default function ProdutoEspecifico() {
   useEffect(() => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth',
+      behavior: "smooth",
     });
   }, [id]);
 
   useEffect(() => {
-    getSapatos()
+    getProdutos()
       .then((data) => setProdutos(data))
       .catch(() => setErro("Erro ao carregar os produtos."))
       .finally(() => setCarregando(false));
@@ -45,6 +45,7 @@ export default function ProdutoEspecifico() {
     return () => document.body.classList.remove("body-no-scroll");
   }, [lightboxImagem]);
 
+  // Verificação mais robusta para produto e suas propriedades
   if (carregando)
     return (
       <div className="ProdutoDetalhe">
@@ -52,10 +53,25 @@ export default function ProdutoEspecifico() {
       </div>
     );
 
-  if (erro || !produto || !Array.isArray(produto.imagens))
+  if (erro || !produto)
     return (
       <div className="ProdutoDetalhe">
-        <p>{erro || "Produto não encontrado ou sem imagens."}</p>
+        <p>{erro || "Produto não encontrado."}</p>
+      </div>
+    );
+
+  // Verificar se o produto tem as propriedades necessárias
+  if (!Array.isArray(produto.imagens) || produto.imagens.length === 0)
+    return (
+      <div className="ProdutoDetalhe">
+        <p>Produto sem imagens disponíveis.</p>
+      </div>
+    );
+
+  if (!produto.precos || !Array.isArray(produto.precos) || produto.precos.length === 0)
+    return (
+      <div className="ProdutoDetalhe">
+        <p>Informações de preço não disponíveis.</p>
       </div>
     );
 
@@ -68,11 +84,11 @@ export default function ProdutoEspecifico() {
       addItem({
         id: produto.id,
         name: produto.nome,
-        price: produto.preco.aVista,
-        image: produto.imagens[0],
+        price: produto.precos[0].aVista,
+        image: produto.imagens[0]?.url || produto.imagens[0],
         size: tamanhoSelecionado,
         quantity: quantidade,
-        maxQuantity: produto.quantidadeEstoque || 10,
+        maxQuantity: produto.qtdEstoque || 10, // Corrigido para qtdEstoque
       })
     );
     navigate("/carrinho");
@@ -97,11 +113,13 @@ export default function ProdutoEspecifico() {
   const abrirLightbox = (src) => setLightboxImagem(src);
   const fecharLightbox = () => setLightboxImagem(null);
 
-  const parcelaPrincipal =
-    produto.preco.parcelado && produto.preco.parcelado.length > 0
-      ? produto.preco.parcelado[0]
-      : null;
-  const precoPix = produto.preco.aVista * 0.95;
+  const precoPrincipal = produto.precos[0];
+  const parcelaPrincipal = precoPrincipal.parcelamentos && 
+                          Array.isArray(precoPrincipal.parcelamentos) && 
+                          precoPrincipal.parcelamentos.length > 0
+    ? precoPrincipal.parcelamentos[0]
+    : null;
+  const precoPix = precoPrincipal.aVista;
 
   const embaralhar = (arr) => [...arr].sort(() => 0.5 - Math.random());
   const relacionados = embaralhar(
@@ -128,10 +146,13 @@ export default function ProdutoEspecifico() {
                 {produto.imagens.map((img, index) => (
                   <img
                     key={index}
-                    src={img}
+                    src={img.url || img} // Suporte para ambos os formatos
                     alt={`${produto.nome} - Imagem ${index + 1}`}
                     className="carrossel-imagem"
-                    onClick={() => abrirLightbox(img)}
+                    onClick={() => abrirLightbox(img.url || img)}
+                    onError={(e) => {
+                      e.target.src = '/fallback-image.jpg';
+                    }}
                   />
                 ))}
               </div>
@@ -149,7 +170,6 @@ export default function ProdutoEspecifico() {
             selectedIndex={imagemAtiva}
             onThumbnailClick={setImagemAtiva}
           />
-
         </section>
 
         <section className="produto-info">
@@ -158,11 +178,11 @@ export default function ProdutoEspecifico() {
           <div className="avaliacoes">
             <Stars rating={produto.stars || 4.5} />
             <a href="#avaliar">Avaliar este produto</a>
-            <a href="#avaliacoes">{produto.reviews || 0} avaliações</a>
+            <a href="#avaliacoes">{produto.qtdAvaliacao || 0} avaliações</a>
           </div>
 
           <p className="preco-principal">
-            R$ {produto.preco.aVista.toFixed(2).replace(".", ",")}
+            R$ {precoPix.toFixed(2).replace(".", ",")}
           </p>
 
           <div className="opcoes-pagamento">
@@ -185,7 +205,7 @@ export default function ProdutoEspecifico() {
           <p className="calçados-tipo">Calçados Adulto</p>
 
           <SelectSize
-            sizes={produto.tamanhos}
+            sizes={produto.tamanhos.map(t => t.numero)} // Converter objetos para números
             onSelect={setTamanhoSelecionado}
           />
 

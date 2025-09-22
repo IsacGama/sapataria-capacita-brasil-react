@@ -1,0 +1,125 @@
+.compras-recentes {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.compras-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.compras-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.compra-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.compra-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.compra-info h3 {
+  margin: 0;
+}
+
+.status-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-left: 0.5rem;
+}
+
+.status-pending {
+  background-color: #fbd38d;
+  color: #744210;
+}
+
+.status-paid {
+  background-color: #68d391;
+  color: #22543d;
+}
+
+.status-sent {
+  background-color: #63b3ed;
+  color: #2a4365;
+}
+
+.status-delivered {
+  background-color: #9ae6b4;
+  color: #22543d;
+}
+
+.status-canceled {
+  background-color: #fc8181;
+  color: #742a2a;
+}
+
+.compra-data span {
+  display: block;
+}
+
+.compra-itens {
+  margin-top: 1rem;
+}
+
+.compra-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-top: 1px solid #e2e8f0;
+}
+
+.compra-item:first-child {
+  border-top: none;
+}
+
+.compra-acoes {
+  margin-top: 1rem;
+  text-align: right;
+}
+
+.compras-carregando,
+.compras-erro,
+.compras-vazias {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.compra-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-top: 1px solid #e2e8f0;
+}
+
+.compra-item:first-child {
+  border-top: none;
+}
+
+.item-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.item-info img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
+}

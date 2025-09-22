@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import { getSapatos } from "../../utils/requestJson";
+import { getProdutos } from "../../utils/requestJson";
 import ProdutoCard from "../../Componentes/produtos/cardProduto/cardProduto";
 import FiltroLateral from "../../Componentes/Filtros/FiltroLateral";
 import "./ProdutosGeral.css";
@@ -25,7 +25,7 @@ function Produtos() {
   // Carrega produtos ao montar o componente
   useEffect(() => {
     async function carregarProdutos() {
-      const data = await getSapatos();
+      const data = await getProdutos();
       setProdutos(data);
     }
     carregarProdutos();
@@ -34,9 +34,9 @@ function Produtos() {
   // Atualiza o filtro nome quando o debounce terminar
   useEffect(() => {
     const timer = setTimeout(() => {
-      setFiltros(prev => ({ ...prev, nome: nomeInput }));
+      setFiltros((prev) => ({ ...prev, nome: nomeInput }));
     }, 500); // 500ms de debounce
-    
+
     return () => clearTimeout(timer);
   }, [nomeInput]);
 
@@ -45,29 +45,40 @@ function Produtos() {
     const q = searchParams.get("q") || "";
     if (q !== nomeInput) {
       setNomeInput(q);
-      setFiltros(prev => ({ ...prev, nome: q }));
+      setFiltros((prev) => ({ ...prev, nome: q }));
     }
   }, [searchParams]);
 
-  // Filtra os produtos
+  // Filtra os produtos - CORREÇÃO AQUI
   const produtosFiltrados = produtos.filter((p) => {
-    const nomeOk = !filtros.nome || p.nome.toLowerCase().includes(filtros.nome.toLowerCase());
+    const nomeOk =
+      !filtros.nome ||
+      p.nome.toLowerCase().includes(filtros.nome.toLowerCase());
     const tipoOk = filtros.tipo.length === 0 || filtros.tipo.includes(p.tipo);
     const corOk = filtros.cor.length === 0 || filtros.cor.includes(p.cor || "");
-    const preco = p.preco?.aVista || 0;
+    
+    // CORREÇÃO: Acessar o preço corretamente (array de preços)
+    const preco = p.precos && p.precos.length > 0 
+      ? p.precos[0].aVista 
+      : 0;
+    
     const precoOk = preco >= filtros.precoMin && preco <= filtros.precoMax;
+    
     return nomeOk && tipoOk && corOk && precoOk;
   });
 
   // Tipos e cores disponíveis
   const tiposUnicos = [...new Set(produtosFiltrados.map((p) => p.tipo))];
-  const coresUnicas = [...new Set(produtosFiltrados.map((p) => p.cor).filter(Boolean))];
+  const coresUnicas = [
+    ...new Set(produtosFiltrados.map((p) => p.cor).filter(Boolean)),
+  ];
 
   const carregarMaisProdutos = () => {
-    setProdutosExibidos(prev => prev + 15);
+    setProdutosExibidos((prev) => prev + 15);
   };
 
-  const haMaisProdutosParaCarregar = produtosExibidos < produtosFiltrados.length;
+  const haMaisProdutosParaCarregar =
+    produtosExibidos < produtosFiltrados.length;
 
   return (
     <div className="produtos-container">
@@ -89,11 +100,13 @@ function Produtos() {
         </div>
 
         {haMaisProdutosParaCarregar && (
-          <Button 
+          <Button
             onPress={carregarMaisProdutos}
             variant="primary"
-            title={"Carregar mais produtos"} 
-          />
+            title={"Carregar mais produtos"}
+          >
+            Carregar Mais Produtos
+          </Button>
         )}
       </div>
 

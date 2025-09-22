@@ -1,0 +1,37 @@
+.enderecopage-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.enderecos-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.enderecos-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.endereco-card {
+  background: #fff;
+  padding: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.endereco-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}

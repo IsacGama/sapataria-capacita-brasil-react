@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Banner } from "../../Componentes/Banner/Banner";
 import ProdutoCard from "../../Componentes/produtos/cardProduto/cardProduto";
 import { Link } from "react-router-dom";
-import { getSapatos } from "../../utils/requestJson";
+import { getProdutos } from "../../utils/requestJson";
 import styles from "./Home.module.css";
 import { ApresentaçãoLoja } from "../Sobre/ApresentaçãoLoja";
 
@@ -12,7 +12,7 @@ export function Home() {
 
   useEffect(() => {
     async function carregarProdutos() {
-      const data = await getSapatos();
+      const data = await getProdutos();
       setProdutos(data.slice(0, 3));
       setCarregando(false);
     }
